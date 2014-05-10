@@ -1,0 +1,280 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDR_TO_IDX	ept.c	156;"	d	file:
+CFLAGS_vmx.o	Makefile	/^CFLAGS_vmx.o = -DSYSCALL_TBL=$(SYSCALL_TBL) -DDO_FORK=$(DO_FORK)$/;"	m
+CONFIG_DUNE	Makefile	/^CONFIG_DUNE=m$/;"	m
+CTAGSF	Makefile	/^	CTAGSF=`ctags --version | grep -i exuberant >\/dev\/null && echo "-I __initdata,__exitdata,EXPORT_SYMBOL,EXPORT_SYMBOL_NOVERS"`; \\$/;"	m
+DO_FORK	Makefile	/^DO_FORK = 0x$(shell $(EXTRACT) do_fork)$/;"	m
+DUNE_ENTER	dune.h	14;"	d
+DUNE_GET_LAYOUT	dune.h	16;"	d
+DUNE_GET_SYSCALL	dune.h	15;"	d
+DUNE_MINOR	dune.h	12;"	d
+DUNE_SIGNAL_INTR_BASE	dune.h	19;"	d
+EPTE_ADDR	ept.c	89;"	d	file:
+EPTE_FLAGS	ept.c	90;"	d	file:
+EPTE_TYPE_UC	ept.c	/^	EPTE_TYPE_UC = 0, \/* uncachable *\/$/;"	e	enum:__anon2	file:
+EPTE_TYPE_WB	ept.c	/^	EPTE_TYPE_WB = 6, \/* write back *\/$/;"	e	enum:__anon2	file:
+EPTE_TYPE_WC	ept.c	/^	EPTE_TYPE_WC = 1, \/* write combining *\/$/;"	e	enum:__anon2	file:
+EPTE_TYPE_WP	ept.c	/^	EPTE_TYPE_WP = 5, \/* write protected *\/$/;"	e	enum:__anon2	file:
+EPTE_TYPE_WT	ept.c	/^	EPTE_TYPE_WT = 4, \/* write through *\/$/;"	e	enum:__anon2	file:
+EPT_LEVELS	ept.c	30;"	d	file:
+EXTERNAL_BUILD	Makefile	/^EXTERNAL_BUILD=y$/;"	m
+EXTRACT	Makefile	/^EXTRACT := $(M)\/extract_symbol.sh$/;"	m
+GPA_ADDR_INVAL	dune.h	/^	GPA_ADDR_INVAL	= 0xC00000000,$/;"	e	enum:__anon1
+GPA_ADDR_MAP	dune.h	/^	GPA_ADDR_MAP 	= 0x400000000,$/;"	e	enum:__anon1
+GPA_ADDR_PROC	dune.h	/^	GPA_ADDR_PROC	= 0x000000000,$/;"	e	enum:__anon1
+GPA_ADDR_STACK	dune.h	/^	GPA_ADDR_STACK	= 0x800000000,$/;"	e	enum:__anon1
+GPA_MASK	dune.h	35;"	d
+GPA_SIZE	dune.h	34;"	d
+HUGE_PAGE_SIZE	ept.c	31;"	d	file:
+KERNELRELEASE	Makefile	/^KERNELRELEASE := $(shell \\$/;"	m
+KMISC	Makefile	/^KMISC := \/lib\/modules\/$(KVER)\/kernel\/drivers\/misc$/;"	m
+KMISC_INC	Makefile	/^KMISC_INC := \/lib\/modules\/$(KVER)\/include$/;"	m
+KSRC	Makefile	/^KSRC := \/lib\/modules\/$(KVER)\/build$/;"	m
+KSRC_OUTPUT	Makefile	/^KSRC_OUTPUT := $(KSRC)$/;"	m
+KVER	Makefile	/^KVER  := $(shell uname -r)$/;"	m
+LG_ALIGN	dune.h	36;"	d
+MODPATH	Makefile	/^MODPATH := $(DESTDIR)\/lib\/modules\/$(KERNELRELEASE)$/;"	m
+MODVERDIR	Makefile	/^MODVERDIR=$(TMP)\/.tmp_versions$/;"	m
+NR_AUTOLOAD_MSRS	vmx.h	24;"	d
+NR_VCPU_REGS	vmx.h	/^	NR_VCPU_REGS$/;"	e	enum:vmx_reg
+NUM_SYSCALLS	vmx.c	73;"	d	file:
+PWD	Makefile	/^PWD=$(shell pwd)$/;"	m
+Q	vmx.c	1230;"	d	file:
+Q	vmx.c	1233;"	d	file:
+R	vmx.c	1229;"	d	file:
+R	vmx.c	1232;"	d	file:
+RCS_FIND_IGNORE	Makefile	/^RCS_FIND_IGNORE := \\( -name SCCS -o -name BitKeeper -o -name .svn -o -name CVS \\) -prune -o$/;"	m
+SECONDARY_EXEC_ENABLE_INVPCID	compat.h	22;"	d
+SYSCALL_TBL	Makefile	/^SYSCALL_TBL = 0x$(shell $(EXTRACT) sys_call_table)$/;"	m
+TMP	Makefile	/^TMP=$(PWD)\/tmp$/;"	m
+VCPU_REGS_R10	vmx.h	/^	VCPU_REGS_R10 = 10,$/;"	e	enum:vmx_reg
+VCPU_REGS_R11	vmx.h	/^	VCPU_REGS_R11 = 11,$/;"	e	enum:vmx_reg
+VCPU_REGS_R12	vmx.h	/^	VCPU_REGS_R12 = 12,$/;"	e	enum:vmx_reg
+VCPU_REGS_R13	vmx.h	/^	VCPU_REGS_R13 = 13,$/;"	e	enum:vmx_reg
+VCPU_REGS_R14	vmx.h	/^	VCPU_REGS_R14 = 14,$/;"	e	enum:vmx_reg
+VCPU_REGS_R15	vmx.h	/^	VCPU_REGS_R15 = 15,$/;"	e	enum:vmx_reg
+VCPU_REGS_R8	vmx.h	/^	VCPU_REGS_R8 = 8,$/;"	e	enum:vmx_reg
+VCPU_REGS_R9	vmx.h	/^	VCPU_REGS_R9 = 9,$/;"	e	enum:vmx_reg
+VCPU_REGS_RAX	vmx.h	/^	VCPU_REGS_RAX = 0,$/;"	e	enum:vmx_reg
+VCPU_REGS_RBP	vmx.h	/^	VCPU_REGS_RBP = 5,$/;"	e	enum:vmx_reg
+VCPU_REGS_RBX	vmx.h	/^	VCPU_REGS_RBX = 3,$/;"	e	enum:vmx_reg
+VCPU_REGS_RCX	vmx.h	/^	VCPU_REGS_RCX = 1,$/;"	e	enum:vmx_reg
+VCPU_REGS_RDI	vmx.h	/^	VCPU_REGS_RDI = 7,$/;"	e	enum:vmx_reg
+VCPU_REGS_RDX	vmx.h	/^	VCPU_REGS_RDX = 2,$/;"	e	enum:vmx_reg
+VCPU_REGS_RIP	vmx.h	/^	VCPU_REGS_RIP,$/;"	e	enum:vmx_reg
+VCPU_REGS_RSI	vmx.h	/^	VCPU_REGS_RSI = 6,$/;"	e	enum:vmx_reg
+VCPU_REGS_RSP	vmx.h	/^	VCPU_REGS_RSP = 4,$/;"	e	enum:vmx_reg
+VERFILE	Makefile	/^VERFILE := $(KSRC_OUTPUT)\/include\/linux\/version.h$/;"	m
+VMX_EPT_AD_BIT	compat.h	9;"	d
+VMX_EPT_AD_ENABLE_BIT	compat.h	10;"	d
+VMX_EPT_EXTENT_INDIVIDUAL_BIT	compat.h	14;"	d
+VMX_EPT_FAULT_INS	ept.c	65;"	d	file:
+VMX_EPT_FAULT_READ	ept.c	63;"	d	file:
+VMX_EPT_FAULT_WRITE	ept.c	64;"	d	file:
+X86_CR4_PCIDE	compat.h	18;"	d
+__DUNE_COMPAT_H_	compat.h	2;"	d
+__EPTE_A	ept.c	74;"	d	file:
+__EPTE_D	ept.c	75;"	d	file:
+__EPTE_EXEC	ept.c	71;"	d	file:
+__EPTE_FULL	ept.c	87;"	d	file:
+__EPTE_IPAT	ept.c	72;"	d	file:
+__EPTE_NONE	ept.c	86;"	d	file:
+__EPTE_READ	ept.c	69;"	d	file:
+__EPTE_SZ	ept.c	73;"	d	file:
+__EPTE_TYPE	ept.c	76;"	d	file:
+__EPTE_WRITE	ept.c	70;"	d	file:
+__cacheline_aligned	vmx.c	/^static sys_call_ptr_t dune_syscall_tbl[NUM_SYSCALLS] __cacheline_aligned;$/;"	v	file:
+__invept	vmx.c	/^static inline void __invept(int ext, u64 eptp, gpa_t gpa)$/;"	f	file:
+__invvpid	vmx.c	/^static inline void __invvpid(int ext, u16 vpid, gva_t gva)$/;"	f	file:
+__vmx_alloc_vmcs	vmx.c	/^static struct vmcs *__vmx_alloc_vmcs(int cpu)$/;"	f	file:
+__vmx_disable_intercept_for_msr	vmx.c	/^static void __vmx_disable_intercept_for_msr(unsigned long *msr_bitmap, u32 msr)$/;"	f	file:
+__vmx_enable	vmx.c	/^static __init int __vmx_enable(struct vmcs *vmxon_buf)$/;"	f	file:
+__vmx_get_cpu_helper	vmx.c	/^static void __vmx_get_cpu_helper(void *ptr)$/;"	f	file:
+__vmx_setup_cpu	vmx.c	/^static void __vmx_setup_cpu(void)$/;"	f	file:
+__vmx_sync_helper	vmx.c	/^static void __vmx_sync_helper(void *ptr)$/;"	f	file:
+__vmx_sync_individual_addr_helper	vmx.c	/^static void __vmx_sync_individual_addr_helper(void *ptr)$/;"	f	file:
+__vmxoff	vmx.c	/^static inline void __vmxoff(void)$/;"	f	file:
+__vmxon	vmx.c	/^static inline void __vmxon(u64 addr)$/;"	f	file:
+abort	vmx.h	/^	u32 abort;$/;"	m	struct:vmcs
+adjust_vmx_controls	vmx.c	/^static __init int adjust_vmx_controls(u32 ctl_min, u32 ctl_opt,$/;"	f	file:
+all-sources	Makefile	/^define all-sources$/;"	m
+allow_1_setting	vmx.c	/^static __init bool allow_1_setting(u32 msr, u32 ctl)$/;"	f	file:
+base_map	dune.h	/^	__u64 base_map;$/;"	m	struct:dune_layout
+base_proc	dune.h	/^	__u64 base_proc;$/;"	m	struct:dune_layout
+base_stack	dune.h	/^	__u64 base_stack;$/;"	m	struct:dune_layout
+check_file	extract_symbol.sh	/^check_file()$/;"	f
+construct_eptp	vmx.c	/^static u64 construct_eptp(unsigned long root_hpa)$/;"	f	file:
+cpu	vmx.h	/^	int cpu;$/;"	m	struct:vmx_vcpu
+cpu_based_2nd_exec_ctrl	vmx.c	/^	u32 cpu_based_2nd_exec_ctrl;$/;"	m	struct:vmcs_config	file:
+cpu_based_exec_ctrl	vmx.c	/^	u32 cpu_based_exec_ctrl;$/;"	m	struct:vmcs_config	file:
+cpu_has_secondary_exec_ctrls	vmx.c	/^static inline bool cpu_has_secondary_exec_ctrls(void)$/;"	f	file:
+cpu_has_vmx_ept	vmx.c	/^static inline bool cpu_has_vmx_ept(void)$/;"	f	file:
+cpu_has_vmx_ept_1g_page	ept.c	/^static inline bool cpu_has_vmx_ept_1g_page(void)$/;"	f	file:
+cpu_has_vmx_ept_2m_page	ept.c	/^static inline bool cpu_has_vmx_ept_2m_page(void)$/;"	f	file:
+cpu_has_vmx_ept_4levels	ept.c	/^static inline bool cpu_has_vmx_ept_4levels(void)$/;"	f	file:
+cpu_has_vmx_ept_ad_bits	vmx.c	/^static inline bool cpu_has_vmx_ept_ad_bits(void)$/;"	f	file:
+cpu_has_vmx_ept_execute_only	ept.c	/^static inline bool cpu_has_vmx_ept_execute_only(void)$/;"	f	file:
+cpu_has_vmx_eptp_uncacheable	ept.c	/^static inline bool cpu_has_vmx_eptp_uncacheable(void)$/;"	f	file:
+cpu_has_vmx_eptp_writeback	ept.c	/^static inline bool cpu_has_vmx_eptp_writeback(void)$/;"	f	file:
+cpu_has_vmx_invept_context	vmx.c	/^static inline bool cpu_has_vmx_invept_context(void)$/;"	f	file:
+cpu_has_vmx_invept_global	vmx.c	/^static inline bool cpu_has_vmx_invept_global(void)$/;"	f	file:
+cpu_has_vmx_invept_individual_addr	vmx.c	/^static inline bool cpu_has_vmx_invept_individual_addr(void)$/;"	f	file:
+cpu_has_vmx_invpcid	vmx.c	/^static inline bool cpu_has_vmx_invpcid(void)$/;"	f	file:
+cpu_has_vmx_invvpid_global	vmx.c	/^static inline bool cpu_has_vmx_invvpid_global(void)$/;"	f	file:
+cpu_has_vmx_invvpid_single	vmx.c	/^static inline bool cpu_has_vmx_invvpid_single(void)$/;"	f	file:
+cpu_has_vmx_vpid	vmx.c	/^static inline bool cpu_has_vmx_vpid(void)$/;"	f	file:
+cr2	vmx.h	/^	u64 cr2;$/;"	m	struct:vmx_vcpu
+cr3	dune.h	/^	__u64 cr3;$/;"	m	struct:dune_config
+data	vmx.h	/^	char data[0];$/;"	m	struct:vmcs
+do_fork_hack	vmx.c	/^typedef long (*do_fork_hack) (unsigned long, unsigned long,$/;"	t	file:
+dune-objs	Makefile	/^dune-objs := \\$/;"	m
+dune_chardev_ops	core.c	/^static const struct file_operations dune_chardev_ops = {$/;"	v	typeref:struct:file_operations	file:
+dune_config	dune.h	/^struct dune_config {$/;"	s
+dune_dev	core.c	/^static struct miscdevice dune_dev = {$/;"	v	typeref:struct:miscdevice	file:
+dune_dev_ioctl	core.c	/^static long dune_dev_ioctl(struct file *filp,$/;"	f	file:
+dune_do_fork	vmx.c	/^static do_fork_hack dune_do_fork = (do_fork_hack) DO_FORK;$/;"	v	file:
+dune_enter	core.c	/^static int dune_enter(struct dune_config *conf, int64_t *ret)$/;"	f	file:
+dune_exit	core.c	/^module_exit(dune_exit);$/;"	v
+dune_exit	core.c	/^static void __exit dune_exit(void)$/;"	f	file:
+dune_exit	vmx.c	/^static int dune_exit(int error_code)$/;"	f	file:
+dune_exit_group	vmx.c	/^static int dune_exit_group(int error_code)$/;"	f	file:
+dune_init	core.c	/^module_init(dune_init);$/;"	v
+dune_init	core.c	/^static int __init dune_init(void)$/;"	f	file:
+dune_layout	dune.h	/^struct dune_layout {$/;"	s
+dune_sys_clone	vmx.c	/^static long dune_sys_clone(unsigned long clone_flags, unsigned long newsp,$/;"	f	file:
+dune_sys_fork	vmx.c	/^static long dune_sys_fork(void)$/;"	f	file:
+dune_sys_vfork	vmx.c	/^static long dune_sys_vfork(void)$/;"	f	file:
+ept	vmx.h	/^	u32 ept;$/;"	m	struct:vmx_capability
+ept_ad_enabled	vmx.h	/^	bool ept_ad_enabled;$/;"	m	struct:vmx_vcpu
+ept_check_page_accessed	ept.c	/^static int ept_check_page_accessed(struct vmx_vcpu *vcpu,$/;"	f	file:
+ept_check_page_mapped	ept.c	/^static int ept_check_page_mapped(struct vmx_vcpu *vcpu,$/;"	f	file:
+ept_clear_epte	ept.c	/^static int ept_clear_epte(epte_t *epte)$/;"	f	file:
+ept_clear_l1_epte	ept.c	/^static int ept_clear_l1_epte(epte_t *epte)$/;"	f	file:
+ept_invalidate_page	ept.c	/^static int ept_invalidate_page(struct vmx_vcpu *vcpu,$/;"	f	file:
+ept_lock	vmx.h	/^	spinlock_t ept_lock;$/;"	m	struct:vmx_vcpu
+ept_lookup	ept.c	/^ept_lookup(struct vmx_vcpu *vcpu, struct mm_struct *mm,$/;"	f	file:
+ept_lookup_gpa	ept.c	/^ept_lookup_gpa(struct vmx_vcpu *vcpu, void *gpa, int level,$/;"	f	file:
+ept_mmu_notifier_change_pte	ept.c	/^static void ept_mmu_notifier_change_pte(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_clear_flush_young	ept.c	/^static int ept_mmu_notifier_clear_flush_young(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_invalidate_page	ept.c	/^static void ept_mmu_notifier_invalidate_page(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_invalidate_range_end	ept.c	/^static void ept_mmu_notifier_invalidate_range_end(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_invalidate_range_start	ept.c	/^static void ept_mmu_notifier_invalidate_range_start(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_ops	ept.c	/^static const struct mmu_notifier_ops ept_mmu_notifier_ops = {$/;"	v	typeref:struct:mmu_notifier_ops	file:
+ept_mmu_notifier_release	ept.c	/^static void ept_mmu_notifier_release(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_test_young	ept.c	/^static int ept_mmu_notifier_test_young(struct mmu_notifier *mn,$/;"	f	file:
+ept_root	vmx.h	/^	unsigned long ept_root;$/;"	m	struct:vmx_vcpu
+ept_set_epte	ept.c	/^static int ept_set_epte(struct vmx_vcpu *vcpu, int make_write,$/;"	f	file:
+ept_sync_context	vmx.c	/^static inline void ept_sync_context(u64 eptp)$/;"	f	file:
+ept_sync_global	vmx.c	/^static inline void ept_sync_global(void)$/;"	f	file:
+ept_sync_individual_addr	vmx.c	/^static inline void ept_sync_individual_addr(u64 eptp, gpa_t gpa)$/;"	f	file:
+epte_addr	ept.c	/^static inline uintptr_t epte_addr(epte_t epte)$/;"	f	file:
+epte_big	ept.c	/^static inline int epte_big(epte_t epte)$/;"	f	file:
+epte_flags	ept.c	/^static inline epte_t epte_flags(epte_t epte)$/;"	f	file:
+epte_page_vaddr	ept.c	/^static inline uintptr_t epte_page_vaddr(epte_t epte)$/;"	f	file:
+epte_present	ept.c	/^static inline int epte_present(epte_t epte)$/;"	f	file:
+epte_t	ept.c	/^typedef unsigned long epte_t;$/;"	t	file:
+eptp	vmx.h	/^	unsigned long eptp;$/;"	m	struct:vmx_vcpu
+exit_reason	vmx.h	/^	u64 exit_reason;$/;"	m	struct:vmx_vcpu
+extract	extract_symbol.sh	/^extract()$/;"	f
+fail	vmx.h	/^	u8  fail;$/;"	m	struct:vmx_vcpu
+free_ept_page	ept.c	/^static void free_ept_page(epte_t epte)$/;"	f	file:
+gpa	vmx.c	/^	gpa_t gpa;$/;"	m	struct:sync_addr_args	file:
+gpa_to_hva	ept.c	/^static unsigned long gpa_to_hva(struct vmx_vcpu *vcpu,$/;"	f	file:
+guest	vmx.h	/^		struct vmx_msr_entry guest[NR_AUTOLOAD_MSRS];$/;"	m	struct:vmx_vcpu::msr_autoload	typeref:struct:vmx_vcpu::msr_autoload::vmx_msr_entry
+has_load_efer	vmx.h	/^	int has_load_efer:1;$/;"	m	struct:vmx_capability
+host	vmx.h	/^		struct vmx_msr_entry host[NR_AUTOLOAD_MSRS];$/;"	m	struct:vmx_vcpu::msr_autoload	typeref:struct:vmx_vcpu::msr_autoload::vmx_msr_entry
+host_rsp	vmx.h	/^	u64 host_rsp;$/;"	m	struct:vmx_vcpu
+hva_to_gpa	ept.c	/^static unsigned long hva_to_gpa(struct vmx_vcpu *vcpu,$/;"	f	file:
+launched	vmx.h	/^	int launched;$/;"	m	struct:vmx_vcpu
+list-m	Makefile	/^list-m :=$/;"	m
+make_pt_regs	vmx.c	/^static void make_pt_regs(struct vmx_vcpu *vcpu, struct pt_regs *regs,$/;"	f	file:
+mmu_notifier	vmx.h	/^	struct mmu_notifier mmu_notifier;$/;"	m	struct:vmx_vcpu	typeref:struct:vmx_vcpu::mmu_notifier
+mmu_notifier_to_vmx	ept.c	/^static inline struct vmx_vcpu *mmu_notifier_to_vmx(struct mmu_notifier *mn)$/;"	f	file:
+msr_autoload	vmx.h	/^	struct msr_autoload {$/;"	s	struct:vmx_vcpu
+msr_autoload	vmx.h	/^	} msr_autoload;$/;"	m	struct:vmx_vcpu	typeref:struct:vmx_vcpu::msr_autoload
+msr_bitmap	vmx.c	/^static unsigned long *msr_bitmap;$/;"	v	file:
+nr	vmx.h	/^		unsigned nr;$/;"	m	struct:vmx_vcpu::msr_autoload
+order	vmx.c	/^	int order;$/;"	m	struct:vmcs_config	file:
+pin_based_exec_ctrl	vmx.c	/^	u32 pin_based_exec_ctrl;$/;"	m	struct:vmcs_config	file:
+regs	vmx.h	/^	u64 regs[NR_VCPU_REGS];$/;"	m	struct:vmx_vcpu
+ret	dune.h	/^	__s64 ret;$/;"	m	struct:dune_config
+ret_code	vmx.h	/^	int ret_code;$/;"	m	struct:vmx_vcpu
+revision_id	vmx.c	/^	u32 revision_id;$/;"	m	struct:vmcs_config	file:
+revision_id	vmx.h	/^	u32 revision_id;$/;"	m	struct:vmcs
+rip	dune.h	/^	__u64 rip;$/;"	m	struct:dune_config
+rsp	dune.h	/^	__u64 rsp;$/;"	m	struct:dune_config
+segment_base	vmx.c	/^static unsigned long segment_base(u16 selector)$/;"	f	file:
+setup_msr	vmx.c	/^static void setup_msr(struct vmx_vcpu *vcpu)$/;"	f	file:
+setup_vmcs_config	vmx.c	/^static __init int setup_vmcs_config(struct vmcs_config *vmcs_conf)$/;"	f	file:
+shutdown	vmx.h	/^	int shutdown;$/;"	m	struct:vmx_vcpu
+size	vmx.c	/^	int size;$/;"	m	struct:vmcs_config	file:
+sync_addr_args	vmx.c	/^struct sync_addr_args {$/;"	s	file:
+sys_call_ptr_t	vmx.c	/^typedef void (*sys_call_ptr_t)(void);$/;"	t	file:
+syscall_tbl	vmx.h	/^	void *syscall_tbl;$/;"	m	struct:vmx_vcpu
+vcpu	vmx.c	/^	struct vmx_vcpu *vcpu;$/;"	m	struct:sync_addr_args	typeref:struct:sync_addr_args::vmx_vcpu	file:
+vmcs	vmx.h	/^	struct vmcs *vmcs;$/;"	m	struct:vmx_vcpu	typeref:struct:vmx_vcpu::vmcs
+vmcs	vmx.h	/^struct vmcs {$/;"	s
+vmcs_clear	vmx.c	/^static void vmcs_clear(struct vmcs *vmcs)$/;"	f	file:
+vmcs_config	vmx.c	/^static struct vmcs_config {$/;"	s	file:
+vmcs_config	vmx.c	/^} vmcs_config;$/;"	v	typeref:struct:vmcs_config	file:
+vmcs_load	vmx.c	/^static void vmcs_load(struct vmcs *vmcs)$/;"	f	file:
+vmcs_read16	vmx.c	/^static __always_inline u16 vmcs_read16(unsigned long field)$/;"	f	file:
+vmcs_read32	vmx.c	/^static __always_inline u32 vmcs_read32(unsigned long field)$/;"	f	file:
+vmcs_read64	vmx.c	/^static __always_inline u64 vmcs_read64(unsigned long field)$/;"	f	file:
+vmcs_readl	vmx.c	/^static __always_inline unsigned long vmcs_readl(unsigned long field)$/;"	f	file:
+vmcs_write16	vmx.c	/^static void vmcs_write16(unsigned long field, u16 value)$/;"	f	file:
+vmcs_write32	vmx.c	/^static void vmcs_write32(unsigned long field, u32 value)$/;"	f	file:
+vmcs_write64	vmx.c	/^static void vmcs_write64(unsigned long field, u64 value)$/;"	f	file:
+vmcs_writel	vmx.c	/^static void vmcs_writel(unsigned long field, unsigned long value)$/;"	f	file:
+vmentry_ctrl	vmx.c	/^	u32 vmentry_ctrl;$/;"	m	struct:vmcs_config	file:
+vmexit_ctrl	vmx.c	/^	u32 vmexit_ctrl;$/;"	m	struct:vmcs_config	file:
+vmwrite_error	vmx.c	/^static noinline void vmwrite_error(unsigned long field, unsigned long value)$/;"	f	file:
+vmx_alloc_vmcs	vmx.c	/^static struct vmcs *vmx_alloc_vmcs(void)$/;"	f	file:
+vmx_allocate_vpid	vmx.c	/^static int vmx_allocate_vpid(struct vmx_vcpu *vmx)$/;"	f	file:
+vmx_capability	vmx.c	/^struct vmx_capability vmx_capability;$/;"	v	typeref:struct:vmx_capability
+vmx_capability	vmx.h	/^struct vmx_capability {$/;"	s
+vmx_create_ept	ept.c	/^int vmx_create_ept(struct vmx_vcpu *vcpu)$/;"	f
+vmx_create_vcpu	vmx.c	/^static struct vmx_vcpu * vmx_create_vcpu(struct dune_config *conf)$/;"	f	file:
+vmx_destroy_ept	ept.c	/^void vmx_destroy_ept(struct vmx_vcpu *vcpu)$/;"	f
+vmx_destroy_vcpu	vmx.c	/^static void vmx_destroy_vcpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_disable	vmx.c	/^static void vmx_disable(void *unused)$/;"	f	file:
+vmx_do_ept_fault	ept.c	/^int vmx_do_ept_fault(struct vmx_vcpu *vcpu, unsigned long gpa,$/;"	f
+vmx_dump_cpu	vmx.c	/^static void vmx_dump_cpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_enable	vmx.c	/^static __init void vmx_enable(void *unused)$/;"	f	file:
+vmx_enable_failed	vmx.c	/^static atomic_t vmx_enable_failed;$/;"	v	file:
+vmx_ept_sync_individual_addr	vmx.c	/^void vmx_ept_sync_individual_addr(struct vmx_vcpu *vcpu, gpa_t gpa)$/;"	f
+vmx_ept_sync_vcpu	vmx.c	/^void vmx_ept_sync_vcpu(struct vmx_vcpu *vcpu)$/;"	f
+vmx_exit	vmx.c	/^void vmx_exit(void)$/;"	f
+vmx_free_ept	ept.c	/^static void vmx_free_ept(unsigned long ept_root)$/;"	f	file:
+vmx_free_vmcs	vmx.c	/^static void vmx_free_vmcs(struct vmcs *vmcs)$/;"	f	file:
+vmx_free_vmxon_areas	vmx.c	/^static void vmx_free_vmxon_areas(void)$/;"	f	file:
+vmx_free_vpid	vmx.c	/^static void vmx_free_vpid(struct vmx_vcpu *vmx)$/;"	f	file:
+vmx_get_cpu	vmx.c	/^static void vmx_get_cpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_handle_cpuid	vmx.c	/^static void vmx_handle_cpuid(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_handle_ept_violation	vmx.c	/^static int vmx_handle_ept_violation(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_handle_nmi_exception	vmx.c	/^static int vmx_handle_nmi_exception(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_handle_syscall	vmx.c	/^static void vmx_handle_syscall(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_init	vmx.c	/^__init int vmx_init(void)$/;"	f
+vmx_init_ept	ept.c	/^int vmx_init_ept(struct vmx_vcpu *vcpu)$/;"	f
+vmx_init_syscall	vmx.c	/^static void vmx_init_syscall(void)$/;"	f	file:
+vmx_launch	vmx.c	/^int vmx_launch(struct dune_config *conf, int64_t *ret_code)$/;"	f
+vmx_put_cpu	vmx.c	/^static void vmx_put_cpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_read_ldt	vmx.c	/^static inline u16 vmx_read_ldt(void)$/;"	f	file:
+vmx_read_tr_base	vmx.c	/^static inline unsigned long vmx_read_tr_base(void)$/;"	f	file:
+vmx_reg	vmx.h	/^enum vmx_reg {$/;"	g
+vmx_run_vcpu	vmx.c	/^static int __noclone vmx_run_vcpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_setup_constant_host_state	vmx.c	/^static void vmx_setup_constant_host_state(void)$/;"	f	file:
+vmx_setup_initial_guest_state	vmx.c	/^static void vmx_setup_initial_guest_state(struct dune_config *conf)$/;"	f	file:
+vmx_setup_vmcs	vmx.c	/^static void vmx_setup_vmcs(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_step_instruction	vmx.c	/^static void vmx_step_instruction(void)$/;"	f	file:
+vmx_vcpu	vmx.h	/^struct vmx_vcpu {$/;"	s
+vpid	vmx.h	/^	int vpid;$/;"	m	struct:vmx_vcpu
+vpid	vmx.h	/^	u32 vpid;$/;"	m	struct:vmx_capability
+vpid_sync_context	vmx.c	/^static inline void vpid_sync_context(u16 vpid)$/;"	f	file:
+vpid_sync_vcpu_global	vmx.c	/^static inline void vpid_sync_vcpu_global(void)$/;"	f	file:
+vpid_sync_vcpu_single	vmx.c	/^static inline void vpid_sync_vcpu_single(u16 vpid)$/;"	f	file:

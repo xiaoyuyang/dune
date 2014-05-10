@@ -1,0 +1,3509 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDR_TO_IDX	kern/ept.c	156;"	d	file:
+APP_MAX_ELF_VADDR	apps/sandbox/sandbox.h	21;"	d
+APP_MMAP_BASE_OFF	apps/sandbox/sandbox.h	22;"	d
+APP_MMAP_LEN	apps/sandbox/sandbox.h	23;"	d
+APP_STACK_SIZE	apps/sandbox/sandbox.h	24;"	d
+ARG0	libdune/dune.h	90;"	d
+ARG1	libdune/dune.h	91;"	d
+ARG2	libdune/dune.h	92;"	d
+ARG3	libdune/dune.h	93;"	d
+ARG4	libdune/dune.h	94;"	d
+ARG5	libdune/dune.h	95;"	d
+AT_BASE	libdune/elf.h	1068;"	d
+AT_CLKTCK	libdune/elf.h	1076;"	d
+AT_DCACHEBSIZE	libdune/elf.h	1088;"	d
+AT_EGID	libdune/elf.h	1075;"	d
+AT_ENTRY	libdune/elf.h	1070;"	d
+AT_EUID	libdune/elf.h	1073;"	d
+AT_EXECFD	libdune/elf.h	1063;"	d
+AT_FLAGS	libdune/elf.h	1069;"	d
+AT_FPUCW	libdune/elf.h	1085;"	d
+AT_GID	libdune/elf.h	1074;"	d
+AT_HWCAP	libdune/elf.h	1080;"	d
+AT_ICACHEBSIZE	libdune/elf.h	1089;"	d
+AT_IGNORE	libdune/elf.h	1062;"	d
+AT_IGNOREPPC	libdune/elf.h	1094;"	d
+AT_L1D_CACHESHAPE	libdune/elf.h	1108;"	d
+AT_L1I_CACHESHAPE	libdune/elf.h	1107;"	d
+AT_L2_CACHESHAPE	libdune/elf.h	1109;"	d
+AT_L3_CACHESHAPE	libdune/elf.h	1110;"	d
+AT_NOTELF	libdune/elf.h	1071;"	d
+AT_NULL	libdune/elf.h	1061;"	d
+AT_PAGESZ	libdune/elf.h	1067;"	d
+AT_PHDR	libdune/elf.h	1064;"	d
+AT_PHENT	libdune/elf.h	1065;"	d
+AT_PHNUM	libdune/elf.h	1066;"	d
+AT_PLATFORM	libdune/elf.h	1079;"	d
+AT_RANDOM	libdune/elf.h	1096;"	d
+AT_SECURE	libdune/elf.h	1098;"	d
+AT_SYSINFO	libdune/elf.h	1102;"	d
+AT_SYSINFO_EHDR	libdune/elf.h	1103;"	d
+AT_UCACHEBSIZE	libdune/elf.h	1090;"	d
+AT_UID	libdune/elf.h	1072;"	d
+BIG_PGADDR	libdune/mmu-x86.h	41;"	d
+BIG_PGMASK	libdune/mmu-x86.h	37;"	d
+BIG_PGOFF	libdune/mmu-x86.h	40;"	d
+BIG_PGSHIFT	libdune/mmu-x86.h	35;"	d
+BIG_PGSIZE	libdune/mmu-x86.h	36;"	d
+CAST64	libdune/mmu.h	5;"	d
+CC	apps/sandbox/Makefile	/^CC      = gcc$/;"	m
+CC	apps/ufirewall/Makefile	/^CC      = gcc$/;"	m
+CC	bench/Makefile	/^CC	= gcc$/;"	m
+CC	libdune/Makefile	/^CC      = gcc$/;"	m
+CC	test/Makefile	/^CC	= gcc$/;"	m
+CFLAGS	apps/sandbox/Makefile	/^CFLAGS  = -Wall -O2 -MD -I ..\/..\/$/;"	m
+CFLAGS	apps/ufirewall/Makefile	/^CFLAGS  = -Wall -O2 -MD -I ..\/..\/ -I ..\/sandbox$/;"	m
+CFLAGS	apps/wedge/Makefile	/^CFLAGS	= -Wall -g -MD -I$(LIBDUNE) -fomit-frame-pointer$/;"	m
+CFLAGS	bench/Makefile	/^CFLAGS	= -Wall -g -MD -O3 -I ..\/$/;"	m
+CFLAGS	libdune/Makefile	/^CFLAGS  = -Wall -g -O3 -MD$/;"	m
+CFLAGS	test/Makefile	/^CFLAGS	= -Wall -g -MD -O2 -I ..\/$/;"	m
+CFLAGS_vmx.o	kern/Makefile	/^CFLAGS_vmx.o = -DSYSCALL_TBL=$(SYSCALL_TBL) -DDO_FORK=$(DO_FORK)$/;"	m
+CONFIG_DUNE	kern/Makefile	/^CONFIG_DUNE=m$/;"	m
+CR0_AM	libdune/mmu-x86.h	77;"	d
+CR0_CD	libdune/mmu-x86.h	79;"	d
+CR0_EM	libdune/mmu-x86.h	72;"	d
+CR0_ET	libdune/mmu-x86.h	74;"	d
+CR0_MP	libdune/mmu-x86.h	71;"	d
+CR0_NE	libdune/mmu-x86.h	75;"	d
+CR0_NW	libdune/mmu-x86.h	78;"	d
+CR0_PE	libdune/mmu-x86.h	70;"	d
+CR0_PG	libdune/mmu-x86.h	80;"	d
+CR0_TS	libdune/mmu-x86.h	73;"	d
+CR0_WP	libdune/mmu-x86.h	76;"	d
+CR3_NOFLUSH	libdune/dune.h	225;"	d
+CR3_PCD	libdune/mmu-x86.h	83;"	d
+CR3_PWT	libdune/mmu-x86.h	82;"	d
+CR4_DE	libdune/mmu-x86.h	88;"	d
+CR4_MCE	libdune/mmu-x86.h	91;"	d
+CR4_OSFXSR	libdune/mmu-x86.h	94;"	d
+CR4_OSX	libdune/mmu-x86.h	95;"	d
+CR4_PAE	libdune/mmu-x86.h	90;"	d
+CR4_PCE	libdune/mmu-x86.h	93;"	d
+CR4_PGE	libdune/mmu-x86.h	92;"	d
+CR4_PSE	libdune/mmu-x86.h	89;"	d
+CR4_PVI	libdune/mmu-x86.h	86;"	d
+CR4_TSD	libdune/mmu-x86.h	87;"	d
+CR4_VME	libdune/mmu-x86.h	85;"	d
+CREATE_BIG	libdune/dune.h	/^	CREATE_BIG = 2,$/;"	e	enum:__anon4
+CREATE_NONE	libdune/dune.h	/^	CREATE_NONE = 0,$/;"	e	enum:__anon4
+CREATE_NORMAL	libdune/dune.h	/^	CREATE_NORMAL = 1,$/;"	e	enum:__anon4
+CS	libdune/dune.S	/^#define CS	(136)$/;"	d
+CTAGSF	kern/Makefile	/^	CTAGSF=`ctags --version | grep -i exuberant >\/dev\/null && echo "-I __initdata,__exitdata,EXPORT_SYMBOL,EXPORT_SYMBOL_NOVERS"`; \\$/;"	m
+DEBUG_CTL_LBR	libdune/mmu-x86.h	126;"	d
+DECLARE_ARGS	libdune/cpu-x86.h	13;"	d
+DF_1_CONFALT	libdune/elf.h	896;"	d
+DF_1_DIRECT	libdune/elf.h	891;"	d
+DF_1_DISPRELDNE	libdune/elf.h	898;"	d
+DF_1_DISPRELPND	libdune/elf.h	899;"	d
+DF_1_ENDFILTEE	libdune/elf.h	897;"	d
+DF_1_GLOBAL	libdune/elf.h	884;"	d
+DF_1_GROUP	libdune/elf.h	885;"	d
+DF_1_INITFIRST	libdune/elf.h	888;"	d
+DF_1_INTERPOSE	libdune/elf.h	893;"	d
+DF_1_LOADFLTR	libdune/elf.h	887;"	d
+DF_1_NODEFLIB	libdune/elf.h	894;"	d
+DF_1_NODELETE	libdune/elf.h	886;"	d
+DF_1_NODUMP	libdune/elf.h	895;"	d
+DF_1_NOOPEN	libdune/elf.h	889;"	d
+DF_1_NOW	libdune/elf.h	883;"	d
+DF_1_ORIGIN	libdune/elf.h	890;"	d
+DF_1_TRANS	libdune/elf.h	892;"	d
+DF_BIND_NOW	libdune/elf.h	878;"	d
+DF_ORIGIN	libdune/elf.h	875;"	d
+DF_P1_GROUPPERM	libdune/elf.h	907;"	d
+DF_P1_LAZYLOAD	libdune/elf.h	906;"	d
+DF_STATIC_TLS	libdune/elf.h	879;"	d
+DF_SYMBOLIC	libdune/elf.h	876;"	d
+DF_TEXTREL	libdune/elf.h	877;"	d
+DO_FORK	kern/Makefile	/^DO_FORK = 0x$(shell $(EXTRACT) do_fork)$/;"	m
+DR7_G	libdune/mmu-x86.h	134;"	d
+DR7_GD	libdune/mmu-x86.h	137;"	d
+DR7_GE	libdune/mmu-x86.h	136;"	d
+DR7_L	libdune/mmu-x86.h	133;"	d
+DR7_LE	libdune/mmu-x86.h	135;"	d
+DR7_LEN_1	libdune/mmu-x86.h	146;"	d
+DR7_LEN_2	libdune/mmu-x86.h	147;"	d
+DR7_LEN_4	libdune/mmu-x86.h	149;"	d
+DR7_LEN_8	libdune/mmu-x86.h	148;"	d
+DR7_LEN_SHIFT	libdune/mmu-x86.h	139;"	d
+DR7_RW_EXEC	libdune/mmu-x86.h	141;"	d
+DR7_RW_IO	libdune/mmu-x86.h	143;"	d
+DR7_RW_RW	libdune/mmu-x86.h	144;"	d
+DR7_RW_SHIFT	libdune/mmu-x86.h	138;"	d
+DR7_RW_WRITE	libdune/mmu-x86.h	142;"	d
+DTF_1_CONFEXP	libdune/elf.h	903;"	d
+DTF_1_PARINIT	libdune/elf.h	902;"	d
+DT_ADDRNUM	libdune/elf.h	847;"	d
+DT_ADDRRNGHI	libdune/elf.h	845;"	d
+DT_ADDRRNGLO	libdune/elf.h	835;"	d
+DT_ADDRTAGIDX	libdune/elf.h	846;"	d
+DT_ALPHA_NUM	libdune/elf.h	2082;"	d
+DT_ALPHA_PLTRO	libdune/elf.h	2081;"	d
+DT_AUDIT	libdune/elf.h	841;"	d
+DT_AUXILIARY	libdune/elf.h	869;"	d
+DT_AVR32_GOTSZ	libdune/elf.h	2923;"	d
+DT_BIND_NOW	libdune/elf.h	793;"	d
+DT_C6000_DSBT_BASE	libdune/elf.h	3114;"	d
+DT_C6000_DSBT_INDEX	libdune/elf.h	3117;"	d
+DT_C6000_DSBT_SIZE	libdune/elf.h	3115;"	d
+DT_C6000_NUM	libdune/elf.h	3119;"	d
+DT_C6000_PREEMPTMAP	libdune/elf.h	3116;"	d
+DT_CHECKSUM	libdune/elf.h	817;"	d
+DT_CONFIG	libdune/elf.h	839;"	d
+DT_DEBUG	libdune/elf.h	790;"	d
+DT_DEPAUDIT	libdune/elf.h	840;"	d
+DT_ENCODING	libdune/elf.h	800;"	d
+DT_EXTRANUM	libdune/elf.h	872;"	d
+DT_EXTRATAGIDX	libdune/elf.h	871;"	d
+DT_FEATURE_1	libdune/elf.h	821;"	d
+DT_FILTER	libdune/elf.h	870;"	d
+DT_FINI	libdune/elf.h	782;"	d
+DT_FINI_ARRAY	libdune/elf.h	795;"	d
+DT_FINI_ARRAYSZ	libdune/elf.h	797;"	d
+DT_FLAGS	libdune/elf.h	799;"	d
+DT_FLAGS_1	libdune/elf.h	857;"	d
+DT_GNU_CONFLICT	libdune/elf.h	837;"	d
+DT_GNU_CONFLICTSZ	libdune/elf.h	815;"	d
+DT_GNU_HASH	libdune/elf.h	836;"	d
+DT_GNU_LIBLIST	libdune/elf.h	838;"	d
+DT_GNU_LIBLISTSZ	libdune/elf.h	816;"	d
+DT_GNU_PRELINKED	libdune/elf.h	814;"	d
+DT_HASH	libdune/elf.h	773;"	d
+DT_HIOS	libdune/elf.h	805;"	d
+DT_HIPROC	libdune/elf.h	807;"	d
+DT_IA_64_NUM	libdune/elf.h	2454;"	d
+DT_IA_64_PLT_RESERVE	libdune/elf.h	2453;"	d
+DT_INIT	libdune/elf.h	781;"	d
+DT_INIT_ARRAY	libdune/elf.h	794;"	d
+DT_INIT_ARRAYSZ	libdune/elf.h	796;"	d
+DT_JMPREL	libdune/elf.h	792;"	d
+DT_LOOS	libdune/elf.h	804;"	d
+DT_LOPROC	libdune/elf.h	806;"	d
+DT_MIPS_AUX_DYNAMIC	libdune/elf.h	1780;"	d
+DT_MIPS_BASE_ADDRESS	libdune/elf.h	1734;"	d
+DT_MIPS_COMPACT_SIZE	libdune/elf.h	1778;"	d
+DT_MIPS_CONFLICT	libdune/elf.h	1736;"	d
+DT_MIPS_CONFLICTNO	libdune/elf.h	1739;"	d
+DT_MIPS_CXX_FLAGS	libdune/elf.h	1763;"	d
+DT_MIPS_DELTA_CLASS	libdune/elf.h	1746;"	d
+DT_MIPS_DELTA_CLASSSYM	libdune/elf.h	1759;"	d
+DT_MIPS_DELTA_CLASSSYM_NO	libdune/elf.h	1761;"	d
+DT_MIPS_DELTA_CLASS_NO	libdune/elf.h	1747;"	d
+DT_MIPS_DELTA_INSTANCE	libdune/elf.h	1749;"	d
+DT_MIPS_DELTA_INSTANCE_NO	libdune/elf.h	1750;"	d
+DT_MIPS_DELTA_RELOC	libdune/elf.h	1752;"	d
+DT_MIPS_DELTA_RELOC_NO	libdune/elf.h	1753;"	d
+DT_MIPS_DELTA_SYM	libdune/elf.h	1755;"	d
+DT_MIPS_DELTA_SYM_NO	libdune/elf.h	1757;"	d
+DT_MIPS_DYNSTR_ALIGN	libdune/elf.h	1772;"	d
+DT_MIPS_FLAGS	libdune/elf.h	1733;"	d
+DT_MIPS_GOTSYM	libdune/elf.h	1743;"	d
+DT_MIPS_GP_VALUE	libdune/elf.h	1779;"	d
+DT_MIPS_HIDDEN_GOTIDX	libdune/elf.h	1768;"	d
+DT_MIPS_HIPAGENO	libdune/elf.h	1744;"	d
+DT_MIPS_ICHECKSUM	libdune/elf.h	1731;"	d
+DT_MIPS_INTERFACE	libdune/elf.h	1771;"	d
+DT_MIPS_INTERFACE_SIZE	libdune/elf.h	1773;"	d
+DT_MIPS_IVERSION	libdune/elf.h	1732;"	d
+DT_MIPS_LIBLIST	libdune/elf.h	1737;"	d
+DT_MIPS_LIBLISTNO	libdune/elf.h	1740;"	d
+DT_MIPS_LOCALPAGE_GOTIDX	libdune/elf.h	1766;"	d
+DT_MIPS_LOCAL_GOTIDX	libdune/elf.h	1767;"	d
+DT_MIPS_LOCAL_GOTNO	libdune/elf.h	1738;"	d
+DT_MIPS_MSYM	libdune/elf.h	1735;"	d
+DT_MIPS_NUM	libdune/elf.h	1787;"	d
+DT_MIPS_OPTIONS	libdune/elf.h	1770;"	d
+DT_MIPS_PERF_SUFFIX	libdune/elf.h	1776;"	d
+DT_MIPS_PIXIE_INIT	libdune/elf.h	1764;"	d
+DT_MIPS_PLTGOT	libdune/elf.h	1782;"	d
+DT_MIPS_PROTECTED_GOTIDX	libdune/elf.h	1769;"	d
+DT_MIPS_RLD_MAP	libdune/elf.h	1745;"	d
+DT_MIPS_RLD_TEXT_RESOLVE_ADDR	libdune/elf.h	1774;"	d
+DT_MIPS_RLD_VERSION	libdune/elf.h	1729;"	d
+DT_MIPS_RWPLT	libdune/elf.h	1786;"	d
+DT_MIPS_SYMBOL_LIB	libdune/elf.h	1765;"	d
+DT_MIPS_SYMTABNO	libdune/elf.h	1741;"	d
+DT_MIPS_TIME_STAMP	libdune/elf.h	1730;"	d
+DT_MIPS_UNREFEXTNO	libdune/elf.h	1742;"	d
+DT_MOVEENT	libdune/elf.h	819;"	d
+DT_MOVESZ	libdune/elf.h	820;"	d
+DT_MOVETAB	libdune/elf.h	843;"	d
+DT_NEEDED	libdune/elf.h	770;"	d
+DT_NULL	libdune/elf.h	769;"	d
+DT_NUM	libdune/elf.h	803;"	d
+DT_PLTGOT	libdune/elf.h	772;"	d
+DT_PLTPAD	libdune/elf.h	842;"	d
+DT_PLTPADSZ	libdune/elf.h	818;"	d
+DT_PLTREL	libdune/elf.h	789;"	d
+DT_PLTRELSZ	libdune/elf.h	771;"	d
+DT_POSFLAG_1	libdune/elf.h	822;"	d
+DT_PPC64_GLINK	libdune/elf.h	2323;"	d
+DT_PPC64_NUM	libdune/elf.h	2326;"	d
+DT_PPC64_OPD	libdune/elf.h	2324;"	d
+DT_PPC64_OPDSZ	libdune/elf.h	2325;"	d
+DT_PPC_GOT	libdune/elf.h	2204;"	d
+DT_PPC_NUM	libdune/elf.h	2205;"	d
+DT_PREINIT_ARRAY	libdune/elf.h	801;"	d
+DT_PREINIT_ARRAYSZ	libdune/elf.h	802;"	d
+DT_PROCNUM	libdune/elf.h	808;"	d
+DT_REL	libdune/elf.h	786;"	d
+DT_RELA	libdune/elf.h	776;"	d
+DT_RELACOUNT	libdune/elf.h	853;"	d
+DT_RELAENT	libdune/elf.h	778;"	d
+DT_RELASZ	libdune/elf.h	777;"	d
+DT_RELCOUNT	libdune/elf.h	854;"	d
+DT_RELENT	libdune/elf.h	788;"	d
+DT_RELSZ	libdune/elf.h	787;"	d
+DT_RPATH	libdune/elf.h	784;"	d
+DT_RUNPATH	libdune/elf.h	798;"	d
+DT_SONAME	libdune/elf.h	783;"	d
+DT_SPARC_NUM	libdune/elf.h	1452;"	d
+DT_SPARC_REGISTER	libdune/elf.h	1451;"	d
+DT_STRSZ	libdune/elf.h	779;"	d
+DT_STRTAB	libdune/elf.h	774;"	d
+DT_SYMBOLIC	libdune/elf.h	785;"	d
+DT_SYMENT	libdune/elf.h	780;"	d
+DT_SYMINENT	libdune/elf.h	825;"	d
+DT_SYMINFO	libdune/elf.h	844;"	d
+DT_SYMINSZ	libdune/elf.h	824;"	d
+DT_SYMTAB	libdune/elf.h	775;"	d
+DT_TEXTREL	libdune/elf.h	791;"	d
+DT_VALNUM	libdune/elf.h	828;"	d
+DT_VALRNGHI	libdune/elf.h	826;"	d
+DT_VALRNGLO	libdune/elf.h	813;"	d
+DT_VALTAGIDX	libdune/elf.h	827;"	d
+DT_VERDEF	libdune/elf.h	858;"	d
+DT_VERDEFNUM	libdune/elf.h	860;"	d
+DT_VERNEED	libdune/elf.h	861;"	d
+DT_VERNEEDNUM	libdune/elf.h	863;"	d
+DT_VERSIONTAGIDX	libdune/elf.h	864;"	d
+DT_VERSIONTAGNUM	libdune/elf.h	865;"	d
+DT_VERSYM	libdune/elf.h	851;"	d
+DT_XTENSA_GOT_LOC_OFF	libdune/elf.h	3022;"	d
+DT_XTENSA_GOT_LOC_SZ	libdune/elf.h	3023;"	d
+DT_XTENSA_NUM	libdune/elf.h	3024;"	d
+DUNE_CFG_CR3	libdune/dune.S	/^#define DUNE_CFG_CR3	(16)$/;"	d
+DUNE_CFG_RET	libdune/dune.S	/^#define DUNE_CFG_RET	(24)$/;"	d
+DUNE_CFG_RIP	libdune/dune.S	/^#define DUNE_CFG_RIP	(0)$/;"	d
+DUNE_CFG_RSP	libdune/dune.S	/^#define DUNE_CFG_RSP	(8)$/;"	d
+DUNE_ENTER	kern/dune.h	14;"	d
+DUNE_GET_LAYOUT	kern/dune.h	16;"	d
+DUNE_GET_SYSCALL	kern/dune.h	15;"	d
+DUNE_MINOR	kern/dune.h	12;"	d
+DUNE_SIGNAL_INTR_BASE	kern/dune.h	19;"	d
+DUNE_SIGNAL_INTR_BASE	libdune/dune.h	103;"	d
+EAX_EDX_ARGS	libdune/cpu-x86.h	15;"	d
+EAX_EDX_RET	libdune/cpu-x86.h	16;"	d
+EAX_EDX_VAL	libdune/cpu-x86.h	14;"	d
+EFA_PARISC_1_0	libdune/elf.h	1859;"	d
+EFA_PARISC_1_1	libdune/elf.h	1860;"	d
+EFA_PARISC_2_0	libdune/elf.h	1861;"	d
+EFER	libdune/mmu-x86.h	113;"	d
+EFER_FFXSR	libdune/mmu-x86.h	118;"	d
+EFER_LMA	libdune/mmu-x86.h	116;"	d
+EFER_LME	libdune/mmu-x86.h	115;"	d
+EFER_NXE	libdune/mmu-x86.h	117;"	d
+EFER_SCE	libdune/mmu-x86.h	114;"	d
+EF_ALPHA_32BIT	libdune/elf.h	2017;"	d
+EF_ALPHA_CANRELAX	libdune/elf.h	2018;"	d
+EF_ARM_ALIGN8	libdune/elf.h	2338;"	d
+EF_ARM_APCS_26	libdune/elf.h	2335;"	d
+EF_ARM_APCS_FLOAT	libdune/elf.h	2336;"	d
+EF_ARM_DYNSYMSUSESEGIDX	libdune/elf.h	2345;"	d
+EF_ARM_EABIMASK	libdune/elf.h	2347;"	d
+EF_ARM_EABI_UNKNOWN	libdune/elf.h	2350;"	d
+EF_ARM_EABI_VER1	libdune/elf.h	2351;"	d
+EF_ARM_EABI_VER2	libdune/elf.h	2352;"	d
+EF_ARM_EABI_VERSION	libdune/elf.h	2349;"	d
+EF_ARM_HASENTRY	libdune/elf.h	2333;"	d
+EF_ARM_INTERWORK	libdune/elf.h	2334;"	d
+EF_ARM_MAPSYMSFIRST	libdune/elf.h	2346;"	d
+EF_ARM_NEW_ABI	libdune/elf.h	2339;"	d
+EF_ARM_OLD_ABI	libdune/elf.h	2340;"	d
+EF_ARM_PIC	libdune/elf.h	2337;"	d
+EF_ARM_RELEXEC	libdune/elf.h	2332;"	d
+EF_ARM_SYMSARESORTED	libdune/elf.h	2344;"	d
+EF_BFIN_CODE_IN_L1	libdune/elf.h	1318;"	d
+EF_BFIN_DATA_IN_L1	libdune/elf.h	1319;"	d
+EF_BFIN_FDPIC	libdune/elf.h	1317;"	d
+EF_BFIN_PIC	libdune/elf.h	1316;"	d
+EF_CPU32	libdune/elf.h	1194;"	d
+EF_CRIS_VARIANT_ANY_V0_V10	libdune/elf.h	2682;"	d
+EF_CRIS_VARIANT_COMMON_V10_V32	libdune/elf.h	2684;"	d
+EF_CRIS_VARIANT_MASK	libdune/elf.h	2681;"	d
+EF_CRIS_VARIANT_V32	libdune/elf.h	2683;"	d
+EF_FRV_FDPIC	libdune/elf.h	1341;"	d
+EF_FRV_FPR_32	libdune/elf.h	1336;"	d
+EF_FRV_FPR_64	libdune/elf.h	1337;"	d
+EF_FRV_FPR_MASK	libdune/elf.h	1335;"	d
+EF_FRV_FPR_NONE	libdune/elf.h	1338;"	d
+EF_FRV_GPR_32	libdune/elf.h	1331;"	d
+EF_FRV_GPR_64	libdune/elf.h	1332;"	d
+EF_FRV_GPR_MASK	libdune/elf.h	1330;"	d
+EF_FRV_PIC	libdune/elf.h	1340;"	d
+EF_IA_64_ABI64	libdune/elf.h	2431;"	d
+EF_IA_64_ARCH	libdune/elf.h	2432;"	d
+EF_IA_64_MASKOS	libdune/elf.h	2430;"	d
+EF_MIPS_64BIT_WHIRL	libdune/elf.h	1471;"	d
+EF_MIPS_ABI2	libdune/elf.h	1472;"	d
+EF_MIPS_ABI_ON32	libdune/elf.h	1473;"	d
+EF_MIPS_ARCH	libdune/elf.h	1474;"	d
+EF_MIPS_ARCH_1	libdune/elf.h	1478;"	d
+EF_MIPS_ARCH_2	libdune/elf.h	1479;"	d
+EF_MIPS_ARCH_3	libdune/elf.h	1480;"	d
+EF_MIPS_ARCH_32	libdune/elf.h	1483;"	d
+EF_MIPS_ARCH_4	libdune/elf.h	1481;"	d
+EF_MIPS_ARCH_5	libdune/elf.h	1482;"	d
+EF_MIPS_ARCH_64	libdune/elf.h	1484;"	d
+EF_MIPS_CPIC	libdune/elf.h	1469;"	d
+EF_MIPS_NOREORDER	libdune/elf.h	1467;"	d
+EF_MIPS_PIC	libdune/elf.h	1468;"	d
+EF_MIPS_XGOT	libdune/elf.h	1470;"	d
+EF_PARISC_ARCH	libdune/elf.h	1855;"	d
+EF_PARISC_EXT	libdune/elf.h	1849;"	d
+EF_PARISC_LAZYSWAP	libdune/elf.h	1854;"	d
+EF_PARISC_LSB	libdune/elf.h	1850;"	d
+EF_PARISC_NO_KABP	libdune/elf.h	1852;"	d
+EF_PARISC_TRAPNIL	libdune/elf.h	1848;"	d
+EF_PARISC_WIDE	libdune/elf.h	1851;"	d
+EF_PPC_EMB	libdune/elf.h	2087;"	d
+EF_PPC_RELOCATABLE	libdune/elf.h	2090;"	d
+EF_PPC_RELOCATABLE_LIB	libdune/elf.h	2091;"	d
+EF_SPARCV9_MM	libdune/elf.h	1351;"	d
+EF_SPARCV9_PSO	libdune/elf.h	1353;"	d
+EF_SPARCV9_RMO	libdune/elf.h	1354;"	d
+EF_SPARCV9_TSO	libdune/elf.h	1352;"	d
+EF_SPARC_32PLUS	libdune/elf.h	1357;"	d
+EF_SPARC_EXT_MASK	libdune/elf.h	1356;"	d
+EF_SPARC_HAL_R1	libdune/elf.h	1359;"	d
+EF_SPARC_LEDATA	libdune/elf.h	1355;"	d
+EF_SPARC_SUN_US1	libdune/elf.h	1358;"	d
+EF_SPARC_SUN_US3	libdune/elf.h	1360;"	d
+EF_START	libdune/dune.S	/^#define EF_START (128)$/;"	d
+EI_ABIVERSION	libdune/elf.h	166;"	d
+EI_CLASS	libdune/elf.h	131;"	d
+EI_DATA	libdune/elf.h	137;"	d
+EI_MAG0	libdune/elf.h	110;"	d
+EI_MAG1	libdune/elf.h	113;"	d
+EI_MAG2	libdune/elf.h	116;"	d
+EI_MAG3	libdune/elf.h	119;"	d
+EI_NIDENT	libdune/elf.h	68;"	d
+EI_OSABI	libdune/elf.h	146;"	d
+EI_PAD	libdune/elf.h	168;"	d
+EI_VERSION	libdune/elf.h	143;"	d
+ELF32_M_INFO	libdune/elf.h	1184;"	d
+ELF32_M_SIZE	libdune/elf.h	1183;"	d
+ELF32_M_SYM	libdune/elf.h	1182;"	d
+ELF32_R_INFO	libdune/elf.h	645;"	d
+ELF32_R_SYM	libdune/elf.h	643;"	d
+ELF32_R_TYPE	libdune/elf.h	644;"	d
+ELF32_ST_BIND	libdune/elf.h	549;"	d
+ELF32_ST_INFO	libdune/elf.h	551;"	d
+ELF32_ST_TYPE	libdune/elf.h	550;"	d
+ELF32_ST_VISIBILITY	libdune/elf.h	594;"	d
+ELF64_M_INFO	libdune/elf.h	1188;"	d
+ELF64_M_SIZE	libdune/elf.h	1187;"	d
+ELF64_M_SYM	libdune/elf.h	1186;"	d
+ELF64_R_INFO	libdune/elf.h	649;"	d
+ELF64_R_SYM	libdune/elf.h	647;"	d
+ELF64_R_TYPE	libdune/elf.h	648;"	d
+ELF64_ST_BIND	libdune/elf.h	554;"	d
+ELF64_ST_INFO	libdune/elf.h	556;"	d
+ELF64_ST_TYPE	libdune/elf.h	555;"	d
+ELF64_ST_VISIBILITY	libdune/elf.h	597;"	d
+ELFCLASS32	libdune/elf.h	133;"	d
+ELFCLASS64	libdune/elf.h	134;"	d
+ELFCLASSNONE	libdune/elf.h	132;"	d
+ELFCLASSNUM	libdune/elf.h	135;"	d
+ELFDATA2LSB	libdune/elf.h	139;"	d
+ELFDATA2MSB	libdune/elf.h	140;"	d
+ELFDATANONE	libdune/elf.h	138;"	d
+ELFDATANUM	libdune/elf.h	141;"	d
+ELFMAG	libdune/elf.h	123;"	d
+ELFMAG0	libdune/elf.h	111;"	d
+ELFMAG1	libdune/elf.h	114;"	d
+ELFMAG2	libdune/elf.h	117;"	d
+ELFMAG3	libdune/elf.h	120;"	d
+ELFMAG_U32	libdune/elf.h	126;"	d
+ELFMAG_U32	libdune/elf.h	128;"	d
+ELFOSABI_AIX	libdune/elf.h	154;"	d
+ELFOSABI_ARM	libdune/elf.h	163;"	d
+ELFOSABI_AROS	libdune/elf.h	162;"	d
+ELFOSABI_FREEBSD	libdune/elf.h	156;"	d
+ELFOSABI_HPUX	libdune/elf.h	149;"	d
+ELFOSABI_HURD	libdune/elf.h	152;"	d
+ELFOSABI_IRIX	libdune/elf.h	155;"	d
+ELFOSABI_LINUX	libdune/elf.h	151;"	d
+ELFOSABI_MODESTO	libdune/elf.h	158;"	d
+ELFOSABI_NETBSD	libdune/elf.h	150;"	d
+ELFOSABI_NONE	libdune/elf.h	147;"	d
+ELFOSABI_NSK	libdune/elf.h	161;"	d
+ELFOSABI_OPENBSD	libdune/elf.h	159;"	d
+ELFOSABI_OPENVMS	libdune/elf.h	160;"	d
+ELFOSABI_SOLARIS	libdune/elf.h	153;"	d
+ELFOSABI_STANDALONE	libdune/elf.h	164;"	d
+ELFOSABI_SYSV	libdune/elf.h	148;"	d
+ELFOSABI_TRU64	libdune/elf.h	157;"	d
+ELF_NOTE_ABI	libdune/elf.h	1152;"	d
+ELF_NOTE_GNU	libdune/elf.h	1135;"	d
+ELF_NOTE_OS_FREEBSD	libdune/elf.h	1159;"	d
+ELF_NOTE_OS_GNU	libdune/elf.h	1157;"	d
+ELF_NOTE_OS_LINUX	libdune/elf.h	1156;"	d
+ELF_NOTE_OS_SOLARIS2	libdune/elf.h	1158;"	d
+ELF_NOTE_PAGESIZE_HINT	libdune/elf.h	1141;"	d
+ELF_NOTE_SOLARIS	libdune/elf.h	1132;"	d
+EM_386	libdune/elf.h	188;"	d
+EM_486	libdune/elf.h	191;"	d
+EM_68HC05	libdune/elf.h	241;"	d
+EM_68HC08	libdune/elf.h	240;"	d
+EM_68HC11	libdune/elf.h	239;"	d
+EM_68HC12	libdune/elf.h	223;"	d
+EM_68HC16	libdune/elf.h	238;"	d
+EM_68K	libdune/elf.h	189;"	d
+EM_860	libdune/elf.h	192;"	d
+EM_88K	libdune/elf.h	190;"	d
+EM_960	libdune/elf.h	200;"	d
+EM_ALPHA	libdune/elf.h	360;"	d
+EM_ALTERA_NIOS2	libdune/elf.h	268;"	d
+EM_ARC	libdune/elf.h	215;"	d
+EM_ARC_A5	libdune/elf.h	262;"	d
+EM_ARM	libdune/elf.h	210;"	d
+EM_AVR	libdune/elf.h	252;"	d
+EM_AVR32	libdune/elf.h	366;"	d
+EM_AVR_OLD	libdune/elf.h	329;"	d
+EM_BLACKFIN	libdune/elf.h	267;"	d
+EM_COLDFIRE	libdune/elf.h	222;"	d
+EM_CR	libdune/elf.h	265;"	d
+EM_CRIS	libdune/elf.h	245;"	d
+EM_CRX	libdune/elf.h	269;"	d
+EM_CYGNUS_D10V	libdune/elf.h	311;"	d
+EM_CYGNUS_D30V	libdune/elf.h	314;"	d
+EM_CYGNUS_FR30	libdune/elf.h	325;"	d
+EM_CYGNUS_FRV	libdune/elf.h	342;"	d
+EM_CYGNUS_M32R	libdune/elf.h	305;"	d
+EM_CYGNUS_MN10200	libdune/elf.h	321;"	d
+EM_CYGNUS_MN10300	libdune/elf.h	322;"	d
+EM_CYGNUS_POWERPC	libdune/elf.h	289;"	d
+EM_CYGNUS_V850	libdune/elf.h	317;"	d
+EM_CYGNUS_V850	libdune/elf.h	369;"	d
+EM_D10V	libdune/elf.h	254;"	d
+EM_D30V	libdune/elf.h	255;"	d
+EM_DLX	libdune/elf.h	337;"	d
+EM_FAKE_ALPHA	libdune/elf.h	211;"	d
+EM_FIREPATH	libdune/elf.h	247;"	d
+EM_FR20	libdune/elf.h	206;"	d
+EM_FR30	libdune/elf.h	253;"	d
+EM_FX66	libdune/elf.h	235;"	d
+EM_H8S	libdune/elf.h	218;"	d
+EM_H8_300	libdune/elf.h	216;"	d
+EM_H8_300H	libdune/elf.h	217;"	d
+EM_H8_500	libdune/elf.h	219;"	d
+EM_HUANY	libdune/elf.h	250;"	d
+EM_IA_64	libdune/elf.h	220;"	d
+EM_IP2K	libdune/elf.h	264;"	d
+EM_IP2K_OLD	libdune/elf.h	345;"	d
+EM_IQ2000	libdune/elf.h	354;"	d
+EM_JAVELIN	libdune/elf.h	246;"	d
+EM_M32	libdune/elf.h	186;"	d
+EM_M32C	libdune/elf.h	302;"	d
+EM_M32R	libdune/elf.h	257;"	d
+EM_MCORE	libdune/elf.h	208;"	d
+EM_ME16	libdune/elf.h	229;"	d
+EM_MICROBLAZE	libdune/elf.h	377;"	d
+EM_MICROBLAZE_OLD	libdune/elf.h	374;"	d
+EM_MIPS	libdune/elf.h	193;"	d
+EM_MIPS_RS3_LE	libdune/elf.h	195;"	d
+EM_MIPS_X	libdune/elf.h	221;"	d
+EM_MMA	libdune/elf.h	224;"	d
+EM_MMIX	libdune/elf.h	249;"	d
+EM_MN10200	libdune/elf.h	259;"	d
+EM_MN10300	libdune/elf.h	258;"	d
+EM_MSP430	libdune/elf.h	266;"	d
+EM_MSP430_OLD	libdune/elf.h	351;"	d
+EM_MT	libdune/elf.h	347;"	d
+EM_NCPU	libdune/elf.h	226;"	d
+EM_NDR1	libdune/elf.h	227;"	d
+EM_NIOS32	libdune/elf.h	363;"	d
+EM_NONE	libdune/elf.h	185;"	d
+EM_NUM	libdune/elf.h	270;"	d
+EM_OLD_SPARCV9	libdune/elf.h	293;"	d
+EM_OPENRISC	libdune/elf.h	261;"	d
+EM_OPENRISC_OLD	libdune/elf.h	333;"	d
+EM_OR32	libdune/elf.h	299;"	d
+EM_PARISC	libdune/elf.h	197;"	d
+EM_PCP	libdune/elf.h	225;"	d
+EM_PDSP	libdune/elf.h	233;"	d
+EM_PJ	libdune/elf.h	260;"	d
+EM_PJ_OLD	libdune/elf.h	286;"	d
+EM_PPC	libdune/elf.h	201;"	d
+EM_PPC64	libdune/elf.h	202;"	d
+EM_PPC_OLD	libdune/elf.h	296;"	d
+EM_PRISM	libdune/elf.h	251;"	d
+EM_RCE	libdune/elf.h	209;"	d
+EM_RH32	libdune/elf.h	207;"	d
+EM_S370	libdune/elf.h	194;"	d
+EM_S390	libdune/elf.h	203;"	d
+EM_S390_OLD	libdune/elf.h	308;"	d
+EM_SH	libdune/elf.h	212;"	d
+EM_SPARC	libdune/elf.h	187;"	d
+EM_SPARC32PLUS	libdune/elf.h	199;"	d
+EM_SPARCV9	libdune/elf.h	213;"	d
+EM_ST100	libdune/elf.h	230;"	d
+EM_ST19	libdune/elf.h	243;"	d
+EM_ST7	libdune/elf.h	237;"	d
+EM_ST9PLUS	libdune/elf.h	236;"	d
+EM_STARCORE	libdune/elf.h	228;"	d
+EM_SVX	libdune/elf.h	242;"	d
+EM_TINYJ	libdune/elf.h	231;"	d
+EM_TI_C6000	libdune/elf.h	271;"	d
+EM_TRICORE	libdune/elf.h	214;"	d
+EM_V800	libdune/elf.h	205;"	d
+EM_V850	libdune/elf.h	256;"	d
+EM_VAX	libdune/elf.h	244;"	d
+EM_VPP500	libdune/elf.h	198;"	d
+EM_X86_64	libdune/elf.h	232;"	d
+EM_XSTORMY16	libdune/elf.h	339;"	d
+EM_XTENSA	libdune/elf.h	263;"	d
+EM_XTENSA_OLD	libdune/elf.h	357;"	d
+EM_ZSP	libdune/elf.h	248;"	d
+EPTE_ADDR	kern/ept.c	89;"	d	file:
+EPTE_FLAGS	kern/ept.c	90;"	d	file:
+EPTE_TYPE_UC	kern/ept.c	/^	EPTE_TYPE_UC = 0, \/* uncachable *\/$/;"	e	enum:__anon3	file:
+EPTE_TYPE_WB	kern/ept.c	/^	EPTE_TYPE_WB = 6, \/* write back *\/$/;"	e	enum:__anon3	file:
+EPTE_TYPE_WC	kern/ept.c	/^	EPTE_TYPE_WC = 1, \/* write combining *\/$/;"	e	enum:__anon3	file:
+EPTE_TYPE_WP	kern/ept.c	/^	EPTE_TYPE_WP = 5, \/* write protected *\/$/;"	e	enum:__anon3	file:
+EPTE_TYPE_WT	kern/ept.c	/^	EPTE_TYPE_WT = 4, \/* write through *\/$/;"	e	enum:__anon3	file:
+EPT_LEVELS	kern/ept.c	30;"	d	file:
+ERR	libdune/dune.S	/^#define ERR	(120)$/;"	d
+ET_CORE	libdune/elf.h	176;"	d
+ET_DYN	libdune/elf.h	175;"	d
+ET_EXEC	libdune/elf.h	174;"	d
+ET_HIOS	libdune/elf.h	179;"	d
+ET_HIPROC	libdune/elf.h	181;"	d
+ET_LOOS	libdune/elf.h	178;"	d
+ET_LOPROC	libdune/elf.h	180;"	d
+ET_NONE	libdune/elf.h	172;"	d
+ET_NUM	libdune/elf.h	177;"	d
+ET_REL	libdune/elf.h	173;"	d
+EV_CURRENT	libdune/elf.h	382;"	d
+EV_NONE	libdune/elf.h	381;"	d
+EV_NUM	libdune/elf.h	383;"	d
+EXECPGSIZE	apps/sandbox/exec.c	12;"	d	file:
+EXTERNAL_BUILD	kern/Makefile	/^EXTERNAL_BUILD=y$/;"	m
+EXTRACT	kern/Makefile	/^EXTRACT := $(M)\/extract_symbol.sh$/;"	m
+EXTRA_FLAGS	libdune/Makefile	/^$(NOFPU_OBJ): EXTRA_FLAGS := -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -msoft-float$/;"	m
+E_MIPS_ARCH_1	libdune/elf.h	1488;"	d
+E_MIPS_ARCH_2	libdune/elf.h	1489;"	d
+E_MIPS_ARCH_3	libdune/elf.h	1490;"	d
+E_MIPS_ARCH_32	libdune/elf.h	1493;"	d
+E_MIPS_ARCH_4	libdune/elf.h	1491;"	d
+E_MIPS_ARCH_5	libdune/elf.h	1492;"	d
+E_MIPS_ARCH_64	libdune/elf.h	1494;"	d
+Elf32_Addr	libdune/elf.h	/^typedef uint32_t Elf32_Addr;$/;"	t
+Elf32_Conflict	libdune/elf.h	/^typedef Elf32_Addr Elf32_Conflict;$/;"	t
+Elf32_Dyn	libdune/elf.h	/^} Elf32_Dyn;$/;"	t	typeref:struct:__anon19
+Elf32_Ehdr	libdune/elf.h	/^} Elf32_Ehdr;$/;"	t	typeref:struct:__anon5
+Elf32_Half	libdune/elf.h	/^typedef uint16_t Elf32_Half;$/;"	t
+Elf32_Lib	libdune/elf.h	/^} Elf32_Lib;$/;"	t	typeref:struct:__anon45
+Elf32_Move	libdune/elf.h	/^} Elf32_Move;$/;"	t	typeref:struct:__anon37
+Elf32_Nhdr	libdune/elf.h	/^} Elf32_Nhdr;$/;"	t	typeref:struct:__anon35
+Elf32_Off	libdune/elf.h	/^typedef uint32_t Elf32_Off;$/;"	t
+Elf32_Phdr	libdune/elf.h	/^} Elf32_Phdr;$/;"	t	typeref:struct:__anon17
+Elf32_RegInfo	libdune/elf.h	/^} Elf32_RegInfo;$/;"	t	typeref:struct:__anon42
+Elf32_Rel	libdune/elf.h	/^} Elf32_Rel;$/;"	t	typeref:struct:__anon13
+Elf32_Rela	libdune/elf.h	/^} Elf32_Rela;$/;"	t	typeref:struct:__anon15
+Elf32_Section	libdune/elf.h	/^typedef uint16_t Elf32_Section;$/;"	t
+Elf32_Shdr	libdune/elf.h	/^} Elf32_Shdr;$/;"	t	typeref:struct:__anon7
+Elf32_Sword	libdune/elf.h	/^typedef	int32_t  Elf32_Sword;$/;"	t
+Elf32_Sxword	libdune/elf.h	/^typedef	int64_t  Elf32_Sxword;$/;"	t
+Elf32_Sym	libdune/elf.h	/^} Elf32_Sym;$/;"	t	typeref:struct:__anon9
+Elf32_Syminfo	libdune/elf.h	/^} Elf32_Syminfo;$/;"	t	typeref:struct:__anon11
+Elf32_Verdaux	libdune/elf.h	/^} Elf32_Verdaux;$/;"	t	typeref:struct:__anon25
+Elf32_Verdef	libdune/elf.h	/^} Elf32_Verdef;$/;"	t	typeref:struct:__anon23
+Elf32_Vernaux	libdune/elf.h	/^} Elf32_Vernaux;$/;"	t	typeref:struct:__anon29
+Elf32_Verneed	libdune/elf.h	/^} Elf32_Verneed;$/;"	t	typeref:struct:__anon27
+Elf32_Versym	libdune/elf.h	/^typedef Elf32_Half Elf32_Versym;$/;"	t
+Elf32_Word	libdune/elf.h	/^typedef uint32_t Elf32_Word;$/;"	t
+Elf32_Xword	libdune/elf.h	/^typedef uint64_t Elf32_Xword;$/;"	t
+Elf32_auxv_t	libdune/elf.h	/^} Elf32_auxv_t;$/;"	t	typeref:struct:__anon31
+Elf32_gptab	libdune/elf.h	/^} Elf32_gptab;$/;"	t	typeref:union:__anon39
+Elf64_Addr	libdune/elf.h	/^typedef uint64_t Elf64_Addr;$/;"	t
+Elf64_Dyn	libdune/elf.h	/^} Elf64_Dyn;$/;"	t	typeref:struct:__anon21
+Elf64_Ehdr	libdune/elf.h	/^} Elf64_Ehdr;$/;"	t	typeref:struct:__anon6
+Elf64_Half	libdune/elf.h	/^typedef uint16_t Elf64_Half;$/;"	t
+Elf64_Lib	libdune/elf.h	/^} Elf64_Lib;$/;"	t	typeref:struct:__anon46
+Elf64_Move	libdune/elf.h	/^} Elf64_Move;$/;"	t	typeref:struct:__anon38
+Elf64_Nhdr	libdune/elf.h	/^} Elf64_Nhdr;$/;"	t	typeref:struct:__anon36
+Elf64_Off	libdune/elf.h	/^typedef uint64_t Elf64_Off;$/;"	t
+Elf64_Phdr	libdune/elf.h	/^} Elf64_Phdr;$/;"	t	typeref:struct:__anon18
+Elf64_Rel	libdune/elf.h	/^} Elf64_Rel;$/;"	t	typeref:struct:__anon14
+Elf64_Rela	libdune/elf.h	/^} Elf64_Rela;$/;"	t	typeref:struct:__anon16
+Elf64_Section	libdune/elf.h	/^typedef uint16_t Elf64_Section;$/;"	t
+Elf64_Shdr	libdune/elf.h	/^} Elf64_Shdr;$/;"	t	typeref:struct:__anon8
+Elf64_Sword	libdune/elf.h	/^typedef	int32_t  Elf64_Sword;$/;"	t
+Elf64_Sxword	libdune/elf.h	/^typedef	int64_t  Elf64_Sxword;$/;"	t
+Elf64_Sym	libdune/elf.h	/^} Elf64_Sym;$/;"	t	typeref:struct:__anon10
+Elf64_Syminfo	libdune/elf.h	/^} Elf64_Syminfo;$/;"	t	typeref:struct:__anon12
+Elf64_Verdaux	libdune/elf.h	/^} Elf64_Verdaux;$/;"	t	typeref:struct:__anon26
+Elf64_Verdef	libdune/elf.h	/^} Elf64_Verdef;$/;"	t	typeref:struct:__anon24
+Elf64_Vernaux	libdune/elf.h	/^} Elf64_Vernaux;$/;"	t	typeref:struct:__anon30
+Elf64_Verneed	libdune/elf.h	/^} Elf64_Verneed;$/;"	t	typeref:struct:__anon28
+Elf64_Versym	libdune/elf.h	/^typedef Elf64_Half Elf64_Versym;$/;"	t
+Elf64_Word	libdune/elf.h	/^typedef uint32_t Elf64_Word;$/;"	t
+Elf64_Xword	libdune/elf.h	/^typedef uint64_t Elf64_Xword;$/;"	t
+Elf64_auxv_t	libdune/elf.h	/^} Elf64_auxv_t;$/;"	t	typeref:struct:__anon33
+Elf_Options	libdune/elf.h	/^} Elf_Options;$/;"	t	typeref:struct:__anon43
+Elf_Options_Hw	libdune/elf.h	/^} Elf_Options_Hw;$/;"	t	typeref:struct:__anon44
+FEC_I	libdune/mmu-x86.h	179;"	d
+FEC_P	libdune/mmu-x86.h	175;"	d
+FEC_RSV	libdune/mmu-x86.h	178;"	d
+FEC_U	libdune/mmu-x86.h	177;"	d
+FEC_W	libdune/mmu-x86.h	176;"	d
+FL_AC	libdune/mmu-x86.h	169;"	d
+FL_AF	libdune/mmu-x86.h	154;"	d
+FL_CF	libdune/mmu-x86.h	152;"	d
+FL_DF	libdune/mmu-x86.h	159;"	d
+FL_ID	libdune/mmu-x86.h	172;"	d
+FL_IF	libdune/mmu-x86.h	158;"	d
+FL_IOPL_0	libdune/mmu-x86.h	162;"	d
+FL_IOPL_1	libdune/mmu-x86.h	163;"	d
+FL_IOPL_2	libdune/mmu-x86.h	164;"	d
+FL_IOPL_3	libdune/mmu-x86.h	165;"	d
+FL_IOPL_MASK	libdune/mmu-x86.h	161;"	d
+FL_NT	libdune/mmu-x86.h	166;"	d
+FL_OF	libdune/mmu-x86.h	160;"	d
+FL_PF	libdune/mmu-x86.h	153;"	d
+FL_RF	libdune/mmu-x86.h	167;"	d
+FL_SF	libdune/mmu-x86.h	156;"	d
+FL_TF	libdune/mmu-x86.h	157;"	d
+FL_VIF	libdune/mmu-x86.h	170;"	d
+FL_VIP	libdune/mmu-x86.h	171;"	d
+FL_VM	libdune/mmu-x86.h	168;"	d
+FL_ZF	libdune/mmu-x86.h	155;"	d
+FW_IP_ANY	apps/ufirewall/firewall.c	31;"	d	file:
+FW_MASK_SINGLE	apps/ufirewall/firewall.c	32;"	d	file:
+FW_PORT_ANY	apps/ufirewall/firewall.c	30;"	d	file:
+FW_TYPE_BIND_ALLOW	apps/ufirewall/firewall.c	26;"	d	file:
+FW_TYPE_CONNECT_ALLOW	apps/ufirewall/firewall.c	27;"	d	file:
+FW_TYPE_CONNECT_DENY	apps/ufirewall/firewall.c	28;"	d	file:
+Fpregs	libdune/mmu-x86.h	/^struct Fpregs {$/;"	s
+GATE32	libdune/mmu-x86.h	243;"	d
+GD_KD	libdune/dune.S	/^#define GD_KD		0x18$/;"	d
+GD_KD	libdune/dune.h	49;"	d
+GD_KT	libdune/dune.S	/^#define GD_KT		0x10$/;"	d
+GD_KT	libdune/dune.h	48;"	d
+GD_TSS	libdune/dune.h	52;"	d
+GD_TSS2	libdune/dune.h	53;"	d
+GD_UD	libdune/dune.S	/^#define GD_UD		0x28 | 0x03$/;"	d
+GD_UD	libdune/dune.h	50;"	d
+GD_UT	libdune/dune.S	/^#define GD_UT		0x30 | 0x03$/;"	d
+GD_UT	libdune/dune.h	51;"	d
+GPA_ADDR_INVAL	kern/dune.h	/^	GPA_ADDR_INVAL	= 0xC00000000,$/;"	e	enum:__anon2
+GPA_ADDR_MAP	kern/dune.h	/^	GPA_ADDR_MAP 	= 0x400000000,$/;"	e	enum:__anon2
+GPA_ADDR_PROC	kern/dune.h	/^	GPA_ADDR_PROC	= 0x000000000,$/;"	e	enum:__anon2
+GPA_ADDR_STACK	kern/dune.h	/^	GPA_ADDR_STACK	= 0x800000000,$/;"	e	enum:__anon2
+GPA_MASK	kern/dune.h	35;"	d
+GPA_SIZE	kern/dune.h	34;"	d
+GROW_SIZE	libdune/page.c	15;"	d	file:
+GRP_COMDAT	libdune/elf.h	491;"	d
+Gatedesc	libdune/mmu.h	/^struct Gatedesc {$/;"	s
+HUGE_PAGE_SIZE	kern/ept.c	31;"	d	file:
+HWCAP_SPARC_FLUSH	libdune/elf.h	1456;"	d
+HWCAP_SPARC_MULDIV	libdune/elf.h	1459;"	d
+HWCAP_SPARC_STBAR	libdune/elf.h	1457;"	d
+HWCAP_SPARC_SWAP	libdune/elf.h	1458;"	d
+HWCAP_SPARC_ULTRA3	libdune/elf.h	1461;"	d
+HWCAP_SPARC_V9	libdune/elf.h	1460;"	d
+IDTD_CPL3	libdune/cpu-x86.h	44;"	d
+IDTD_INTERRUPT_GATE	libdune/cpu-x86.h	46;"	d
+IDTD_P	libdune/cpu-x86.h	43;"	d
+IDTD_TRAP_GATE	libdune/cpu-x86.h	45;"	d
+IDT_ENTRIES	libdune/cpu-x86.h	48;"	d
+IN_USERMODE	libdune/dune.S	/^#define IN_USERMODE	(24)$/;"	d
+ISR_LEN	libdune/entry.c	178;"	d	file:
+JOS_MACHINE_MMU_H	libdune/mmu.h	2;"	d
+JOS_MACHINE_MMU_X86_H	libdune/mmu-x86.h	2;"	d
+JOS_MACHINE_TYPES_H	libdune/types.h	2;"	d
+KERNELRELEASE	kern/Makefile	/^KERNELRELEASE := $(shell \\$/;"	m
+KFS_BASE	libdune/dune.S	/^#define KFS_BASE	(8)$/;"	d
+KMISC	kern/Makefile	/^KMISC := \/lib\/modules\/$(KVER)\/kernel\/drivers\/misc$/;"	m
+KMISC_INC	kern/Makefile	/^KMISC_INC := \/lib\/modules\/$(KVER)\/include$/;"	m
+KSRC	kern/Makefile	/^KSRC := \/lib\/modules\/$(KVER)\/build$/;"	m
+KSRC_OUTPUT	kern/Makefile	/^KSRC_OUTPUT := $(KSRC)$/;"	m
+KVER	kern/Makefile	/^KVER  := $(shell uname -r)$/;"	m
+LD	apps/sandbox/Makefile	/^LD	= ld$/;"	m
+LD	apps/ufirewall/Makefile	/^LD	= ld$/;"	m
+LDFLAGS	apps/sandbox/Makefile	/^LDFLAGS = -O2 -L. -L ..\/..\/libdune -lsandbox -ldune -lpthread -T sandbox.ld$/;"	m
+LDFLAGS	apps/ufirewall/Makefile	/^LDFLAGS = -O2 -L ..\/sandbox -L ..\/..\/libdune -lsandbox -ldune -lpthread -T ..\/sandbox\/sandbox.ld$/;"	m
+LDFLAGS	libdune/Makefile	/^LDFLAGS = -static -L. -ldune$/;"	m
+LGPGSIZE	libdune/vm.c	13;"	d	file:
+LG_ALIGN	kern/dune.h	36;"	d
+LIBC	Makefile	/^LIBC	= eglibc-2.14\/eglibc-build\/libc.so$/;"	m
+LIBDUNE	apps/wedge/Makefile	/^LIBDUNE	= ..\/..\/libdune$/;"	m
+LIBS	apps/wedge/Makefile	/^LIBS	= -lsthread -ldune -lpthread$/;"	m
+LITUSE_ALPHA_ADDR	libdune/elf.h	2073;"	d
+LITUSE_ALPHA_BASE	libdune/elf.h	2074;"	d
+LITUSE_ALPHA_BYTOFF	libdune/elf.h	2075;"	d
+LITUSE_ALPHA_JSR	libdune/elf.h	2076;"	d
+LITUSE_ALPHA_TLS_GD	libdune/elf.h	2077;"	d
+LITUSE_ALPHA_TLS_LDM	libdune/elf.h	2078;"	d
+LL_DELAY_LOAD	libdune/elf.h	1836;"	d
+LL_DELTA	libdune/elf.h	1837;"	d
+LL_EXACT_MATCH	libdune/elf.h	1832;"	d
+LL_EXPORTS	libdune/elf.h	1835;"	d
+LL_IGNORE_INT_VER	libdune/elf.h	1833;"	d
+LL_NONE	libdune/elf.h	1831;"	d
+LL_REQUIRE_MINOR	libdune/elf.h	1834;"	d
+LOADER_VADDR_OFF	apps/sandbox/sandbox.h	20;"	d
+MAP_ADDR	bench/bench_dune.c	7;"	d	file:
+MAP_ADDR	bench/bench_dune_ring.c	11;"	d	file:
+MAX_PAGES	libdune/dune.h	130;"	d
+MAX_PHNUM	libdune/elf.c	16;"	d	file:
+MAX_SHNUM	libdune/elf.c	15;"	d	file:
+MAX_SNAME	libdune/elf.c	14;"	d	file:
+MODPATH	kern/Makefile	/^MODPATH := $(DESTDIR)\/lib\/modules\/$(KERNELRELEASE)$/;"	m
+MODVERDIR	kern/Makefile	/^MODVERDIR=$(TMP)\/.tmp_versions$/;"	m
+MSR_DEBUG_CTL	libdune/mmu-x86.h	125;"	d
+MSR_FS_BASE	libdune/cpu-x86.h	33;"	d
+MSR_FS_BASE	libdune/dune.S	/^#define MSR_FS_BASE	0xc0000100$/;"	d
+MSR_FS_BASE	libdune/mmu-x86.h	121;"	d
+MSR_GS_BASE	libdune/cpu-x86.h	34;"	d
+MSR_GS_BASE	libdune/mmu-x86.h	122;"	d
+MSR_KERNEL_GS_BASE	libdune/cpu-x86.h	35;"	d
+MSR_LBR_FROM_IP	libdune/mmu-x86.h	128;"	d
+MSR_LBR_TO_IP	libdune/mmu-x86.h	129;"	d
+MSR_LEX_FROM_IP	libdune/mmu-x86.h	130;"	d
+MSR_LEX_TO_IP	libdune/mmu-x86.h	131;"	d
+MSR_LSTAR	libdune/cpu-x86.h	36;"	d
+MTRR_BASE	libdune/mmu-x86.h	102;"	d
+MTRR_BASE_UC	libdune/mmu-x86.h	103;"	d
+MTRR_BASE_WB	libdune/mmu-x86.h	107;"	d
+MTRR_BASE_WC	libdune/mmu-x86.h	104;"	d
+MTRR_BASE_WP	libdune/mmu-x86.h	106;"	d
+MTRR_BASE_WT	libdune/mmu-x86.h	105;"	d
+MTRR_CAP	libdune/mmu-x86.h	98;"	d
+MTRR_CAP_FIX	libdune/mmu-x86.h	100;"	d
+MTRR_CAP_VCNT_MASK	libdune/mmu-x86.h	99;"	d
+MTRR_CAP_WC	libdune/mmu-x86.h	101;"	d
+MTRR_MASK	libdune/mmu-x86.h	108;"	d
+MTRR_MASK_FULL	libdune/mmu-x86.h	109;"	d
+MTRR_MASK_VALID	libdune/mmu-x86.h	110;"	d
+N	bench/bench.h	6;"	d
+N	bench/bench_dune_ring.c	10;"	d	file:
+NOFPU_OBJ	libdune/Makefile	/^NOFPU_OBJ = trap.o$/;"	m
+NPTBITS	libdune/mmu.h	18;"	d
+NPTENTRIES	libdune/mmu-x86.h	20;"	d
+NPTLVLS	libdune/mmu.h	19;"	d
+NRPGS	bench/bench.h	5;"	d
+NR_AUTOLOAD_MSRS	kern/vmx.h	24;"	d
+NR_GDT_ENTRIES	libdune/dune.h	54;"	d
+NR_REP	apps/wedge/bench.c	19;"	d	file:
+NR_VCPU_REGS	kern/vmx.h	/^	NR_VCPU_REGS$/;"	e	enum:vmx_reg
+NT_ASRS	libdune/elf.h	731;"	d
+NT_AUXV	libdune/elf.h	729;"	d
+NT_FPREGSET	libdune/elf.h	724;"	d
+NT_GWINDOWS	libdune/elf.h	730;"	d
+NT_LWPSINFO	libdune/elf.h	737;"	d
+NT_LWPSTATUS	libdune/elf.h	736;"	d
+NT_PLATFORM	libdune/elf.h	728;"	d
+NT_PRCRED	libdune/elf.h	734;"	d
+NT_PRFPXREG	libdune/elf.h	738;"	d
+NT_PRPSINFO	libdune/elf.h	725;"	d
+NT_PRSTATUS	libdune/elf.h	723;"	d
+NT_PRXREG	libdune/elf.h	726;"	d
+NT_PSINFO	libdune/elf.h	733;"	d
+NT_PSTATUS	libdune/elf.h	732;"	d
+NT_TASKSTRUCT	libdune/elf.h	727;"	d
+NT_UTSNAME	libdune/elf.h	735;"	d
+NT_VERSION	libdune/elf.h	742;"	d
+NULL	libdune/types.h	5;"	d
+NUM_AUX	apps/sandbox/main.c	9;"	d	file:
+NUM_SYSCALLS	kern/vmx.c	73;"	d	file:
+NUM_THREADS	test/test_sandbox.c	11;"	d	file:
+OBJ	apps/sandbox/Makefile	/^OBJ     = main.o umm.o trap.o exec.o$/;"	m
+OBJ	apps/ufirewall/Makefile	/^OBJ     = firewall.o$/;"	m
+OBJ	libdune/Makefile	/^OBJ     = entry.o dune.o vsyscall.o elf.o vm.o util.o page.o procmap.o$/;"	m
+ODK_EXCEPTIONS	libdune/elf.h	1612;"	d
+ODK_FILL	libdune/elf.h	1615;"	d
+ODK_HWAND	libdune/elf.h	1617;"	d
+ODK_HWOR	libdune/elf.h	1618;"	d
+ODK_HWPATCH	libdune/elf.h	1614;"	d
+ODK_NULL	libdune/elf.h	1610;"	d
+ODK_PAD	libdune/elf.h	1613;"	d
+ODK_REGINFO	libdune/elf.h	1611;"	d
+ODK_TAGS	libdune/elf.h	1616;"	d
+OEX_DISMISS	libdune/elf.h	1628;"	d
+OEX_FPDBUG	libdune/elf.h	1626;"	d
+OEX_FPU_DIV0	libdune/elf.h	1631;"	d
+OEX_FPU_INEX	libdune/elf.h	1634;"	d
+OEX_FPU_INVAL	libdune/elf.h	1630;"	d
+OEX_FPU_MAX	libdune/elf.h	1623;"	d
+OEX_FPU_MIN	libdune/elf.h	1622;"	d
+OEX_FPU_OFLO	libdune/elf.h	1632;"	d
+OEX_FPU_UFLO	libdune/elf.h	1633;"	d
+OEX_PAGE0	libdune/elf.h	1624;"	d
+OEX_PRECISEFP	libdune/elf.h	1627;"	d
+OEX_SMM	libdune/elf.h	1625;"	d
+OHWA0_R4KEOP_CHECKED	libdune/elf.h	1657;"	d
+OHWA1_R4KEOP_CLEAN	libdune/elf.h	1658;"	d
+OHW_R4KEOP	libdune/elf.h	1638;"	d
+OHW_R5KCVTL	libdune/elf.h	1641;"	d
+OHW_R5KEOP	libdune/elf.h	1640;"	d
+OHW_R8KPFETCH	libdune/elf.h	1639;"	d
+ONE	libdune/mmu.h	6;"	d
+OPAD_POSTFIX	libdune/elf.h	1644;"	d
+OPAD_PREFIX	libdune/elf.h	1643;"	d
+OPAD_SYMBOL	libdune/elf.h	1645;"	d
+PAGEBASE	libdune/dune.h	129;"	d
+PDADDR	libdune/vm.c	11;"	d	file:
+PDSHIFT	libdune/mmu-x86.h	17;"	d
+PDX	libdune/mmu-x86.h	18;"	d
+PDXMASK	libdune/mmu-x86.h	16;"	d
+PD_SKIP	libdune/mmu.h	20;"	d
+PERM_BIG	libdune/dune.h	204;"	d
+PERM_COW	libdune/dune.h	200;"	d
+PERM_NONE	libdune/dune.h	195;"	d
+PERM_R	libdune/dune.h	196;"	d
+PERM_SCODE	libdune/dune.h	207;"	d
+PERM_SSTACK	libdune/dune.h	209;"	d
+PERM_STEXT	libdune/dune.h	208;"	d
+PERM_U	libdune/dune.h	199;"	d
+PERM_UCODE	libdune/dune.h	210;"	d
+PERM_USR1	libdune/dune.h	201;"	d
+PERM_USR2	libdune/dune.h	202;"	d
+PERM_USR3	libdune/dune.h	203;"	d
+PERM_USTACK	libdune/dune.h	212;"	d
+PERM_UTEXT	libdune/dune.h	211;"	d
+PERM_W	libdune/dune.h	197;"	d
+PERM_X	libdune/dune.h	198;"	d
+PF_ARM_SB	libdune/elf.h	2363;"	d
+PF_EMUTRAMP	libdune/elf.h	714;"	d
+PF_HP_CODE	libdune/elf.h	2007;"	d
+PF_HP_FAR_SHARED	libdune/elf.h	2005;"	d
+PF_HP_LAZYSWAP	libdune/elf.h	2009;"	d
+PF_HP_MODIFY	libdune/elf.h	2008;"	d
+PF_HP_NEAR_SHARED	libdune/elf.h	2006;"	d
+PF_HP_PAGE_SIZE	libdune/elf.h	2004;"	d
+PF_HP_SBP	libdune/elf.h	2010;"	d
+PF_IA_64_NORECOV	libdune/elf.h	2442;"	d
+PF_MASKOS	libdune/elf.h	718;"	d
+PF_MASKPROC	libdune/elf.h	719;"	d
+PF_MIPS_LOCAL	libdune/elf.h	1725;"	d
+PF_MPROTECT	libdune/elf.h	710;"	d
+PF_NOEMUTRAMP	libdune/elf.h	715;"	d
+PF_NOMPROTECT	libdune/elf.h	711;"	d
+PF_NOPAGEEXEC	libdune/elf.h	707;"	d
+PF_NORANDEXEC	libdune/elf.h	713;"	d
+PF_NORANDMMAP	libdune/elf.h	717;"	d
+PF_NOSEGMEXEC	libdune/elf.h	709;"	d
+PF_PAGEEXEC	libdune/elf.h	706;"	d
+PF_PARISC_SBP	libdune/elf.h	2002;"	d
+PF_R	libdune/elf.h	705;"	d
+PF_RANDEXEC	libdune/elf.h	712;"	d
+PF_RANDMMAP	libdune/elf.h	716;"	d
+PF_SEGMEXEC	libdune/elf.h	708;"	d
+PF_W	libdune/elf.h	704;"	d
+PF_X	libdune/elf.h	703;"	d
+PGADDR	libdune/mmu-x86.h	32;"	d
+PGMASK	libdune/mmu-x86.h	28;"	d
+PGOFF	libdune/mmu-x86.h	31;"	d
+PGSHIFT	libdune/mmu-x86.h	26;"	d
+PGSIZE	bench/bench_linux.c	17;"	d	file:
+PGSIZE	libdune/mmu-x86.h	27;"	d
+PPN	libdune/mmu-x86.h	23;"	d
+PRIu64	libdune/types.h	45;"	d
+PRIx64	libdune/types.h	46;"	d
+PROCMAP_TYPE_ANONYMOUS	libdune/dune.h	272;"	d
+PROCMAP_TYPE_FILE	libdune/dune.h	271;"	d
+PROCMAP_TYPE_HEAP	libdune/dune.h	273;"	d
+PROCMAP_TYPE_STACK	libdune/dune.h	274;"	d
+PROCMAP_TYPE_UNKNOWN	libdune/dune.h	270;"	d
+PROCMAP_TYPE_VDSO	libdune/dune.h	276;"	d
+PROCMAP_TYPE_VSYSCALL	libdune/dune.h	275;"	d
+PTE_A	libdune/mmu-x86.h	49;"	d
+PTE_ADDR	libdune/mmu-x86.h	66;"	d
+PTE_AVAIL	libdune/mmu-x86.h	54;"	d
+PTE_AVAIL2	libdune/mmu-x86.h	56;"	d
+PTE_COW	libdune/mmu-x86.h	60;"	d
+PTE_D	libdune/mmu-x86.h	50;"	d
+PTE_DEF_FLAGS	libdune/vm.c	12;"	d	file:
+PTE_FLAGS	libdune/mmu-x86.h	67;"	d
+PTE_G	libdune/mmu-x86.h	53;"	d
+PTE_NX	libdune/mmu-x86.h	57;"	d
+PTE_P	libdune/mmu-x86.h	44;"	d
+PTE_PAT	libdune/mmu-x86.h	52;"	d
+PTE_PAT_PS	libdune/mmu-x86.h	55;"	d
+PTE_PCD	libdune/mmu-x86.h	48;"	d
+PTE_PS	libdune/mmu-x86.h	51;"	d
+PTE_PWT	libdune/mmu-x86.h	47;"	d
+PTE_U	libdune/mmu-x86.h	46;"	d
+PTE_USR1	libdune/mmu-x86.h	61;"	d
+PTE_USR2	libdune/mmu-x86.h	62;"	d
+PTE_USR3	libdune/mmu-x86.h	63;"	d
+PTE_W	libdune/mmu-x86.h	45;"	d
+PT_ARM_EXIDX	libdune/elf.h	2367;"	d
+PT_DYNAMIC	libdune/elf.h	681;"	d
+PT_GNU_EH_FRAME	libdune/elf.h	689;"	d
+PT_GNU_RELRO	libdune/elf.h	691;"	d
+PT_GNU_STACK	libdune/elf.h	690;"	d
+PT_HIOS	libdune/elf.h	697;"	d
+PT_HIPROC	libdune/elf.h	699;"	d
+PT_HISUNW	libdune/elf.h	696;"	d
+PT_HP_CORE_COMM	libdune/elf.h	1985;"	d
+PT_HP_CORE_KERNEL	libdune/elf.h	1984;"	d
+PT_HP_CORE_LOADABLE	libdune/elf.h	1987;"	d
+PT_HP_CORE_MMF	libdune/elf.h	1990;"	d
+PT_HP_CORE_NONE	libdune/elf.h	1982;"	d
+PT_HP_CORE_PROC	libdune/elf.h	1986;"	d
+PT_HP_CORE_SHM	libdune/elf.h	1989;"	d
+PT_HP_CORE_STACK	libdune/elf.h	1988;"	d
+PT_HP_CORE_VERSION	libdune/elf.h	1983;"	d
+PT_HP_FASTBIND	libdune/elf.h	1992;"	d
+PT_HP_HSL_ANNOT	libdune/elf.h	1994;"	d
+PT_HP_OPT_ANNOT	libdune/elf.h	1993;"	d
+PT_HP_PARALLEL	libdune/elf.h	1991;"	d
+PT_HP_STACK	libdune/elf.h	1995;"	d
+PT_HP_TLS	libdune/elf.h	1981;"	d
+PT_IA_64_ARCHEXT	libdune/elf.h	2435;"	d
+PT_IA_64_HP_HSL_ANOT	libdune/elf.h	2438;"	d
+PT_IA_64_HP_OPT_ANOT	libdune/elf.h	2437;"	d
+PT_IA_64_HP_STACK	libdune/elf.h	2439;"	d
+PT_IA_64_UNWIND	libdune/elf.h	2436;"	d
+PT_INTERP	libdune/elf.h	682;"	d
+PT_LOAD	libdune/elf.h	680;"	d
+PT_LOOS	libdune/elf.h	688;"	d
+PT_LOPROC	libdune/elf.h	698;"	d
+PT_LOSUNW	libdune/elf.h	693;"	d
+PT_MIPS_OPTIONS	libdune/elf.h	1721;"	d
+PT_MIPS_REGINFO	libdune/elf.h	1719;"	d
+PT_MIPS_RTPROC	libdune/elf.h	1720;"	d
+PT_NOTE	libdune/elf.h	683;"	d
+PT_NULL	libdune/elf.h	679;"	d
+PT_NUM	libdune/elf.h	687;"	d
+PT_PARISC_ARCHEXT	libdune/elf.h	1997;"	d
+PT_PARISC_UNWIND	libdune/elf.h	1998;"	d
+PT_PAX_FLAGS	libdune/elf.h	692;"	d
+PT_PHDR	libdune/elf.h	685;"	d
+PT_SHLIB	libdune/elf.h	684;"	d
+PT_SUNWBSS	libdune/elf.h	694;"	d
+PT_SUNWSTACK	libdune/elf.h	695;"	d
+PT_TLS	libdune/elf.h	686;"	d
+PWD	kern/Makefile	/^PWD=$(shell pwd)$/;"	m
+PhdrType	libdune/elf.c	/^static const char *PhdrType[PT_NUM] = {$/;"	v	file:
+Pseudodesc	libdune/mmu.h	/^struct Pseudodesc {$/;"	s
+Q	kern/vmx.c	1230;"	d	file:
+Q	kern/vmx.c	1233;"	d	file:
+R	kern/vmx.c	1229;"	d	file:
+R	kern/vmx.c	1232;"	d	file:
+R10	libdune/dune.S	/^#define R10	(48)$/;"	d
+R11	libdune/dune.S	/^#define R11	(56)$/;"	d
+R12	libdune/dune.S	/^#define R12	(80)$/;"	d
+R13	libdune/dune.S	/^#define R13	(88)$/;"	d
+R14	libdune/dune.S	/^#define R14	(96)$/;"	d
+R15	libdune/dune.S	/^#define R15	(104)$/;"	d
+R8	libdune/dune.S	/^#define R8	(32)$/;"	d
+R9	libdune/dune.S	/^#define R9	(40)$/;"	d
+RANLIB	apps/sandbox/Makefile	/^RANLIB	= ranlib$/;"	m
+RANLIB	apps/ufirewall/Makefile	/^RANLIB	= ranlib$/;"	m
+RANLIB	apps/wedge/Makefile	/^RANLIB	= ranlib$/;"	m
+RAX	libdune/dune.S	/^#define RAX	(112)$/;"	d
+RBP	libdune/dune.S	/^#define RBP	(72)$/;"	d
+RBX	libdune/dune.S	/^#define RBX	(64)$/;"	d
+RCS_FIND_IGNORE	kern/Makefile	/^RCS_FIND_IGNORE := \\( -name SCCS -o -name BitKeeper -o -name .svn -o -name CVS \\) -prune -o$/;"	m
+RCX	libdune/dune.S	/^#define RCX	(24)$/;"	d
+RDI	libdune/dune.S	/^#define RDI	(0)$/;"	d
+RDX	libdune/dune.S	/^#define RDX	(16)$/;"	d
+REG_END	libdune/dune.S	/^#define REG_END	(112)$/;"	d
+RFLAGS	libdune/dune.S	/^#define RFLAGS	(144)$/;"	d
+RHF_CORD	libdune/elf.h	1804;"	d
+RHF_DEFAULT_DELAY_LOAD	libdune/elf.h	1801;"	d
+RHF_DELTA_C_PLUS_PLUS	libdune/elf.h	1798;"	d
+RHF_GUARANTEE_INIT	libdune/elf.h	1797;"	d
+RHF_GUARANTEE_START_INIT	libdune/elf.h	1799;"	d
+RHF_NONE	libdune/elf.h	1791;"	d
+RHF_NOTPOT	libdune/elf.h	1793;"	d
+RHF_NO_LIBRARY_REPLACEMENT	libdune/elf.h	1794;"	d
+RHF_NO_MOVE	libdune/elf.h	1795;"	d
+RHF_NO_UNRES_UNDEF	libdune/elf.h	1805;"	d
+RHF_PIXIE	libdune/elf.h	1800;"	d
+RHF_QUICKSTART	libdune/elf.h	1792;"	d
+RHF_REQUICKSTART	libdune/elf.h	1802;"	d
+RHF_REQUICKSTARTED	libdune/elf.h	1803;"	d
+RHF_RLD_ORDER_SAFE	libdune/elf.h	1806;"	d
+RHF_SGI_ONLY	libdune/elf.h	1796;"	d
+RIP	libdune/dune.S	/^#define RIP	(128)$/;"	d
+RSI	libdune/dune.S	/^#define RSI	(8)$/;"	d
+RSP	libdune/dune.S	/^#define RSP	(152)$/;"	d
+R_386_16	libdune/elf.h	1252;"	d
+R_386_32	libdune/elf.h	1229;"	d
+R_386_32PLT	libdune/elf.h	1239;"	d
+R_386_8	libdune/elf.h	1254;"	d
+R_386_COPY	libdune/elf.h	1233;"	d
+R_386_GLOB_DAT	libdune/elf.h	1234;"	d
+R_386_GOT32	libdune/elf.h	1231;"	d
+R_386_GOTOFF	libdune/elf.h	1237;"	d
+R_386_GOTPC	libdune/elf.h	1238;"	d
+R_386_JMP_SLOT	libdune/elf.h	1235;"	d
+R_386_NONE	libdune/elf.h	1228;"	d
+R_386_NUM	libdune/elf.h	1277;"	d
+R_386_PC16	libdune/elf.h	1253;"	d
+R_386_PC32	libdune/elf.h	1230;"	d
+R_386_PC8	libdune/elf.h	1255;"	d
+R_386_PLT32	libdune/elf.h	1232;"	d
+R_386_RELATIVE	libdune/elf.h	1236;"	d
+R_386_TLS_DTPMOD32	libdune/elf.h	1273;"	d
+R_386_TLS_DTPOFF32	libdune/elf.h	1274;"	d
+R_386_TLS_GD	libdune/elf.h	1247;"	d
+R_386_TLS_GD_32	libdune/elf.h	1256;"	d
+R_386_TLS_GD_CALL	libdune/elf.h	1259;"	d
+R_386_TLS_GD_POP	libdune/elf.h	1261;"	d
+R_386_TLS_GD_PUSH	libdune/elf.h	1258;"	d
+R_386_TLS_GOTIE	libdune/elf.h	1243;"	d
+R_386_TLS_IE	libdune/elf.h	1241;"	d
+R_386_TLS_IE_32	libdune/elf.h	1269;"	d
+R_386_TLS_LDM	libdune/elf.h	1249;"	d
+R_386_TLS_LDM_32	libdune/elf.h	1262;"	d
+R_386_TLS_LDM_CALL	libdune/elf.h	1265;"	d
+R_386_TLS_LDM_POP	libdune/elf.h	1267;"	d
+R_386_TLS_LDM_PUSH	libdune/elf.h	1264;"	d
+R_386_TLS_LDO_32	libdune/elf.h	1268;"	d
+R_386_TLS_LE	libdune/elf.h	1245;"	d
+R_386_TLS_LE_32	libdune/elf.h	1271;"	d
+R_386_TLS_TPOFF	libdune/elf.h	1240;"	d
+R_386_TLS_TPOFF32	libdune/elf.h	1275;"	d
+R_390_12	libdune/elf.h	2599;"	d
+R_390_16	libdune/elf.h	2600;"	d
+R_390_20	libdune/elf.h	2671;"	d
+R_390_32	libdune/elf.h	2601;"	d
+R_390_64	libdune/elf.h	2619;"	d
+R_390_8	libdune/elf.h	2598;"	d
+R_390_COPY	libdune/elf.h	2606;"	d
+R_390_GLOB_DAT	libdune/elf.h	2607;"	d
+R_390_GOT12	libdune/elf.h	2603;"	d
+R_390_GOT16	libdune/elf.h	2612;"	d
+R_390_GOT20	libdune/elf.h	2672;"	d
+R_390_GOT32	libdune/elf.h	2604;"	d
+R_390_GOT64	libdune/elf.h	2621;"	d
+R_390_GOTENT	libdune/elf.h	2623;"	d
+R_390_GOTOFF16	libdune/elf.h	2624;"	d
+R_390_GOTOFF32	libdune/elf.h	2610;"	d
+R_390_GOTOFF64	libdune/elf.h	2625;"	d
+R_390_GOTPC	libdune/elf.h	2611;"	d
+R_390_GOTPCDBL	libdune/elf.h	2618;"	d
+R_390_GOTPLT12	libdune/elf.h	2626;"	d
+R_390_GOTPLT16	libdune/elf.h	2627;"	d
+R_390_GOTPLT20	libdune/elf.h	2673;"	d
+R_390_GOTPLT32	libdune/elf.h	2628;"	d
+R_390_GOTPLT64	libdune/elf.h	2629;"	d
+R_390_GOTPLTENT	libdune/elf.h	2630;"	d
+R_390_JMP_SLOT	libdune/elf.h	2608;"	d
+R_390_NONE	libdune/elf.h	2597;"	d
+R_390_NUM	libdune/elf.h	2677;"	d
+R_390_PC16	libdune/elf.h	2613;"	d
+R_390_PC16DBL	libdune/elf.h	2614;"	d
+R_390_PC32	libdune/elf.h	2602;"	d
+R_390_PC32DBL	libdune/elf.h	2616;"	d
+R_390_PC64	libdune/elf.h	2620;"	d
+R_390_PLT16DBL	libdune/elf.h	2615;"	d
+R_390_PLT32	libdune/elf.h	2605;"	d
+R_390_PLT32DBL	libdune/elf.h	2617;"	d
+R_390_PLT64	libdune/elf.h	2622;"	d
+R_390_PLTOFF16	libdune/elf.h	2631;"	d
+R_390_PLTOFF32	libdune/elf.h	2632;"	d
+R_390_PLTOFF64	libdune/elf.h	2633;"	d
+R_390_RELATIVE	libdune/elf.h	2609;"	d
+R_390_TLS_DTPMOD	libdune/elf.h	2667;"	d
+R_390_TLS_DTPOFF	libdune/elf.h	2668;"	d
+R_390_TLS_GD32	libdune/elf.h	2639;"	d
+R_390_TLS_GD64	libdune/elf.h	2641;"	d
+R_390_TLS_GDCALL	libdune/elf.h	2635;"	d
+R_390_TLS_GOTIE12	libdune/elf.h	2643;"	d
+R_390_TLS_GOTIE20	libdune/elf.h	2674;"	d
+R_390_TLS_GOTIE32	libdune/elf.h	2645;"	d
+R_390_TLS_GOTIE64	libdune/elf.h	2647;"	d
+R_390_TLS_IE32	libdune/elf.h	2653;"	d
+R_390_TLS_IE64	libdune/elf.h	2655;"	d
+R_390_TLS_IEENT	libdune/elf.h	2657;"	d
+R_390_TLS_LDCALL	libdune/elf.h	2637;"	d
+R_390_TLS_LDM32	libdune/elf.h	2649;"	d
+R_390_TLS_LDM64	libdune/elf.h	2651;"	d
+R_390_TLS_LDO32	libdune/elf.h	2663;"	d
+R_390_TLS_LDO64	libdune/elf.h	2665;"	d
+R_390_TLS_LE32	libdune/elf.h	2659;"	d
+R_390_TLS_LE64	libdune/elf.h	2661;"	d
+R_390_TLS_LOAD	libdune/elf.h	2634;"	d
+R_390_TLS_TPOFF	libdune/elf.h	2669;"	d
+R_68K_16	libdune/elf.h	1200;"	d
+R_68K_32	libdune/elf.h	1199;"	d
+R_68K_8	libdune/elf.h	1201;"	d
+R_68K_COPY	libdune/elf.h	1217;"	d
+R_68K_GLOB_DAT	libdune/elf.h	1218;"	d
+R_68K_GOT16	libdune/elf.h	1206;"	d
+R_68K_GOT16O	libdune/elf.h	1209;"	d
+R_68K_GOT32	libdune/elf.h	1205;"	d
+R_68K_GOT32O	libdune/elf.h	1208;"	d
+R_68K_GOT8	libdune/elf.h	1207;"	d
+R_68K_GOT8O	libdune/elf.h	1210;"	d
+R_68K_JMP_SLOT	libdune/elf.h	1219;"	d
+R_68K_NONE	libdune/elf.h	1198;"	d
+R_68K_NUM	libdune/elf.h	1222;"	d
+R_68K_PC16	libdune/elf.h	1203;"	d
+R_68K_PC32	libdune/elf.h	1202;"	d
+R_68K_PC8	libdune/elf.h	1204;"	d
+R_68K_PLT16	libdune/elf.h	1212;"	d
+R_68K_PLT16O	libdune/elf.h	1215;"	d
+R_68K_PLT32	libdune/elf.h	1211;"	d
+R_68K_PLT32O	libdune/elf.h	1214;"	d
+R_68K_PLT8	libdune/elf.h	1213;"	d
+R_68K_PLT8O	libdune/elf.h	1216;"	d
+R_68K_RELATIVE	libdune/elf.h	1220;"	d
+R_960_12	libdune/elf.h	2830;"	d
+R_960_32	libdune/elf.h	2831;"	d
+R_960_IP24	libdune/elf.h	2832;"	d
+R_960_NONE	libdune/elf.h	2829;"	d
+R_960_NUM	libdune/elf.h	2838;"	d
+R_960_OPTCALL	libdune/elf.h	2834;"	d
+R_960_OPTCALLX	libdune/elf.h	2835;"	d
+R_960_OPTCALLXA	libdune/elf.h	2836;"	d
+R_960_SUB	libdune/elf.h	2833;"	d
+R_ALPHA_BRADDR	libdune/elf.h	2043;"	d
+R_ALPHA_COPY	libdune/elf.h	2051;"	d
+R_ALPHA_DTPMOD64	libdune/elf.h	2058;"	d
+R_ALPHA_DTPREL16	libdune/elf.h	2063;"	d
+R_ALPHA_DTPREL64	libdune/elf.h	2060;"	d
+R_ALPHA_DTPRELHI	libdune/elf.h	2061;"	d
+R_ALPHA_DTPRELLO	libdune/elf.h	2062;"	d
+R_ALPHA_GLOB_DAT	libdune/elf.h	2052;"	d
+R_ALPHA_GOTDTPREL	libdune/elf.h	2059;"	d
+R_ALPHA_GOTTPREL	libdune/elf.h	2064;"	d
+R_ALPHA_GPDISP	libdune/elf.h	2042;"	d
+R_ALPHA_GPREL16	libdune/elf.h	2050;"	d
+R_ALPHA_GPREL32	libdune/elf.h	2039;"	d
+R_ALPHA_GPRELHIGH	libdune/elf.h	2048;"	d
+R_ALPHA_GPRELLOW	libdune/elf.h	2049;"	d
+R_ALPHA_HINT	libdune/elf.h	2044;"	d
+R_ALPHA_JMP_SLOT	libdune/elf.h	2053;"	d
+R_ALPHA_LITERAL	libdune/elf.h	2040;"	d
+R_ALPHA_LITUSE	libdune/elf.h	2041;"	d
+R_ALPHA_NONE	libdune/elf.h	2036;"	d
+R_ALPHA_NUM	libdune/elf.h	2070;"	d
+R_ALPHA_REFLONG	libdune/elf.h	2037;"	d
+R_ALPHA_REFQUAD	libdune/elf.h	2038;"	d
+R_ALPHA_RELATIVE	libdune/elf.h	2054;"	d
+R_ALPHA_SREL16	libdune/elf.h	2045;"	d
+R_ALPHA_SREL32	libdune/elf.h	2046;"	d
+R_ALPHA_SREL64	libdune/elf.h	2047;"	d
+R_ALPHA_TLSGD	libdune/elf.h	2056;"	d
+R_ALPHA_TLS_GD_HI	libdune/elf.h	2055;"	d
+R_ALPHA_TLS_LDM	libdune/elf.h	2057;"	d
+R_ALPHA_TPREL16	libdune/elf.h	2068;"	d
+R_ALPHA_TPREL64	libdune/elf.h	2065;"	d
+R_ALPHA_TPRELHI	libdune/elf.h	2066;"	d
+R_ALPHA_TPRELLO	libdune/elf.h	2067;"	d
+R_ARM_ABS12	libdune/elf.h	2377;"	d
+R_ARM_ABS16	libdune/elf.h	2376;"	d
+R_ARM_ABS32	libdune/elf.h	2373;"	d
+R_ARM_ABS8	libdune/elf.h	2379;"	d
+R_ARM_ALU_PCREL_15_8	libdune/elf.h	2400;"	d
+R_ARM_ALU_PCREL_23_15	libdune/elf.h	2401;"	d
+R_ARM_ALU_PCREL_7_0	libdune/elf.h	2399;"	d
+R_ARM_ALU_SBREL_19_12	libdune/elf.h	2403;"	d
+R_ARM_ALU_SBREL_27_20	libdune/elf.h	2404;"	d
+R_ARM_AMP_VCALL9	libdune/elf.h	2383;"	d
+R_ARM_COPY	libdune/elf.h	2391;"	d
+R_ARM_GLOB_DAT	libdune/elf.h	2392;"	d
+R_ARM_GNU_VTENTRY	libdune/elf.h	2405;"	d
+R_ARM_GNU_VTINHERIT	libdune/elf.h	2406;"	d
+R_ARM_GOT32	libdune/elf.h	2397;"	d
+R_ARM_GOTOFF	libdune/elf.h	2395;"	d
+R_ARM_GOTPC	libdune/elf.h	2396;"	d
+R_ARM_JUMP_SLOT	libdune/elf.h	2393;"	d
+R_ARM_LDR_SBREL_11_0	libdune/elf.h	2402;"	d
+R_ARM_NONE	libdune/elf.h	2371;"	d
+R_ARM_NUM	libdune/elf.h	2425;"	d
+R_ARM_PC13	libdune/elf.h	2375;"	d
+R_ARM_PC24	libdune/elf.h	2372;"	d
+R_ARM_PLT32	libdune/elf.h	2398;"	d
+R_ARM_RABS22	libdune/elf.h	2421;"	d
+R_ARM_RBASE	libdune/elf.h	2423;"	d
+R_ARM_REL32	libdune/elf.h	2374;"	d
+R_ARM_RELATIVE	libdune/elf.h	2394;"	d
+R_ARM_RPC24	libdune/elf.h	2422;"	d
+R_ARM_RREL32	libdune/elf.h	2420;"	d
+R_ARM_RSBREL32	libdune/elf.h	2418;"	d
+R_ARM_RXPC25	libdune/elf.h	2417;"	d
+R_ARM_SBREL32	libdune/elf.h	2380;"	d
+R_ARM_SWI24	libdune/elf.h	2384;"	d
+R_ARM_THM_ABS5	libdune/elf.h	2378;"	d
+R_ARM_THM_PC11	libdune/elf.h	2407;"	d
+R_ARM_THM_PC22	libdune/elf.h	2381;"	d
+R_ARM_THM_PC8	libdune/elf.h	2382;"	d
+R_ARM_THM_PC9	libdune/elf.h	2408;"	d
+R_ARM_THM_RPC22	libdune/elf.h	2419;"	d
+R_ARM_THM_SWI8	libdune/elf.h	2385;"	d
+R_ARM_THM_XPC22	libdune/elf.h	2387;"	d
+R_ARM_TLS_DTPMOD32	libdune/elf.h	2388;"	d
+R_ARM_TLS_DTPOFF32	libdune/elf.h	2389;"	d
+R_ARM_TLS_GD32	libdune/elf.h	2409;"	d
+R_ARM_TLS_IE12GP	libdune/elf.h	2416;"	d
+R_ARM_TLS_IE32	libdune/elf.h	2412;"	d
+R_ARM_TLS_LDM32	libdune/elf.h	2410;"	d
+R_ARM_TLS_LDO12	libdune/elf.h	2414;"	d
+R_ARM_TLS_LDO32	libdune/elf.h	2411;"	d
+R_ARM_TLS_LE12	libdune/elf.h	2415;"	d
+R_ARM_TLS_LE32	libdune/elf.h	2413;"	d
+R_ARM_TLS_TPOFF32	libdune/elf.h	2390;"	d
+R_ARM_XPC25	libdune/elf.h	2386;"	d
+R_AVR32_10UW_PCREL	libdune/elf.h	2900;"	d
+R_AVR32_11H_PCREL	libdune/elf.h	2899;"	d
+R_AVR32_14UW_PCREL	libdune/elf.h	2898;"	d
+R_AVR32_16	libdune/elf.h	2878;"	d
+R_AVR32_16B_PCREL	libdune/elf.h	2896;"	d
+R_AVR32_16N_PCREL	libdune/elf.h	2897;"	d
+R_AVR32_16S	libdune/elf.h	2891;"	d
+R_AVR32_16U	libdune/elf.h	2890;"	d
+R_AVR32_16_CP	libdune/elf.h	2914;"	d
+R_AVR32_16_PCREL	libdune/elf.h	2881;"	d
+R_AVR32_18W_PCREL	libdune/elf.h	2895;"	d
+R_AVR32_21S	libdune/elf.h	2889;"	d
+R_AVR32_22H_PCREL	libdune/elf.h	2894;"	d
+R_AVR32_32	libdune/elf.h	2877;"	d
+R_AVR32_32_CPENT	libdune/elf.h	2912;"	d
+R_AVR32_32_PCREL	libdune/elf.h	2880;"	d
+R_AVR32_8	libdune/elf.h	2879;"	d
+R_AVR32_8S	libdune/elf.h	2892;"	d
+R_AVR32_8S_EXT	libdune/elf.h	2893;"	d
+R_AVR32_8_PCREL	libdune/elf.h	2882;"	d
+R_AVR32_9H_PCREL	libdune/elf.h	2901;"	d
+R_AVR32_9UW_PCREL	libdune/elf.h	2902;"	d
+R_AVR32_9W_CP	libdune/elf.h	2915;"	d
+R_AVR32_ALIGN	libdune/elf.h	2919;"	d
+R_AVR32_CPCALL	libdune/elf.h	2913;"	d
+R_AVR32_DIFF16	libdune/elf.h	2884;"	d
+R_AVR32_DIFF32	libdune/elf.h	2883;"	d
+R_AVR32_DIFF8	libdune/elf.h	2885;"	d
+R_AVR32_GLOB_DAT	libdune/elf.h	2917;"	d
+R_AVR32_GOT16	libdune/elf.h	2887;"	d
+R_AVR32_GOT16S	libdune/elf.h	2910;"	d
+R_AVR32_GOT18SW	libdune/elf.h	2909;"	d
+R_AVR32_GOT21S	libdune/elf.h	2908;"	d
+R_AVR32_GOT32	libdune/elf.h	2886;"	d
+R_AVR32_GOT7UW	libdune/elf.h	2911;"	d
+R_AVR32_GOT8	libdune/elf.h	2888;"	d
+R_AVR32_GOTCALL	libdune/elf.h	2906;"	d
+R_AVR32_GOTPC	libdune/elf.h	2905;"	d
+R_AVR32_HI16	libdune/elf.h	2903;"	d
+R_AVR32_JMP_SLOT	libdune/elf.h	2918;"	d
+R_AVR32_LDA_GOT	libdune/elf.h	2907;"	d
+R_AVR32_LO16	libdune/elf.h	2904;"	d
+R_AVR32_NONE	libdune/elf.h	2876;"	d
+R_AVR32_NUM	libdune/elf.h	2920;"	d
+R_AVR32_RELATIVE	libdune/elf.h	2916;"	d
+R_BFIN_BYTE2_DATA	libdune/elf.h	1297;"	d
+R_BFIN_BYTE4_DATA	libdune/elf.h	1298;"	d
+R_BFIN_BYTE_DATA	libdune/elf.h	1296;"	d
+R_BFIN_FUNCDESC	libdune/elf.h	1304;"	d
+R_BFIN_FUNCDESC_GOT17M4	libdune/elf.h	1305;"	d
+R_BFIN_FUNCDESC_GOTHI	libdune/elf.h	1306;"	d
+R_BFIN_FUNCDESC_GOTLO	libdune/elf.h	1307;"	d
+R_BFIN_FUNCDESC_GOTOFF17M4	libdune/elf.h	1309;"	d
+R_BFIN_FUNCDESC_GOTOFFHI	libdune/elf.h	1310;"	d
+R_BFIN_FUNCDESC_GOTOFFLO	libdune/elf.h	1311;"	d
+R_BFIN_FUNCDESC_VALUE	libdune/elf.h	1308;"	d
+R_BFIN_GOT17M4	libdune/elf.h	1301;"	d
+R_BFIN_GOTHI	libdune/elf.h	1302;"	d
+R_BFIN_GOTLO	libdune/elf.h	1303;"	d
+R_BFIN_GOTOFF17M4	libdune/elf.h	1312;"	d
+R_BFIN_GOTOFFHI	libdune/elf.h	1313;"	d
+R_BFIN_GOTOFFLO	libdune/elf.h	1314;"	d
+R_BFIN_HUIMM16	libdune/elf.h	1287;"	d
+R_BFIN_LUIMM16	libdune/elf.h	1286;"	d
+R_BFIN_PCREL10	libdune/elf.h	1283;"	d
+R_BFIN_PCREL11	libdune/elf.h	1299;"	d
+R_BFIN_PCREL12_JUMP	libdune/elf.h	1284;"	d
+R_BFIN_PCREL12_JUMP_S	libdune/elf.h	1288;"	d
+R_BFIN_PCREL24	libdune/elf.h	1290;"	d
+R_BFIN_PCREL24_CALL_X	libdune/elf.h	1294;"	d
+R_BFIN_PCREL24_JUMP_L	libdune/elf.h	1293;"	d
+R_BFIN_PCREL24_JUMP_X	libdune/elf.h	1289;"	d
+R_BFIN_PCREL5M2	libdune/elf.h	1281;"	d
+R_BFIN_RIMM16	libdune/elf.h	1285;"	d
+R_BFIN_UNUSED0	libdune/elf.h	1280;"	d
+R_BFIN_UNUSED1	libdune/elf.h	1282;"	d
+R_BFIN_UNUSEDB	libdune/elf.h	1291;"	d
+R_BFIN_UNUSEDC	libdune/elf.h	1292;"	d
+R_BFIN_var_eq_symb	libdune/elf.h	1295;"	d
+R_C6000_ABS16	libdune/elf.h	3080;"	d
+R_C6000_ABS32	libdune/elf.h	3079;"	d
+R_C6000_ABS8	libdune/elf.h	3081;"	d
+R_C6000_ABS_H16	libdune/elf.h	3088;"	d
+R_C6000_ABS_L16	libdune/elf.h	3087;"	d
+R_C6000_ABS_S16	libdune/elf.h	3086;"	d
+R_C6000_ALIGN	libdune/elf.h	3109;"	d
+R_C6000_COPY	libdune/elf.h	3104;"	d
+R_C6000_DSBT_INDEX	libdune/elf.h	3102;"	d
+R_C6000_FPHEAD	libdune/elf.h	3110;"	d
+R_C6000_JUMP_SLOT	libdune/elf.h	3105;"	d
+R_C6000_NOCMP	libdune/elf.h	3111;"	d
+R_C6000_NONE	libdune/elf.h	3078;"	d
+R_C6000_PCR_H16	libdune/elf.h	3107;"	d
+R_C6000_PCR_L16	libdune/elf.h	3108;"	d
+R_C6000_PCR_S10	libdune/elf.h	3084;"	d
+R_C6000_PCR_S12	libdune/elf.h	3083;"	d
+R_C6000_PCR_S21	libdune/elf.h	3082;"	d
+R_C6000_PCR_S7	libdune/elf.h	3085;"	d
+R_C6000_PREL31	libdune/elf.h	3103;"	d
+R_C6000_SBR_GOT32	libdune/elf.h	3106;"	d
+R_C6000_SBR_GOT_H16_W	libdune/elf.h	3101;"	d
+R_C6000_SBR_GOT_L16_W	libdune/elf.h	3100;"	d
+R_C6000_SBR_GOT_U15_W	libdune/elf.h	3099;"	d
+R_C6000_SBR_H16_B	libdune/elf.h	3096;"	d
+R_C6000_SBR_H16_H	libdune/elf.h	3097;"	d
+R_C6000_SBR_H16_W	libdune/elf.h	3098;"	d
+R_C6000_SBR_L16_B	libdune/elf.h	3093;"	d
+R_C6000_SBR_L16_H	libdune/elf.h	3094;"	d
+R_C6000_SBR_L16_W	libdune/elf.h	3095;"	d
+R_C6000_SBR_S16	libdune/elf.h	3092;"	d
+R_C6000_SBR_U15_B	libdune/elf.h	3089;"	d
+R_C6000_SBR_U15_H	libdune/elf.h	3090;"	d
+R_C6000_SBR_U15_W	libdune/elf.h	3091;"	d
+R_CRIS_16	libdune/elf.h	2689;"	d
+R_CRIS_16_GOT	libdune/elf.h	2700;"	d
+R_CRIS_16_GOTPLT	libdune/elf.h	2702;"	d
+R_CRIS_16_PCREL	libdune/elf.h	2692;"	d
+R_CRIS_32	libdune/elf.h	2690;"	d
+R_CRIS_32_GOT	libdune/elf.h	2701;"	d
+R_CRIS_32_GOTPLT	libdune/elf.h	2703;"	d
+R_CRIS_32_GOTREL	libdune/elf.h	2704;"	d
+R_CRIS_32_PCREL	libdune/elf.h	2693;"	d
+R_CRIS_32_PLT_GOTREL	libdune/elf.h	2705;"	d
+R_CRIS_32_PLT_PCREL	libdune/elf.h	2706;"	d
+R_CRIS_8	libdune/elf.h	2688;"	d
+R_CRIS_8_PCREL	libdune/elf.h	2691;"	d
+R_CRIS_COPY	libdune/elf.h	2696;"	d
+R_CRIS_GLOB_DAT	libdune/elf.h	2697;"	d
+R_CRIS_GNU_VTENTRY	libdune/elf.h	2695;"	d
+R_CRIS_GNU_VTINHERIT	libdune/elf.h	2694;"	d
+R_CRIS_JUMP_SLOT	libdune/elf.h	2698;"	d
+R_CRIS_NONE	libdune/elf.h	2687;"	d
+R_CRIS_NUM	libdune/elf.h	2709;"	d
+R_CRIS_RELATIVE	libdune/elf.h	2699;"	d
+R_FRV_32	libdune/elf.h	1323;"	d
+R_FRV_FUNCDESC	libdune/elf.h	1325;"	d
+R_FRV_FUNCDESC_VALUE	libdune/elf.h	1327;"	d
+R_FRV_NONE	libdune/elf.h	1322;"	d
+R_H8_ABS32	libdune/elf.h	2967;"	d
+R_H8_ABS32A16	libdune/elf.h	2968;"	d
+R_H8_BPOS	libdune/elf.h	2958;"	d
+R_H8_DIR16	libdune/elf.h	2942;"	d
+R_H8_DIR16A8	libdune/elf.h	2962;"	d
+R_H8_DIR16R8	libdune/elf.h	2963;"	d
+R_H8_DIR16S	libdune/elf.h	2948;"	d
+R_H8_DIR16S_20	libdune/elf.h	2947;"	d
+R_H8_DIR16S_24	libdune/elf.h	2946;"	d
+R_H8_DIR16S_28	libdune/elf.h	2945;"	d
+R_H8_DIR16S_32	libdune/elf.h	2944;"	d
+R_H8_DIR16U	libdune/elf.h	2943;"	d
+R_H8_DIR24	libdune/elf.h	2936;"	d
+R_H8_DIR24A8	libdune/elf.h	2964;"	d
+R_H8_DIR24R8	libdune/elf.h	2965;"	d
+R_H8_DIR24U	libdune/elf.h	2939;"	d
+R_H8_DIR24U_16	libdune/elf.h	2941;"	d
+R_H8_DIR24U_20	libdune/elf.h	2940;"	d
+R_H8_DIR24_16	libdune/elf.h	2938;"	d
+R_H8_DIR24_20	libdune/elf.h	2937;"	d
+R_H8_DIR32	libdune/elf.h	2927;"	d
+R_H8_DIR32A16	libdune/elf.h	2966;"	d
+R_H8_DIR32U	libdune/elf.h	2931;"	d
+R_H8_DIR32U_16	libdune/elf.h	2935;"	d
+R_H8_DIR32U_20	libdune/elf.h	2934;"	d
+R_H8_DIR32U_24	libdune/elf.h	2933;"	d
+R_H8_DIR32U_28	libdune/elf.h	2932;"	d
+R_H8_DIR32_16	libdune/elf.h	2930;"	d
+R_H8_DIR32_24	libdune/elf.h	2929;"	d
+R_H8_DIR32_28	libdune/elf.h	2928;"	d
+R_H8_DIR8	libdune/elf.h	2949;"	d
+R_H8_DIR8U	libdune/elf.h	2950;"	d
+R_H8_DIR8Z_16	libdune/elf.h	2955;"	d
+R_H8_DIR8Z_20	libdune/elf.h	2954;"	d
+R_H8_DIR8Z_24	libdune/elf.h	2953;"	d
+R_H8_DIR8Z_28	libdune/elf.h	2952;"	d
+R_H8_DIR8Z_32	libdune/elf.h	2951;"	d
+R_H8_GOT16O	libdune/elf.h	2961;"	d
+R_H8_GOT32O	libdune/elf.h	2960;"	d
+R_H8_NONE	libdune/elf.h	2926;"	d
+R_H8_NUM	libdune/elf.h	2969;"	d
+R_H8_PCREL16	libdune/elf.h	2956;"	d
+R_H8_PCREL32	libdune/elf.h	2959;"	d
+R_H8_PCREL8	libdune/elf.h	2957;"	d
+R_IA64_COPY	libdune/elf.h	2517;"	d
+R_IA64_DIR32LSB	libdune/elf.h	2462;"	d
+R_IA64_DIR32MSB	libdune/elf.h	2461;"	d
+R_IA64_DIR64LSB	libdune/elf.h	2464;"	d
+R_IA64_DIR64MSB	libdune/elf.h	2463;"	d
+R_IA64_DTPMOD64LSB	libdune/elf.h	2528;"	d
+R_IA64_DTPMOD64MSB	libdune/elf.h	2527;"	d
+R_IA64_DTPREL14	libdune/elf.h	2530;"	d
+R_IA64_DTPREL22	libdune/elf.h	2531;"	d
+R_IA64_DTPREL32LSB	libdune/elf.h	2534;"	d
+R_IA64_DTPREL32MSB	libdune/elf.h	2533;"	d
+R_IA64_DTPREL64I	libdune/elf.h	2532;"	d
+R_IA64_DTPREL64LSB	libdune/elf.h	2536;"	d
+R_IA64_DTPREL64MSB	libdune/elf.h	2535;"	d
+R_IA64_FPTR32LSB	libdune/elf.h	2479;"	d
+R_IA64_FPTR32MSB	libdune/elf.h	2478;"	d
+R_IA64_FPTR64I	libdune/elf.h	2477;"	d
+R_IA64_FPTR64LSB	libdune/elf.h	2481;"	d
+R_IA64_FPTR64MSB	libdune/elf.h	2480;"	d
+R_IA64_GPREL22	libdune/elf.h	2465;"	d
+R_IA64_GPREL32LSB	libdune/elf.h	2468;"	d
+R_IA64_GPREL32MSB	libdune/elf.h	2467;"	d
+R_IA64_GPREL64I	libdune/elf.h	2466;"	d
+R_IA64_GPREL64LSB	libdune/elf.h	2470;"	d
+R_IA64_GPREL64MSB	libdune/elf.h	2469;"	d
+R_IA64_IMM14	libdune/elf.h	2458;"	d
+R_IA64_IMM22	libdune/elf.h	2459;"	d
+R_IA64_IMM64	libdune/elf.h	2460;"	d
+R_IA64_IPLTLSB	libdune/elf.h	2516;"	d
+R_IA64_IPLTMSB	libdune/elf.h	2515;"	d
+R_IA64_LDXMOV	libdune/elf.h	2520;"	d
+R_IA64_LTOFF22	libdune/elf.h	2471;"	d
+R_IA64_LTOFF22X	libdune/elf.h	2519;"	d
+R_IA64_LTOFF64I	libdune/elf.h	2472;"	d
+R_IA64_LTOFF_DTPMOD22	libdune/elf.h	2529;"	d
+R_IA64_LTOFF_DTPREL22	libdune/elf.h	2537;"	d
+R_IA64_LTOFF_FPTR22	libdune/elf.h	2490;"	d
+R_IA64_LTOFF_FPTR32LSB	libdune/elf.h	2493;"	d
+R_IA64_LTOFF_FPTR32MSB	libdune/elf.h	2492;"	d
+R_IA64_LTOFF_FPTR64I	libdune/elf.h	2491;"	d
+R_IA64_LTOFF_FPTR64LSB	libdune/elf.h	2495;"	d
+R_IA64_LTOFF_FPTR64MSB	libdune/elf.h	2494;"	d
+R_IA64_LTOFF_TPREL22	libdune/elf.h	2526;"	d
+R_IA64_LTV32LSB	libdune/elf.h	2509;"	d
+R_IA64_LTV32MSB	libdune/elf.h	2508;"	d
+R_IA64_LTV64LSB	libdune/elf.h	2511;"	d
+R_IA64_LTV64MSB	libdune/elf.h	2510;"	d
+R_IA64_NONE	libdune/elf.h	2457;"	d
+R_IA64_PCREL21B	libdune/elf.h	2483;"	d
+R_IA64_PCREL21BI	libdune/elf.h	2512;"	d
+R_IA64_PCREL21F	libdune/elf.h	2485;"	d
+R_IA64_PCREL21M	libdune/elf.h	2484;"	d
+R_IA64_PCREL22	libdune/elf.h	2513;"	d
+R_IA64_PCREL32LSB	libdune/elf.h	2487;"	d
+R_IA64_PCREL32MSB	libdune/elf.h	2486;"	d
+R_IA64_PCREL60B	libdune/elf.h	2482;"	d
+R_IA64_PCREL64I	libdune/elf.h	2514;"	d
+R_IA64_PCREL64LSB	libdune/elf.h	2489;"	d
+R_IA64_PCREL64MSB	libdune/elf.h	2488;"	d
+R_IA64_PLTOFF22	libdune/elf.h	2473;"	d
+R_IA64_PLTOFF64I	libdune/elf.h	2474;"	d
+R_IA64_PLTOFF64LSB	libdune/elf.h	2476;"	d
+R_IA64_PLTOFF64MSB	libdune/elf.h	2475;"	d
+R_IA64_REL32LSB	libdune/elf.h	2505;"	d
+R_IA64_REL32MSB	libdune/elf.h	2504;"	d
+R_IA64_REL64LSB	libdune/elf.h	2507;"	d
+R_IA64_REL64MSB	libdune/elf.h	2506;"	d
+R_IA64_SECREL32LSB	libdune/elf.h	2501;"	d
+R_IA64_SECREL32MSB	libdune/elf.h	2500;"	d
+R_IA64_SECREL64LSB	libdune/elf.h	2503;"	d
+R_IA64_SECREL64MSB	libdune/elf.h	2502;"	d
+R_IA64_SEGREL32LSB	libdune/elf.h	2497;"	d
+R_IA64_SEGREL32MSB	libdune/elf.h	2496;"	d
+R_IA64_SEGREL64LSB	libdune/elf.h	2499;"	d
+R_IA64_SEGREL64MSB	libdune/elf.h	2498;"	d
+R_IA64_SUB	libdune/elf.h	2518;"	d
+R_IA64_TPREL14	libdune/elf.h	2521;"	d
+R_IA64_TPREL22	libdune/elf.h	2522;"	d
+R_IA64_TPREL64I	libdune/elf.h	2523;"	d
+R_IA64_TPREL64LSB	libdune/elf.h	2525;"	d
+R_IA64_TPREL64MSB	libdune/elf.h	2524;"	d
+R_M32R_10_PCREL	libdune/elf.h	2779;"	d
+R_M32R_10_PCREL_RELA	libdune/elf.h	2792;"	d
+R_M32R_16	libdune/elf.h	2776;"	d
+R_M32R_16_RELA	libdune/elf.h	2789;"	d
+R_M32R_18_PCREL	libdune/elf.h	2780;"	d
+R_M32R_18_PCREL_RELA	libdune/elf.h	2793;"	d
+R_M32R_24	libdune/elf.h	2778;"	d
+R_M32R_24_RELA	libdune/elf.h	2791;"	d
+R_M32R_26_PCREL	libdune/elf.h	2781;"	d
+R_M32R_26_PCREL_RELA	libdune/elf.h	2794;"	d
+R_M32R_26_PLTREL	libdune/elf.h	2803;"	d
+R_M32R_32	libdune/elf.h	2777;"	d
+R_M32R_32_RELA	libdune/elf.h	2790;"	d
+R_M32R_COPY	libdune/elf.h	2804;"	d
+R_M32R_GLOB_DAT	libdune/elf.h	2805;"	d
+R_M32R_GNU_VTENTRY	libdune/elf.h	2787;"	d
+R_M32R_GNU_VTINHERIT	libdune/elf.h	2786;"	d
+R_M32R_GOT16_HI_SLO	libdune/elf.h	2812;"	d
+R_M32R_GOT16_HI_ULO	libdune/elf.h	2810;"	d
+R_M32R_GOT16_LO	libdune/elf.h	2814;"	d
+R_M32R_GOT24	libdune/elf.h	2802;"	d
+R_M32R_GOTOFF	libdune/elf.h	2808;"	d
+R_M32R_GOTOFF_HI_SLO	libdune/elf.h	2823;"	d
+R_M32R_GOTOFF_HI_ULO	libdune/elf.h	2821;"	d
+R_M32R_GOTOFF_LO	libdune/elf.h	2825;"	d
+R_M32R_GOTPC24	libdune/elf.h	2809;"	d
+R_M32R_GOTPC_HI_SLO	libdune/elf.h	2817;"	d
+R_M32R_GOTPC_HI_ULO	libdune/elf.h	2815;"	d
+R_M32R_GOTPC_LO	libdune/elf.h	2819;"	d
+R_M32R_HI16_SLO	libdune/elf.h	2783;"	d
+R_M32R_HI16_SLO_RELA	libdune/elf.h	2796;"	d
+R_M32R_HI16_ULO	libdune/elf.h	2782;"	d
+R_M32R_HI16_ULO_RELA	libdune/elf.h	2795;"	d
+R_M32R_JMP_SLOT	libdune/elf.h	2806;"	d
+R_M32R_LO16	libdune/elf.h	2784;"	d
+R_M32R_LO16_RELA	libdune/elf.h	2797;"	d
+R_M32R_NONE	libdune/elf.h	2775;"	d
+R_M32R_NUM	libdune/elf.h	2826;"	d
+R_M32R_RELATIVE	libdune/elf.h	2807;"	d
+R_M32R_RELA_GNU_VTENTRY	libdune/elf.h	2800;"	d
+R_M32R_RELA_GNU_VTINHERIT	libdune/elf.h	2799;"	d
+R_M32R_SDA16	libdune/elf.h	2785;"	d
+R_M32R_SDA16_RELA	libdune/elf.h	2798;"	d
+R_MICROBLAZE_32	libdune/elf.h	3123;"	d
+R_MICROBLAZE_32_LO	libdune/elf.h	3128;"	d
+R_MICROBLAZE_32_PCREL	libdune/elf.h	3124;"	d
+R_MICROBLAZE_32_PCREL_LO	libdune/elf.h	3126;"	d
+R_MICROBLAZE_32_SYM_OP_SYM	libdune/elf.h	3132;"	d
+R_MICROBLAZE_64	libdune/elf.h	3127;"	d
+R_MICROBLAZE_64_NONE	libdune/elf.h	3131;"	d
+R_MICROBLAZE_64_PCREL	libdune/elf.h	3125;"	d
+R_MICROBLAZE_COPY	libdune/elf.h	3143;"	d
+R_MICROBLAZE_GLOB_DAT	libdune/elf.h	3140;"	d
+R_MICROBLAZE_GNU_VTENTRY	libdune/elf.h	3134;"	d
+R_MICROBLAZE_GNU_VTINHERIT	libdune/elf.h	3133;"	d
+R_MICROBLAZE_GOTOFF_32	libdune/elf.h	3142;"	d
+R_MICROBLAZE_GOTOFF_64	libdune/elf.h	3141;"	d
+R_MICROBLAZE_GOTPC_64	libdune/elf.h	3135;"	d
+R_MICROBLAZE_GOT_64	libdune/elf.h	3136;"	d
+R_MICROBLAZE_JUMP_SLOT	libdune/elf.h	3139;"	d
+R_MICROBLAZE_NONE	libdune/elf.h	3122;"	d
+R_MICROBLAZE_NUM	libdune/elf.h	3144;"	d
+R_MICROBLAZE_PLT_64	libdune/elf.h	3137;"	d
+R_MICROBLAZE_REL	libdune/elf.h	3138;"	d
+R_MICROBLAZE_SRO32	libdune/elf.h	3129;"	d
+R_MICROBLAZE_SRW32	libdune/elf.h	3130;"	d
+R_MIPS_16	libdune/elf.h	1663;"	d
+R_MIPS_26	libdune/elf.h	1666;"	d
+R_MIPS_32	libdune/elf.h	1664;"	d
+R_MIPS_64	libdune/elf.h	1678;"	d
+R_MIPS_ADD_IMMEDIATE	libdune/elf.h	1694;"	d
+R_MIPS_CALL16	libdune/elf.h	1673;"	d
+R_MIPS_CALL_HI16	libdune/elf.h	1690;"	d
+R_MIPS_CALL_LO16	libdune/elf.h	1691;"	d
+R_MIPS_COPY	libdune/elf.h	1712;"	d
+R_MIPS_DELETE	libdune/elf.h	1687;"	d
+R_MIPS_GLOB_DAT	libdune/elf.h	1711;"	d
+R_MIPS_GOT16	libdune/elf.h	1671;"	d
+R_MIPS_GOT_DISP	libdune/elf.h	1679;"	d
+R_MIPS_GOT_HI16	libdune/elf.h	1682;"	d
+R_MIPS_GOT_LO16	libdune/elf.h	1683;"	d
+R_MIPS_GOT_OFST	libdune/elf.h	1681;"	d
+R_MIPS_GOT_PAGE	libdune/elf.h	1680;"	d
+R_MIPS_GPREL16	libdune/elf.h	1669;"	d
+R_MIPS_GPREL32	libdune/elf.h	1674;"	d
+R_MIPS_HI16	libdune/elf.h	1667;"	d
+R_MIPS_HIGHER	libdune/elf.h	1688;"	d
+R_MIPS_HIGHEST	libdune/elf.h	1689;"	d
+R_MIPS_INSERT_A	libdune/elf.h	1685;"	d
+R_MIPS_INSERT_B	libdune/elf.h	1686;"	d
+R_MIPS_JALR	libdune/elf.h	1697;"	d
+R_MIPS_JUMP_SLOT	libdune/elf.h	1713;"	d
+R_MIPS_LITERAL	libdune/elf.h	1670;"	d
+R_MIPS_LO16	libdune/elf.h	1668;"	d
+R_MIPS_NONE	libdune/elf.h	1662;"	d
+R_MIPS_NUM	libdune/elf.h	1715;"	d
+R_MIPS_PC16	libdune/elf.h	1672;"	d
+R_MIPS_PJUMP	libdune/elf.h	1695;"	d
+R_MIPS_REL16	libdune/elf.h	1693;"	d
+R_MIPS_REL32	libdune/elf.h	1665;"	d
+R_MIPS_RELGOT	libdune/elf.h	1696;"	d
+R_MIPS_SCN_DISP	libdune/elf.h	1692;"	d
+R_MIPS_SHIFT5	libdune/elf.h	1676;"	d
+R_MIPS_SHIFT6	libdune/elf.h	1677;"	d
+R_MIPS_SUB	libdune/elf.h	1684;"	d
+R_MIPS_TLS_DTPMOD32	libdune/elf.h	1698;"	d
+R_MIPS_TLS_DTPMOD64	libdune/elf.h	1700;"	d
+R_MIPS_TLS_DTPREL32	libdune/elf.h	1699;"	d
+R_MIPS_TLS_DTPREL64	libdune/elf.h	1701;"	d
+R_MIPS_TLS_DTPREL_HI16	libdune/elf.h	1704;"	d
+R_MIPS_TLS_DTPREL_LO16	libdune/elf.h	1705;"	d
+R_MIPS_TLS_GD	libdune/elf.h	1702;"	d
+R_MIPS_TLS_GOTTPREL	libdune/elf.h	1706;"	d
+R_MIPS_TLS_LDM	libdune/elf.h	1703;"	d
+R_MIPS_TLS_TPREL32	libdune/elf.h	1707;"	d
+R_MIPS_TLS_TPREL64	libdune/elf.h	1708;"	d
+R_MIPS_TLS_TPREL_HI16	libdune/elf.h	1709;"	d
+R_MIPS_TLS_TPREL_LO16	libdune/elf.h	1710;"	d
+R_MN10300_16	libdune/elf.h	2748;"	d
+R_MN10300_24	libdune/elf.h	2755;"	d
+R_MN10300_32	libdune/elf.h	2747;"	d
+R_MN10300_8	libdune/elf.h	2749;"	d
+R_MN10300_COPY	libdune/elf.h	2766;"	d
+R_MN10300_GLOB_DAT	libdune/elf.h	2767;"	d
+R_MN10300_GNU_VTENTRY	libdune/elf.h	2754;"	d
+R_MN10300_GNU_VTINHERIT	libdune/elf.h	2753;"	d
+R_MN10300_GOT16	libdune/elf.h	2765;"	d
+R_MN10300_GOT24	libdune/elf.h	2764;"	d
+R_MN10300_GOT32	libdune/elf.h	2763;"	d
+R_MN10300_GOTOFF16	libdune/elf.h	2760;"	d
+R_MN10300_GOTOFF24	libdune/elf.h	2759;"	d
+R_MN10300_GOTOFF32	libdune/elf.h	2758;"	d
+R_MN10300_GOTPC16	libdune/elf.h	2757;"	d
+R_MN10300_GOTPC32	libdune/elf.h	2756;"	d
+R_MN10300_JMP_SLOT	libdune/elf.h	2768;"	d
+R_MN10300_NONE	libdune/elf.h	2746;"	d
+R_MN10300_NUM	libdune/elf.h	2771;"	d
+R_MN10300_PCREL16	libdune/elf.h	2751;"	d
+R_MN10300_PCREL32	libdune/elf.h	2750;"	d
+R_MN10300_PCREL8	libdune/elf.h	2752;"	d
+R_MN10300_PLT16	libdune/elf.h	2762;"	d
+R_MN10300_PLT32	libdune/elf.h	2761;"	d
+R_MN10300_RELATIVE	libdune/elf.h	2769;"	d
+R_NIOS2_ALIGN	libdune/elf.h	3015;"	d
+R_NIOS2_BFD_RELOC_16	libdune/elf.h	3007;"	d
+R_NIOS2_BFD_RELOC_32	libdune/elf.h	3006;"	d
+R_NIOS2_BFD_RELOC_8	libdune/elf.h	3008;"	d
+R_NIOS2_CACHE_OPX	libdune/elf.h	3000;"	d
+R_NIOS2_CALL26	libdune/elf.h	2998;"	d
+R_NIOS2_CALLR	libdune/elf.h	3014;"	d
+R_NIOS2_CJMP	libdune/elf.h	3013;"	d
+R_NIOS2_GNU_VTENTRY	libdune/elf.h	3011;"	d
+R_NIOS2_GNU_VTINHERIT	libdune/elf.h	3010;"	d
+R_NIOS2_GPREL	libdune/elf.h	3009;"	d
+R_NIOS2_HI16	libdune/elf.h	3003;"	d
+R_NIOS2_HIADJ16	libdune/elf.h	3005;"	d
+R_NIOS2_IMM5	libdune/elf.h	2999;"	d
+R_NIOS2_IMM6	libdune/elf.h	3001;"	d
+R_NIOS2_IMM8	libdune/elf.h	3002;"	d
+R_NIOS2_LO16	libdune/elf.h	3004;"	d
+R_NIOS2_NONE	libdune/elf.h	2994;"	d
+R_NIOS2_NUM	libdune/elf.h	3017;"	d
+R_NIOS2_PCREL16	libdune/elf.h	2997;"	d
+R_NIOS2_S16	libdune/elf.h	2995;"	d
+R_NIOS2_U16	libdune/elf.h	2996;"	d
+R_NIOS2_UJMP	libdune/elf.h	3012;"	d
+R_NIOS_16	libdune/elf.h	2981;"	d
+R_NIOS_32	libdune/elf.h	2973;"	d
+R_NIOS_GNU_VTENTRY	libdune/elf.h	2989;"	d
+R_NIOS_GNU_VTINHERIT	libdune/elf.h	2988;"	d
+R_NIOS_HI16_HI11	libdune/elf.h	2977;"	d
+R_NIOS_HI16_LO5	libdune/elf.h	2976;"	d
+R_NIOS_H_16	libdune/elf.h	2986;"	d
+R_NIOS_H_32	libdune/elf.h	2987;"	d
+R_NIOS_H_HI11	libdune/elf.h	2983;"	d
+R_NIOS_H_LO5	libdune/elf.h	2982;"	d
+R_NIOS_H_XHI11	libdune/elf.h	2985;"	d
+R_NIOS_H_XLO5	libdune/elf.h	2984;"	d
+R_NIOS_LO16_HI11	libdune/elf.h	2975;"	d
+R_NIOS_LO16_LO5	libdune/elf.h	2974;"	d
+R_NIOS_NONE	libdune/elf.h	2972;"	d
+R_NIOS_NUM	libdune/elf.h	2991;"	d
+R_NIOS_PCREL11	libdune/elf.h	2980;"	d
+R_NIOS_PCREL6	libdune/elf.h	2978;"	d
+R_NIOS_PCREL8	libdune/elf.h	2979;"	d
+R_PARISC_COPY	libdune/elf.h	1956;"	d
+R_PARISC_DIR14DR	libdune/elf.h	1926;"	d
+R_PARISC_DIR14R	libdune/elf.h	1895;"	d
+R_PARISC_DIR14WR	libdune/elf.h	1925;"	d
+R_PARISC_DIR16DF	libdune/elf.h	1929;"	d
+R_PARISC_DIR16F	libdune/elf.h	1927;"	d
+R_PARISC_DIR16WF	libdune/elf.h	1928;"	d
+R_PARISC_DIR17F	libdune/elf.h	1894;"	d
+R_PARISC_DIR17R	libdune/elf.h	1893;"	d
+R_PARISC_DIR21L	libdune/elf.h	1892;"	d
+R_PARISC_DIR32	libdune/elf.h	1891;"	d
+R_PARISC_DIR64	libdune/elf.h	1924;"	d
+R_PARISC_DPREL14R	libdune/elf.h	1902;"	d
+R_PARISC_DPREL21L	libdune/elf.h	1901;"	d
+R_PARISC_EPLT	libdune/elf.h	1958;"	d
+R_PARISC_FPTR64	libdune/elf.h	1915;"	d
+R_PARISC_GPREL14DR	libdune/elf.h	1932;"	d
+R_PARISC_GPREL14R	libdune/elf.h	1904;"	d
+R_PARISC_GPREL14WR	libdune/elf.h	1931;"	d
+R_PARISC_GPREL16DF	libdune/elf.h	1935;"	d
+R_PARISC_GPREL16F	libdune/elf.h	1933;"	d
+R_PARISC_GPREL16WF	libdune/elf.h	1934;"	d
+R_PARISC_GPREL21L	libdune/elf.h	1903;"	d
+R_PARISC_GPREL64	libdune/elf.h	1930;"	d
+R_PARISC_HIRESERVE	libdune/elf.h	1977;"	d
+R_PARISC_IPLT	libdune/elf.h	1957;"	d
+R_PARISC_LORESERVE	libdune/elf.h	1955;"	d
+R_PARISC_LTOFF14DR	libdune/elf.h	1938;"	d
+R_PARISC_LTOFF14R	libdune/elf.h	1906;"	d
+R_PARISC_LTOFF14WR	libdune/elf.h	1937;"	d
+R_PARISC_LTOFF16DF	libdune/elf.h	1941;"	d
+R_PARISC_LTOFF16F	libdune/elf.h	1939;"	d
+R_PARISC_LTOFF16WF	libdune/elf.h	1940;"	d
+R_PARISC_LTOFF21L	libdune/elf.h	1905;"	d
+R_PARISC_LTOFF64	libdune/elf.h	1936;"	d
+R_PARISC_LTOFF_FPTR14DR	libdune/elf.h	1951;"	d
+R_PARISC_LTOFF_FPTR14R	libdune/elf.h	1914;"	d
+R_PARISC_LTOFF_FPTR14WR	libdune/elf.h	1950;"	d
+R_PARISC_LTOFF_FPTR16DF	libdune/elf.h	1954;"	d
+R_PARISC_LTOFF_FPTR16F	libdune/elf.h	1952;"	d
+R_PARISC_LTOFF_FPTR16WF	libdune/elf.h	1953;"	d
+R_PARISC_LTOFF_FPTR21L	libdune/elf.h	1913;"	d
+R_PARISC_LTOFF_FPTR32	libdune/elf.h	1912;"	d
+R_PARISC_LTOFF_FPTR64	libdune/elf.h	1949;"	d
+R_PARISC_LTOFF_TP14DR	libdune/elf.h	1973;"	d
+R_PARISC_LTOFF_TP14F	libdune/elf.h	1964;"	d
+R_PARISC_LTOFF_TP14R	libdune/elf.h	1963;"	d
+R_PARISC_LTOFF_TP14WR	libdune/elf.h	1972;"	d
+R_PARISC_LTOFF_TP16DF	libdune/elf.h	1976;"	d
+R_PARISC_LTOFF_TP16F	libdune/elf.h	1974;"	d
+R_PARISC_LTOFF_TP16WF	libdune/elf.h	1975;"	d
+R_PARISC_LTOFF_TP21L	libdune/elf.h	1962;"	d
+R_PARISC_LTOFF_TP64	libdune/elf.h	1971;"	d
+R_PARISC_NONE	libdune/elf.h	1890;"	d
+R_PARISC_PCREL14DR	libdune/elf.h	1920;"	d
+R_PARISC_PCREL14R	libdune/elf.h	1900;"	d
+R_PARISC_PCREL14WR	libdune/elf.h	1919;"	d
+R_PARISC_PCREL16DF	libdune/elf.h	1923;"	d
+R_PARISC_PCREL16F	libdune/elf.h	1921;"	d
+R_PARISC_PCREL16WF	libdune/elf.h	1922;"	d
+R_PARISC_PCREL17F	libdune/elf.h	1899;"	d
+R_PARISC_PCREL17R	libdune/elf.h	1898;"	d
+R_PARISC_PCREL21L	libdune/elf.h	1897;"	d
+R_PARISC_PCREL22F	libdune/elf.h	1918;"	d
+R_PARISC_PCREL32	libdune/elf.h	1896;"	d
+R_PARISC_PCREL64	libdune/elf.h	1917;"	d
+R_PARISC_PLABEL32	libdune/elf.h	1916;"	d
+R_PARISC_PLTOFF14DR	libdune/elf.h	1945;"	d
+R_PARISC_PLTOFF14R	libdune/elf.h	1911;"	d
+R_PARISC_PLTOFF14WR	libdune/elf.h	1944;"	d
+R_PARISC_PLTOFF16DF	libdune/elf.h	1948;"	d
+R_PARISC_PLTOFF16F	libdune/elf.h	1946;"	d
+R_PARISC_PLTOFF16WF	libdune/elf.h	1947;"	d
+R_PARISC_PLTOFF21L	libdune/elf.h	1910;"	d
+R_PARISC_SECREL32	libdune/elf.h	1907;"	d
+R_PARISC_SECREL64	libdune/elf.h	1942;"	d
+R_PARISC_SEGBASE	libdune/elf.h	1908;"	d
+R_PARISC_SEGREL32	libdune/elf.h	1909;"	d
+R_PARISC_SEGREL64	libdune/elf.h	1943;"	d
+R_PARISC_TPREL14DR	libdune/elf.h	1967;"	d
+R_PARISC_TPREL14R	libdune/elf.h	1961;"	d
+R_PARISC_TPREL14WR	libdune/elf.h	1966;"	d
+R_PARISC_TPREL16DF	libdune/elf.h	1970;"	d
+R_PARISC_TPREL16F	libdune/elf.h	1968;"	d
+R_PARISC_TPREL16WF	libdune/elf.h	1969;"	d
+R_PARISC_TPREL21L	libdune/elf.h	1960;"	d
+R_PARISC_TPREL32	libdune/elf.h	1959;"	d
+R_PARISC_TPREL64	libdune/elf.h	1965;"	d
+R_PPC64_ADDR14	libdune/elf.h	2215;"	d
+R_PPC64_ADDR14_BRNTAKEN	libdune/elf.h	2217;"	d
+R_PPC64_ADDR14_BRTAKEN	libdune/elf.h	2216;"	d
+R_PPC64_ADDR16	libdune/elf.h	2211;"	d
+R_PPC64_ADDR16_DS	libdune/elf.h	2265;"	d
+R_PPC64_ADDR16_HA	libdune/elf.h	2214;"	d
+R_PPC64_ADDR16_HI	libdune/elf.h	2213;"	d
+R_PPC64_ADDR16_HIGHER	libdune/elf.h	2247;"	d
+R_PPC64_ADDR16_HIGHERA	libdune/elf.h	2248;"	d
+R_PPC64_ADDR16_HIGHEST	libdune/elf.h	2249;"	d
+R_PPC64_ADDR16_HIGHESTA	libdune/elf.h	2250;"	d
+R_PPC64_ADDR16_LO	libdune/elf.h	2212;"	d
+R_PPC64_ADDR16_LO_DS	libdune/elf.h	2266;"	d
+R_PPC64_ADDR24	libdune/elf.h	2210;"	d
+R_PPC64_ADDR30	libdune/elf.h	2245;"	d
+R_PPC64_ADDR32	libdune/elf.h	2209;"	d
+R_PPC64_ADDR64	libdune/elf.h	2246;"	d
+R_PPC64_COPY	libdune/elf.h	2227;"	d
+R_PPC64_DTPMOD64	libdune/elf.h	2279;"	d
+R_PPC64_DTPREL16	libdune/elf.h	2285;"	d
+R_PPC64_DTPREL16_DS	libdune/elf.h	2312;"	d
+R_PPC64_DTPREL16_HA	libdune/elf.h	2288;"	d
+R_PPC64_DTPREL16_HI	libdune/elf.h	2287;"	d
+R_PPC64_DTPREL16_HIGHER	libdune/elf.h	2314;"	d
+R_PPC64_DTPREL16_HIGHERA	libdune/elf.h	2315;"	d
+R_PPC64_DTPREL16_HIGHEST	libdune/elf.h	2316;"	d
+R_PPC64_DTPREL16_HIGHESTA	libdune/elf.h	2317;"	d
+R_PPC64_DTPREL16_LO	libdune/elf.h	2286;"	d
+R_PPC64_DTPREL16_LO_DS	libdune/elf.h	2313;"	d
+R_PPC64_DTPREL64	libdune/elf.h	2289;"	d
+R_PPC64_GLOB_DAT	libdune/elf.h	2228;"	d
+R_PPC64_GOT16	libdune/elf.h	2222;"	d
+R_PPC64_GOT16_DS	libdune/elf.h	2267;"	d
+R_PPC64_GOT16_HA	libdune/elf.h	2225;"	d
+R_PPC64_GOT16_HI	libdune/elf.h	2224;"	d
+R_PPC64_GOT16_LO	libdune/elf.h	2223;"	d
+R_PPC64_GOT16_LO_DS	libdune/elf.h	2268;"	d
+R_PPC64_GOT_DTPREL16_DS	libdune/elf.h	2302;"	d
+R_PPC64_GOT_DTPREL16_HA	libdune/elf.h	2305;"	d
+R_PPC64_GOT_DTPREL16_HI	libdune/elf.h	2304;"	d
+R_PPC64_GOT_DTPREL16_LO_DS	libdune/elf.h	2303;"	d
+R_PPC64_GOT_TLSGD16	libdune/elf.h	2290;"	d
+R_PPC64_GOT_TLSGD16_HA	libdune/elf.h	2293;"	d
+R_PPC64_GOT_TLSGD16_HI	libdune/elf.h	2292;"	d
+R_PPC64_GOT_TLSGD16_LO	libdune/elf.h	2291;"	d
+R_PPC64_GOT_TLSLD16	libdune/elf.h	2294;"	d
+R_PPC64_GOT_TLSLD16_HA	libdune/elf.h	2297;"	d
+R_PPC64_GOT_TLSLD16_HI	libdune/elf.h	2296;"	d
+R_PPC64_GOT_TLSLD16_LO	libdune/elf.h	2295;"	d
+R_PPC64_GOT_TPREL16_DS	libdune/elf.h	2298;"	d
+R_PPC64_GOT_TPREL16_HA	libdune/elf.h	2301;"	d
+R_PPC64_GOT_TPREL16_HI	libdune/elf.h	2300;"	d
+R_PPC64_GOT_TPREL16_LO_DS	libdune/elf.h	2299;"	d
+R_PPC64_JMP_SLOT	libdune/elf.h	2229;"	d
+R_PPC64_NONE	libdune/elf.h	2208;"	d
+R_PPC64_NUM	libdune/elf.h	2320;"	d
+R_PPC64_PLT16_HA	libdune/elf.h	2239;"	d
+R_PPC64_PLT16_HI	libdune/elf.h	2238;"	d
+R_PPC64_PLT16_LO	libdune/elf.h	2237;"	d
+R_PPC64_PLT16_LO_DS	libdune/elf.h	2269;"	d
+R_PPC64_PLT32	libdune/elf.h	2235;"	d
+R_PPC64_PLT64	libdune/elf.h	2253;"	d
+R_PPC64_PLTGOT16	libdune/elf.h	2260;"	d
+R_PPC64_PLTGOT16_DS	libdune/elf.h	2274;"	d
+R_PPC64_PLTGOT16_HA	libdune/elf.h	2263;"	d
+R_PPC64_PLTGOT16_HI	libdune/elf.h	2262;"	d
+R_PPC64_PLTGOT16_LO	libdune/elf.h	2261;"	d
+R_PPC64_PLTGOT16_LO_DS	libdune/elf.h	2275;"	d
+R_PPC64_PLTREL32	libdune/elf.h	2236;"	d
+R_PPC64_PLTREL64	libdune/elf.h	2254;"	d
+R_PPC64_REL14	libdune/elf.h	2219;"	d
+R_PPC64_REL14_BRNTAKEN	libdune/elf.h	2221;"	d
+R_PPC64_REL14_BRTAKEN	libdune/elf.h	2220;"	d
+R_PPC64_REL24	libdune/elf.h	2218;"	d
+R_PPC64_REL32	libdune/elf.h	2234;"	d
+R_PPC64_REL64	libdune/elf.h	2252;"	d
+R_PPC64_RELATIVE	libdune/elf.h	2230;"	d
+R_PPC64_SECTOFF	libdune/elf.h	2241;"	d
+R_PPC64_SECTOFF_DS	libdune/elf.h	2270;"	d
+R_PPC64_SECTOFF_HA	libdune/elf.h	2244;"	d
+R_PPC64_SECTOFF_HI	libdune/elf.h	2243;"	d
+R_PPC64_SECTOFF_LO	libdune/elf.h	2242;"	d
+R_PPC64_SECTOFF_LO_DS	libdune/elf.h	2271;"	d
+R_PPC64_TLS	libdune/elf.h	2278;"	d
+R_PPC64_TOC	libdune/elf.h	2259;"	d
+R_PPC64_TOC16	libdune/elf.h	2255;"	d
+R_PPC64_TOC16_DS	libdune/elf.h	2272;"	d
+R_PPC64_TOC16_HA	libdune/elf.h	2258;"	d
+R_PPC64_TOC16_HI	libdune/elf.h	2257;"	d
+R_PPC64_TOC16_LO	libdune/elf.h	2256;"	d
+R_PPC64_TOC16_LO_DS	libdune/elf.h	2273;"	d
+R_PPC64_TPREL16	libdune/elf.h	2280;"	d
+R_PPC64_TPREL16_DS	libdune/elf.h	2306;"	d
+R_PPC64_TPREL16_HA	libdune/elf.h	2283;"	d
+R_PPC64_TPREL16_HI	libdune/elf.h	2282;"	d
+R_PPC64_TPREL16_HIGHER	libdune/elf.h	2308;"	d
+R_PPC64_TPREL16_HIGHERA	libdune/elf.h	2309;"	d
+R_PPC64_TPREL16_HIGHEST	libdune/elf.h	2310;"	d
+R_PPC64_TPREL16_HIGHESTA	libdune/elf.h	2311;"	d
+R_PPC64_TPREL16_LO	libdune/elf.h	2281;"	d
+R_PPC64_TPREL16_LO_DS	libdune/elf.h	2307;"	d
+R_PPC64_TPREL64	libdune/elf.h	2284;"	d
+R_PPC64_UADDR16	libdune/elf.h	2233;"	d
+R_PPC64_UADDR32	libdune/elf.h	2232;"	d
+R_PPC64_UADDR64	libdune/elf.h	2251;"	d
+R_PPC_ADDR14	libdune/elf.h	2102;"	d
+R_PPC_ADDR14_BRNTAKEN	libdune/elf.h	2104;"	d
+R_PPC_ADDR14_BRTAKEN	libdune/elf.h	2103;"	d
+R_PPC_ADDR16	libdune/elf.h	2098;"	d
+R_PPC_ADDR16_HA	libdune/elf.h	2101;"	d
+R_PPC_ADDR16_HI	libdune/elf.h	2100;"	d
+R_PPC_ADDR16_LO	libdune/elf.h	2099;"	d
+R_PPC_ADDR24	libdune/elf.h	2097;"	d
+R_PPC_ADDR32	libdune/elf.h	2096;"	d
+R_PPC_COPY	libdune/elf.h	2114;"	d
+R_PPC_DIAB_RELSDA_HA	libdune/elf.h	2191;"	d
+R_PPC_DIAB_RELSDA_HI	libdune/elf.h	2190;"	d
+R_PPC_DIAB_RELSDA_LO	libdune/elf.h	2189;"	d
+R_PPC_DIAB_SDA21_HA	libdune/elf.h	2188;"	d
+R_PPC_DIAB_SDA21_HI	libdune/elf.h	2187;"	d
+R_PPC_DIAB_SDA21_LO	libdune/elf.h	2186;"	d
+R_PPC_DTPMOD32	libdune/elf.h	2135;"	d
+R_PPC_DTPREL16	libdune/elf.h	2141;"	d
+R_PPC_DTPREL16_HA	libdune/elf.h	2144;"	d
+R_PPC_DTPREL16_HI	libdune/elf.h	2143;"	d
+R_PPC_DTPREL16_LO	libdune/elf.h	2142;"	d
+R_PPC_DTPREL32	libdune/elf.h	2145;"	d
+R_PPC_EMB_BIT_FLD	libdune/elf.h	2182;"	d
+R_PPC_EMB_MRKREF	libdune/elf.h	2177;"	d
+R_PPC_EMB_NADDR16	libdune/elf.h	2169;"	d
+R_PPC_EMB_NADDR16_HA	libdune/elf.h	2172;"	d
+R_PPC_EMB_NADDR16_HI	libdune/elf.h	2171;"	d
+R_PPC_EMB_NADDR16_LO	libdune/elf.h	2170;"	d
+R_PPC_EMB_NADDR32	libdune/elf.h	2168;"	d
+R_PPC_EMB_RELSDA	libdune/elf.h	2183;"	d
+R_PPC_EMB_RELSEC16	libdune/elf.h	2178;"	d
+R_PPC_EMB_RELST_HA	libdune/elf.h	2181;"	d
+R_PPC_EMB_RELST_HI	libdune/elf.h	2180;"	d
+R_PPC_EMB_RELST_LO	libdune/elf.h	2179;"	d
+R_PPC_EMB_SDA21	libdune/elf.h	2176;"	d
+R_PPC_EMB_SDA2I16	libdune/elf.h	2174;"	d
+R_PPC_EMB_SDA2REL	libdune/elf.h	2175;"	d
+R_PPC_EMB_SDAI16	libdune/elf.h	2173;"	d
+R_PPC_GLOB_DAT	libdune/elf.h	2115;"	d
+R_PPC_GOT16	libdune/elf.h	2109;"	d
+R_PPC_GOT16_HA	libdune/elf.h	2112;"	d
+R_PPC_GOT16_HI	libdune/elf.h	2111;"	d
+R_PPC_GOT16_LO	libdune/elf.h	2110;"	d
+R_PPC_GOT_DTPREL16	libdune/elf.h	2158;"	d
+R_PPC_GOT_DTPREL16_HA	libdune/elf.h	2161;"	d
+R_PPC_GOT_DTPREL16_HI	libdune/elf.h	2160;"	d
+R_PPC_GOT_DTPREL16_LO	libdune/elf.h	2159;"	d
+R_PPC_GOT_TLSGD16	libdune/elf.h	2146;"	d
+R_PPC_GOT_TLSGD16_HA	libdune/elf.h	2149;"	d
+R_PPC_GOT_TLSGD16_HI	libdune/elf.h	2148;"	d
+R_PPC_GOT_TLSGD16_LO	libdune/elf.h	2147;"	d
+R_PPC_GOT_TLSLD16	libdune/elf.h	2150;"	d
+R_PPC_GOT_TLSLD16_HA	libdune/elf.h	2153;"	d
+R_PPC_GOT_TLSLD16_HI	libdune/elf.h	2152;"	d
+R_PPC_GOT_TLSLD16_LO	libdune/elf.h	2151;"	d
+R_PPC_GOT_TPREL16	libdune/elf.h	2154;"	d
+R_PPC_GOT_TPREL16_HA	libdune/elf.h	2157;"	d
+R_PPC_GOT_TPREL16_HI	libdune/elf.h	2156;"	d
+R_PPC_GOT_TPREL16_LO	libdune/elf.h	2155;"	d
+R_PPC_JMP_SLOT	libdune/elf.h	2116;"	d
+R_PPC_LOCAL24PC	libdune/elf.h	2118;"	d
+R_PPC_NONE	libdune/elf.h	2095;"	d
+R_PPC_NUM	libdune/elf.h	2164;"	d
+R_PPC_PLT16_HA	libdune/elf.h	2126;"	d
+R_PPC_PLT16_HI	libdune/elf.h	2125;"	d
+R_PPC_PLT16_LO	libdune/elf.h	2124;"	d
+R_PPC_PLT32	libdune/elf.h	2122;"	d
+R_PPC_PLTREL24	libdune/elf.h	2113;"	d
+R_PPC_PLTREL32	libdune/elf.h	2123;"	d
+R_PPC_REL14	libdune/elf.h	2106;"	d
+R_PPC_REL14_BRNTAKEN	libdune/elf.h	2108;"	d
+R_PPC_REL14_BRTAKEN	libdune/elf.h	2107;"	d
+R_PPC_REL16	libdune/elf.h	2194;"	d
+R_PPC_REL16_HA	libdune/elf.h	2197;"	d
+R_PPC_REL16_HI	libdune/elf.h	2196;"	d
+R_PPC_REL16_LO	libdune/elf.h	2195;"	d
+R_PPC_REL24	libdune/elf.h	2105;"	d
+R_PPC_REL32	libdune/elf.h	2121;"	d
+R_PPC_RELATIVE	libdune/elf.h	2117;"	d
+R_PPC_SDAREL16	libdune/elf.h	2127;"	d
+R_PPC_SECTOFF	libdune/elf.h	2128;"	d
+R_PPC_SECTOFF_HA	libdune/elf.h	2131;"	d
+R_PPC_SECTOFF_HI	libdune/elf.h	2130;"	d
+R_PPC_SECTOFF_LO	libdune/elf.h	2129;"	d
+R_PPC_TLS	libdune/elf.h	2134;"	d
+R_PPC_TOC16	libdune/elf.h	2201;"	d
+R_PPC_TPREL16	libdune/elf.h	2136;"	d
+R_PPC_TPREL16_HA	libdune/elf.h	2139;"	d
+R_PPC_TPREL16_HI	libdune/elf.h	2138;"	d
+R_PPC_TPREL16_LO	libdune/elf.h	2137;"	d
+R_PPC_TPREL32	libdune/elf.h	2140;"	d
+R_PPC_UADDR16	libdune/elf.h	2120;"	d
+R_PPC_UADDR32	libdune/elf.h	2119;"	d
+R_SH_ALIGN	libdune/elf.h	2562;"	d
+R_SH_CODE	libdune/elf.h	2563;"	d
+R_SH_COPY	libdune/elf.h	2579;"	d
+R_SH_COUNT	libdune/elf.h	2561;"	d
+R_SH_DATA	libdune/elf.h	2564;"	d
+R_SH_DIR32	libdune/elf.h	2549;"	d
+R_SH_DIR8BP	libdune/elf.h	2555;"	d
+R_SH_DIR8L	libdune/elf.h	2557;"	d
+R_SH_DIR8W	libdune/elf.h	2556;"	d
+R_SH_DIR8WPL	libdune/elf.h	2553;"	d
+R_SH_DIR8WPN	libdune/elf.h	2551;"	d
+R_SH_DIR8WPZ	libdune/elf.h	2554;"	d
+R_SH_GLOB_DAT	libdune/elf.h	2580;"	d
+R_SH_GNU_VTENTRY	libdune/elf.h	2568;"	d
+R_SH_GNU_VTINHERIT	libdune/elf.h	2567;"	d
+R_SH_GOT32	libdune/elf.h	2577;"	d
+R_SH_GOTOFF	libdune/elf.h	2583;"	d
+R_SH_GOTPC	libdune/elf.h	2584;"	d
+R_SH_IMM_LOW16	libdune/elf.h	2587;"	d
+R_SH_IMM_LOW16_PCREL	libdune/elf.h	2588;"	d
+R_SH_IMM_MEDLOW16	libdune/elf.h	2589;"	d
+R_SH_IMM_MEDLOW16_PCREL	libdune/elf.h	2590;"	d
+R_SH_IND12W	libdune/elf.h	2552;"	d
+R_SH_JMP_SLOT	libdune/elf.h	2581;"	d
+R_SH_LABEL	libdune/elf.h	2565;"	d
+R_SH_NONE	libdune/elf.h	2548;"	d
+R_SH_NUM	libdune/elf.h	2593;"	d
+R_SH_PLT32	libdune/elf.h	2578;"	d
+R_SH_REL32	libdune/elf.h	2550;"	d
+R_SH_RELATIVE	libdune/elf.h	2582;"	d
+R_SH_RELATIVE_LOW16	libdune/elf.h	2585;"	d
+R_SH_RELATIVE_MEDLOW16	libdune/elf.h	2586;"	d
+R_SH_SWITCH16	libdune/elf.h	2558;"	d
+R_SH_SWITCH32	libdune/elf.h	2559;"	d
+R_SH_SWITCH8	libdune/elf.h	2566;"	d
+R_SH_TLS_DTPMOD32	libdune/elf.h	2574;"	d
+R_SH_TLS_DTPOFF32	libdune/elf.h	2575;"	d
+R_SH_TLS_GD_32	libdune/elf.h	2569;"	d
+R_SH_TLS_IE_32	libdune/elf.h	2572;"	d
+R_SH_TLS_LDO_32	libdune/elf.h	2571;"	d
+R_SH_TLS_LD_32	libdune/elf.h	2570;"	d
+R_SH_TLS_LE_32	libdune/elf.h	2573;"	d
+R_SH_TLS_TPOFF32	libdune/elf.h	2576;"	d
+R_SH_USES	libdune/elf.h	2560;"	d
+R_SPARC_10	libdune/elf.h	1397;"	d
+R_SPARC_11	libdune/elf.h	1398;"	d
+R_SPARC_13	libdune/elf.h	1375;"	d
+R_SPARC_16	libdune/elf.h	1366;"	d
+R_SPARC_22	libdune/elf.h	1374;"	d
+R_SPARC_32	libdune/elf.h	1367;"	d
+R_SPARC_5	libdune/elf.h	1410;"	d
+R_SPARC_6	libdune/elf.h	1411;"	d
+R_SPARC_64	libdune/elf.h	1399;"	d
+R_SPARC_7	libdune/elf.h	1409;"	d
+R_SPARC_8	libdune/elf.h	1365;"	d
+R_SPARC_COPY	libdune/elf.h	1383;"	d
+R_SPARC_DISP16	libdune/elf.h	1369;"	d
+R_SPARC_DISP32	libdune/elf.h	1370;"	d
+R_SPARC_DISP64	libdune/elf.h	1412;"	d
+R_SPARC_DISP8	libdune/elf.h	1368;"	d
+R_SPARC_GLOB_DAT	libdune/elf.h	1384;"	d
+R_SPARC_GOT10	libdune/elf.h	1377;"	d
+R_SPARC_GOT13	libdune/elf.h	1378;"	d
+R_SPARC_GOT22	libdune/elf.h	1379;"	d
+R_SPARC_H44	libdune/elf.h	1416;"	d
+R_SPARC_HH22	libdune/elf.h	1401;"	d
+R_SPARC_HI22	libdune/elf.h	1373;"	d
+R_SPARC_HIPLT22	libdune/elf.h	1392;"	d
+R_SPARC_HIX22	libdune/elf.h	1414;"	d
+R_SPARC_HM10	libdune/elf.h	1402;"	d
+R_SPARC_JMP_SLOT	libdune/elf.h	1385;"	d
+R_SPARC_L44	libdune/elf.h	1418;"	d
+R_SPARC_LM22	libdune/elf.h	1403;"	d
+R_SPARC_LO10	libdune/elf.h	1376;"	d
+R_SPARC_LOPLT10	libdune/elf.h	1393;"	d
+R_SPARC_LOX10	libdune/elf.h	1415;"	d
+R_SPARC_M44	libdune/elf.h	1417;"	d
+R_SPARC_NONE	libdune/elf.h	1364;"	d
+R_SPARC_NUM	libdune/elf.h	1447;"	d
+R_SPARC_OLO10	libdune/elf.h	1400;"	d
+R_SPARC_PC10	libdune/elf.h	1380;"	d
+R_SPARC_PC22	libdune/elf.h	1381;"	d
+R_SPARC_PCPLT10	libdune/elf.h	1396;"	d
+R_SPARC_PCPLT22	libdune/elf.h	1395;"	d
+R_SPARC_PCPLT32	libdune/elf.h	1394;"	d
+R_SPARC_PC_HH22	libdune/elf.h	1404;"	d
+R_SPARC_PC_HM10	libdune/elf.h	1405;"	d
+R_SPARC_PC_LM22	libdune/elf.h	1406;"	d
+R_SPARC_PLT32	libdune/elf.h	1391;"	d
+R_SPARC_PLT64	libdune/elf.h	1413;"	d
+R_SPARC_REGISTER	libdune/elf.h	1419;"	d
+R_SPARC_RELATIVE	libdune/elf.h	1386;"	d
+R_SPARC_TLS_DTPMOD32	libdune/elf.h	1440;"	d
+R_SPARC_TLS_DTPMOD64	libdune/elf.h	1441;"	d
+R_SPARC_TLS_DTPOFF32	libdune/elf.h	1442;"	d
+R_SPARC_TLS_DTPOFF64	libdune/elf.h	1443;"	d
+R_SPARC_TLS_GD_ADD	libdune/elf.h	1424;"	d
+R_SPARC_TLS_GD_CALL	libdune/elf.h	1425;"	d
+R_SPARC_TLS_GD_HI22	libdune/elf.h	1422;"	d
+R_SPARC_TLS_GD_LO10	libdune/elf.h	1423;"	d
+R_SPARC_TLS_IE_ADD	libdune/elf.h	1437;"	d
+R_SPARC_TLS_IE_HI22	libdune/elf.h	1433;"	d
+R_SPARC_TLS_IE_LD	libdune/elf.h	1435;"	d
+R_SPARC_TLS_IE_LDX	libdune/elf.h	1436;"	d
+R_SPARC_TLS_IE_LO10	libdune/elf.h	1434;"	d
+R_SPARC_TLS_LDM_ADD	libdune/elf.h	1428;"	d
+R_SPARC_TLS_LDM_CALL	libdune/elf.h	1429;"	d
+R_SPARC_TLS_LDM_HI22	libdune/elf.h	1426;"	d
+R_SPARC_TLS_LDM_LO10	libdune/elf.h	1427;"	d
+R_SPARC_TLS_LDO_ADD	libdune/elf.h	1432;"	d
+R_SPARC_TLS_LDO_HIX22	libdune/elf.h	1430;"	d
+R_SPARC_TLS_LDO_LOX10	libdune/elf.h	1431;"	d
+R_SPARC_TLS_LE_HIX22	libdune/elf.h	1438;"	d
+R_SPARC_TLS_LE_LOX10	libdune/elf.h	1439;"	d
+R_SPARC_TLS_TPOFF32	libdune/elf.h	1444;"	d
+R_SPARC_TLS_TPOFF64	libdune/elf.h	1445;"	d
+R_SPARC_UA16	libdune/elf.h	1421;"	d
+R_SPARC_UA32	libdune/elf.h	1387;"	d
+R_SPARC_UA64	libdune/elf.h	1420;"	d
+R_SPARC_WDISP16	libdune/elf.h	1407;"	d
+R_SPARC_WDISP19	libdune/elf.h	1408;"	d
+R_SPARC_WDISP22	libdune/elf.h	1372;"	d
+R_SPARC_WDISP30	libdune/elf.h	1371;"	d
+R_SPARC_WPLT30	libdune/elf.h	1382;"	d
+R_V850_16	libdune/elf.h	2849;"	d
+R_V850_22_PCREL	libdune/elf.h	2844;"	d
+R_V850_32	libdune/elf.h	2848;"	d
+R_V850_8	libdune/elf.h	2850;"	d
+R_V850_9_PCREL	libdune/elf.h	2843;"	d
+R_V850_CALLT_16_16_OFFSET	libdune/elf.h	2868;"	d
+R_V850_CALLT_6_7_OFFSET	libdune/elf.h	2867;"	d
+R_V850_GNU_VTENTRY	libdune/elf.h	2871;"	d
+R_V850_GNU_VTINHERIT	libdune/elf.h	2870;"	d
+R_V850_HI16	libdune/elf.h	2846;"	d
+R_V850_HI16_S	libdune/elf.h	2845;"	d
+R_V850_LO16	libdune/elf.h	2847;"	d
+R_V850_NONE	libdune/elf.h	2842;"	d
+R_V850_NUM	libdune/elf.h	2873;"	d
+R_V850_SDA_15_16_OFFSET	libdune/elf.h	2853;"	d
+R_V850_SDA_16_16_OFFSET	libdune/elf.h	2851;"	d
+R_V850_SDA_16_16_SPLIT_OFFSET	libdune/elf.h	2865;"	d
+R_V850_TDA_16_16_OFFSET	libdune/elf.h	2860;"	d
+R_V850_TDA_4_4_OFFSET	libdune/elf.h	2864;"	d
+R_V850_TDA_4_5_OFFSET	libdune/elf.h	2863;"	d
+R_V850_TDA_6_8_OFFSET	libdune/elf.h	2857;"	d
+R_V850_TDA_7_7_OFFSET	libdune/elf.h	2859;"	d
+R_V850_TDA_7_8_OFFSET	libdune/elf.h	2858;"	d
+R_V850_ZDA_15_16_OFFSET	libdune/elf.h	2856;"	d
+R_V850_ZDA_16_16_OFFSET	libdune/elf.h	2854;"	d
+R_V850_ZDA_16_16_SPLIT_OFFSET	libdune/elf.h	2866;"	d
+R_X86_64_16	libdune/elf.h	2726;"	d
+R_X86_64_32	libdune/elf.h	2724;"	d
+R_X86_64_32S	libdune/elf.h	2725;"	d
+R_X86_64_64	libdune/elf.h	2714;"	d
+R_X86_64_8	libdune/elf.h	2728;"	d
+R_X86_64_COPY	libdune/elf.h	2718;"	d
+R_X86_64_DTPMOD64	libdune/elf.h	2730;"	d
+R_X86_64_DTPOFF32	libdune/elf.h	2737;"	d
+R_X86_64_DTPOFF64	libdune/elf.h	2731;"	d
+R_X86_64_GLOB_DAT	libdune/elf.h	2719;"	d
+R_X86_64_GOT32	libdune/elf.h	2716;"	d
+R_X86_64_GOTPCREL	libdune/elf.h	2722;"	d
+R_X86_64_GOTTPOFF	libdune/elf.h	2738;"	d
+R_X86_64_JUMP_SLOT	libdune/elf.h	2720;"	d
+R_X86_64_NONE	libdune/elf.h	2713;"	d
+R_X86_64_NUM	libdune/elf.h	2742;"	d
+R_X86_64_PC16	libdune/elf.h	2727;"	d
+R_X86_64_PC32	libdune/elf.h	2715;"	d
+R_X86_64_PC8	libdune/elf.h	2729;"	d
+R_X86_64_PLT32	libdune/elf.h	2717;"	d
+R_X86_64_RELATIVE	libdune/elf.h	2721;"	d
+R_X86_64_TLSGD	libdune/elf.h	2733;"	d
+R_X86_64_TLSLD	libdune/elf.h	2735;"	d
+R_X86_64_TPOFF32	libdune/elf.h	2740;"	d
+R_X86_64_TPOFF64	libdune/elf.h	2732;"	d
+R_XTENSA_32	libdune/elf.h	3028;"	d
+R_XTENSA_ASM_EXPAND	libdune/elf.h	3037;"	d
+R_XTENSA_ASM_SIMPLIFY	libdune/elf.h	3038;"	d
+R_XTENSA_DIFF16	libdune/elf.h	3042;"	d
+R_XTENSA_DIFF32	libdune/elf.h	3043;"	d
+R_XTENSA_DIFF8	libdune/elf.h	3041;"	d
+R_XTENSA_GLOB_DAT	libdune/elf.h	3030;"	d
+R_XTENSA_GNU_VTENTRY	libdune/elf.h	3040;"	d
+R_XTENSA_GNU_VTINHERIT	libdune/elf.h	3039;"	d
+R_XTENSA_JMP_SLOT	libdune/elf.h	3031;"	d
+R_XTENSA_NONE	libdune/elf.h	3027;"	d
+R_XTENSA_NUM	libdune/elf.h	3075;"	d
+R_XTENSA_OP0	libdune/elf.h	3034;"	d
+R_XTENSA_OP1	libdune/elf.h	3035;"	d
+R_XTENSA_OP2	libdune/elf.h	3036;"	d
+R_XTENSA_PLT	libdune/elf.h	3033;"	d
+R_XTENSA_RELATIVE	libdune/elf.h	3032;"	d
+R_XTENSA_RTLD	libdune/elf.h	3029;"	d
+R_XTENSA_SLOT0_ALT	libdune/elf.h	3059;"	d
+R_XTENSA_SLOT0_OP	libdune/elf.h	3044;"	d
+R_XTENSA_SLOT10_ALT	libdune/elf.h	3069;"	d
+R_XTENSA_SLOT10_OP	libdune/elf.h	3054;"	d
+R_XTENSA_SLOT11_ALT	libdune/elf.h	3070;"	d
+R_XTENSA_SLOT11_OP	libdune/elf.h	3055;"	d
+R_XTENSA_SLOT12_ALT	libdune/elf.h	3071;"	d
+R_XTENSA_SLOT12_OP	libdune/elf.h	3056;"	d
+R_XTENSA_SLOT13_ALT	libdune/elf.h	3072;"	d
+R_XTENSA_SLOT13_OP	libdune/elf.h	3057;"	d
+R_XTENSA_SLOT14_ALT	libdune/elf.h	3073;"	d
+R_XTENSA_SLOT14_OP	libdune/elf.h	3058;"	d
+R_XTENSA_SLOT1_ALT	libdune/elf.h	3060;"	d
+R_XTENSA_SLOT1_OP	libdune/elf.h	3045;"	d
+R_XTENSA_SLOT2_ALT	libdune/elf.h	3061;"	d
+R_XTENSA_SLOT2_OP	libdune/elf.h	3046;"	d
+R_XTENSA_SLOT3_ALT	libdune/elf.h	3062;"	d
+R_XTENSA_SLOT3_OP	libdune/elf.h	3047;"	d
+R_XTENSA_SLOT4_ALT	libdune/elf.h	3063;"	d
+R_XTENSA_SLOT4_OP	libdune/elf.h	3048;"	d
+R_XTENSA_SLOT5_ALT	libdune/elf.h	3064;"	d
+R_XTENSA_SLOT5_OP	libdune/elf.h	3049;"	d
+R_XTENSA_SLOT6_ALT	libdune/elf.h	3065;"	d
+R_XTENSA_SLOT6_OP	libdune/elf.h	3050;"	d
+R_XTENSA_SLOT7_ALT	libdune/elf.h	3066;"	d
+R_XTENSA_SLOT7_OP	libdune/elf.h	3051;"	d
+R_XTENSA_SLOT8_ALT	libdune/elf.h	3067;"	d
+R_XTENSA_SLOT8_OP	libdune/elf.h	3052;"	d
+R_XTENSA_SLOT9_ALT	libdune/elf.h	3068;"	d
+R_XTENSA_SLOT9_OP	libdune/elf.h	3053;"	d
+SECONDARY_EXEC_ENABLE_INVPCID	kern/compat.h	22;"	d
+SEG32	libdune/mmu-x86.h	229;"	d
+SEG32_ASM	libdune/mmu-x86.h	224;"	d
+SEG64	libdune/mmu-x86.h	233;"	d
+SEG_A	libdune/mmu-x86.h	196;"	d
+SEG_BASEHI	libdune/mmu-x86.h	222;"	d
+SEG_BASELO	libdune/mmu-x86.h	220;"	d
+SEG_C	libdune/mmu-x86.h	201;"	d
+SEG_CG	libdune/mmu-x86.h	208;"	d
+SEG_D	libdune/mmu-x86.h	215;"	d
+SEG_DPL	libdune/mmu-x86.h	212;"	d
+SEG_E	libdune/mmu-x86.h	198;"	d
+SEG_G	libdune/mmu-x86.h	216;"	d
+SEG_IG	libdune/mmu-x86.h	209;"	d
+SEG_L	libdune/mmu-x86.h	214;"	d
+SEG_LDT	libdune/mmu-x86.h	205;"	d
+SEG_LIM	libdune/mmu-x86.h	219;"	d
+SEG_P	libdune/mmu-x86.h	213;"	d
+SEG_R	libdune/mmu-x86.h	200;"	d
+SEG_S	libdune/mmu-x86.h	203;"	d
+SEG_SEL	libdune/mmu-x86.h	238;"	d
+SEG_TARGETHI	libdune/mmu-x86.h	241;"	d
+SEG_TARGETLO	libdune/mmu-x86.h	239;"	d
+SEG_TG	libdune/mmu-x86.h	210;"	d
+SEG_TSSA	libdune/mmu-x86.h	206;"	d
+SEG_TSSB	libdune/mmu-x86.h	207;"	d
+SEG_W	libdune/mmu-x86.h	197;"	d
+SEG_X	libdune/mmu-x86.h	199;"	d
+SELFMAG	libdune/elf.h	124;"	d
+SETGATE	libdune/mmu-x86.h	245;"	d
+SHF_ALLOC	libdune/elf.h	473;"	d
+SHF_ALPHA_GPREL	libdune/elf.h	2028;"	d
+SHF_ARM_COMDEF	libdune/elf.h	2359;"	d
+SHF_ARM_ENTRYSECT	libdune/elf.h	2358;"	d
+SHF_EXCLUDE	libdune/elf.h	487;"	d
+SHF_EXECINSTR	libdune/elf.h	474;"	d
+SHF_GROUP	libdune/elf.h	481;"	d
+SHF_IA_64_NORECOV	libdune/elf.h	2450;"	d
+SHF_IA_64_SHORT	libdune/elf.h	2449;"	d
+SHF_INFO_LINK	libdune/elf.h	477;"	d
+SHF_LINK_ORDER	libdune/elf.h	478;"	d
+SHF_MASKOS	libdune/elf.h	483;"	d
+SHF_MASKPROC	libdune/elf.h	484;"	d
+SHF_MERGE	libdune/elf.h	475;"	d
+SHF_MIPS_ADDR	libdune/elf.h	1550;"	d
+SHF_MIPS_GPREL	libdune/elf.h	1548;"	d
+SHF_MIPS_LOCAL	libdune/elf.h	1553;"	d
+SHF_MIPS_MERGE	libdune/elf.h	1549;"	d
+SHF_MIPS_NAMES	libdune/elf.h	1554;"	d
+SHF_MIPS_NODUPE	libdune/elf.h	1555;"	d
+SHF_MIPS_NOSTRIP	libdune/elf.h	1552;"	d
+SHF_MIPS_STRINGS	libdune/elf.h	1551;"	d
+SHF_ORDERED	libdune/elf.h	485;"	d
+SHF_OS_NONCONFORMING	libdune/elf.h	479;"	d
+SHF_PARISC_HUGE	libdune/elf.h	1878;"	d
+SHF_PARISC_SBP	libdune/elf.h	1879;"	d
+SHF_PARISC_SHORT	libdune/elf.h	1877;"	d
+SHF_STRINGS	libdune/elf.h	476;"	d
+SHF_TLS	libdune/elf.h	482;"	d
+SHF_WRITE	libdune/elf.h	472;"	d
+SHN_ABS	libdune/elf.h	427;"	d
+SHN_AFTER	libdune/elf.h	422;"	d
+SHN_BEFORE	libdune/elf.h	420;"	d
+SHN_COMMON	libdune/elf.h	428;"	d
+SHN_HIOS	libdune/elf.h	426;"	d
+SHN_HIPROC	libdune/elf.h	424;"	d
+SHN_HIRESERVE	libdune/elf.h	430;"	d
+SHN_LOOS	libdune/elf.h	425;"	d
+SHN_LOPROC	libdune/elf.h	419;"	d
+SHN_LORESERVE	libdune/elf.h	418;"	d
+SHN_MIPS_ACOMMON	libdune/elf.h	1498;"	d
+SHN_MIPS_DATA	libdune/elf.h	1500;"	d
+SHN_MIPS_SCOMMON	libdune/elf.h	1501;"	d
+SHN_MIPS_SUNDEFINED	libdune/elf.h	1502;"	d
+SHN_MIPS_TEXT	libdune/elf.h	1499;"	d
+SHN_PARISC_ANSI_COMMON	libdune/elf.h	1865;"	d
+SHN_PARISC_HUGE_COMMON	libdune/elf.h	1867;"	d
+SHN_UNDEF	libdune/elf.h	417;"	d
+SHN_XINDEX	libdune/elf.h	429;"	d
+SHT_ALPHA_DEBUG	libdune/elf.h	2023;"	d
+SHT_ALPHA_REGINFO	libdune/elf.h	2024;"	d
+SHT_CHECKSUM	libdune/elf.h	455;"	d
+SHT_DYNAMIC	libdune/elf.h	440;"	d
+SHT_DYNSYM	libdune/elf.h	445;"	d
+SHT_FINI_ARRAY	libdune/elf.h	447;"	d
+SHT_GNU_HASH	libdune/elf.h	453;"	d
+SHT_GNU_LIBLIST	libdune/elf.h	454;"	d
+SHT_GNU_verdef	libdune/elf.h	460;"	d
+SHT_GNU_verneed	libdune/elf.h	461;"	d
+SHT_GNU_versym	libdune/elf.h	462;"	d
+SHT_GROUP	libdune/elf.h	449;"	d
+SHT_HASH	libdune/elf.h	439;"	d
+SHT_HIOS	libdune/elf.h	464;"	d
+SHT_HIPROC	libdune/elf.h	466;"	d
+SHT_HISUNW	libdune/elf.h	463;"	d
+SHT_HIUSER	libdune/elf.h	468;"	d
+SHT_IA_64_EXT	libdune/elf.h	2445;"	d
+SHT_IA_64_UNWIND	libdune/elf.h	2446;"	d
+SHT_INIT_ARRAY	libdune/elf.h	446;"	d
+SHT_LOOS	libdune/elf.h	452;"	d
+SHT_LOPROC	libdune/elf.h	465;"	d
+SHT_LOSUNW	libdune/elf.h	456;"	d
+SHT_LOUSER	libdune/elf.h	467;"	d
+SHT_MIPS_AUXSYM	libdune/elf.h	1525;"	d
+SHT_MIPS_CONFLICT	libdune/elf.h	1508;"	d
+SHT_MIPS_CONTENT	libdune/elf.h	1517;"	d
+SHT_MIPS_DEBUG	libdune/elf.h	1511;"	d
+SHT_MIPS_DELTACLASS	libdune/elf.h	1532;"	d
+SHT_MIPS_DELTADECL	libdune/elf.h	1534;"	d
+SHT_MIPS_DELTAINST	libdune/elf.h	1531;"	d
+SHT_MIPS_DELTASYM	libdune/elf.h	1530;"	d
+SHT_MIPS_DENSE	libdune/elf.h	1522;"	d
+SHT_MIPS_DWARF	libdune/elf.h	1533;"	d
+SHT_MIPS_EH_REGION	libdune/elf.h	1542;"	d
+SHT_MIPS_EVENTS	libdune/elf.h	1536;"	d
+SHT_MIPS_EXTSYM	libdune/elf.h	1521;"	d
+SHT_MIPS_FDESC	libdune/elf.h	1520;"	d
+SHT_MIPS_GPTAB	libdune/elf.h	1509;"	d
+SHT_MIPS_IFACE	libdune/elf.h	1516;"	d
+SHT_MIPS_LIBLIST	libdune/elf.h	1506;"	d
+SHT_MIPS_LINE	libdune/elf.h	1528;"	d
+SHT_MIPS_LOCSTR	libdune/elf.h	1527;"	d
+SHT_MIPS_LOCSYM	libdune/elf.h	1524;"	d
+SHT_MIPS_MSYM	libdune/elf.h	1507;"	d
+SHT_MIPS_OPTIONS	libdune/elf.h	1518;"	d
+SHT_MIPS_OPTSYM	libdune/elf.h	1526;"	d
+SHT_MIPS_PACKAGE	libdune/elf.h	1513;"	d
+SHT_MIPS_PACKSYM	libdune/elf.h	1514;"	d
+SHT_MIPS_PDESC	libdune/elf.h	1523;"	d
+SHT_MIPS_PDR_EXCEPTION	libdune/elf.h	1544;"	d
+SHT_MIPS_PIXIE	libdune/elf.h	1538;"	d
+SHT_MIPS_REGINFO	libdune/elf.h	1512;"	d
+SHT_MIPS_RELD	libdune/elf.h	1515;"	d
+SHT_MIPS_RFDESC	libdune/elf.h	1529;"	d
+SHT_MIPS_SHDR	libdune/elf.h	1519;"	d
+SHT_MIPS_SYMBOL_LIB	libdune/elf.h	1535;"	d
+SHT_MIPS_TRANSLATE	libdune/elf.h	1537;"	d
+SHT_MIPS_UCODE	libdune/elf.h	1510;"	d
+SHT_MIPS_WHIRL	libdune/elf.h	1541;"	d
+SHT_MIPS_XLATE	libdune/elf.h	1539;"	d
+SHT_MIPS_XLATE_DEBUG	libdune/elf.h	1540;"	d
+SHT_MIPS_XLATE_OLD	libdune/elf.h	1543;"	d
+SHT_NOBITS	libdune/elf.h	442;"	d
+SHT_NOTE	libdune/elf.h	441;"	d
+SHT_NULL	libdune/elf.h	434;"	d
+SHT_NUM	libdune/elf.h	451;"	d
+SHT_PARISC_DOC	libdune/elf.h	1873;"	d
+SHT_PARISC_EXT	libdune/elf.h	1871;"	d
+SHT_PARISC_UNWIND	libdune/elf.h	1872;"	d
+SHT_PREINIT_ARRAY	libdune/elf.h	448;"	d
+SHT_PROGBITS	libdune/elf.h	435;"	d
+SHT_REL	libdune/elf.h	443;"	d
+SHT_RELA	libdune/elf.h	438;"	d
+SHT_SHLIB	libdune/elf.h	444;"	d
+SHT_STRTAB	libdune/elf.h	437;"	d
+SHT_SUNW_COMDAT	libdune/elf.h	458;"	d
+SHT_SUNW_move	libdune/elf.h	457;"	d
+SHT_SUNW_syminfo	libdune/elf.h	459;"	d
+SHT_SYMTAB	libdune/elf.h	436;"	d
+SHT_SYMTAB_SHNDX	libdune/elf.h	450;"	d
+SS	libdune/dune.S	/^#define SS	(160)$/;"	d
+STACK_DEPTH	libdune/trap.c	60;"	d	file:
+STACK_SIZE	apps/wedge/sthread.c	15;"	d	file:
+STA_A	libdune/mmu-x86.h	188;"	d
+STA_C	libdune/mmu-x86.h	193;"	d
+STA_E	libdune/mmu-x86.h	190;"	d
+STA_R	libdune/mmu-x86.h	192;"	d
+STA_W	libdune/mmu-x86.h	189;"	d
+STA_X	libdune/mmu-x86.h	191;"	d
+STB_GLOBAL	libdune/elf.h	561;"	d
+STB_HIOS	libdune/elf.h	565;"	d
+STB_HIPROC	libdune/elf.h	567;"	d
+STB_LOCAL	libdune/elf.h	560;"	d
+STB_LOOS	libdune/elf.h	564;"	d
+STB_LOPROC	libdune/elf.h	566;"	d
+STB_MIPS_SPLIT_COMMON	libdune/elf.h	1569;"	d
+STB_NUM	libdune/elf.h	563;"	d
+STB_WEAK	libdune/elf.h	562;"	d
+STN_UNDEF	libdune/elf.h	589;"	d
+STO_ALPHA_NOPV	libdune/elf.h	2031;"	d
+STO_ALPHA_STD_GPLOAD	libdune/elf.h	2032;"	d
+STO_MIPS_DEFAULT	libdune/elf.h	1561;"	d
+STO_MIPS_HIDDEN	libdune/elf.h	1563;"	d
+STO_MIPS_INTERNAL	libdune/elf.h	1562;"	d
+STO_MIPS_PLT	libdune/elf.h	1565;"	d
+STO_MIPS_PROTECTED	libdune/elf.h	1564;"	d
+STO_MIPS_SC_ALIGN_UNUSED	libdune/elf.h	1566;"	d
+STO_SH5_ISA32	libdune/elf.h	2545;"	d
+STR_ALLOW_BIND	apps/ufirewall/firewall.c	50;"	d	file:
+STR_ALLOW_CONNECT	apps/ufirewall/firewall.c	51;"	d	file:
+STR_COMMENT	apps/ufirewall/firewall.c	49;"	d	file:
+STR_DENY_CONNECT	apps/ufirewall/firewall.c	52;"	d	file:
+STT_ARM_TFUNC	libdune/elf.h	2355;"	d
+STT_COMMON	libdune/elf.h	576;"	d
+STT_FILE	libdune/elf.h	575;"	d
+STT_FUNC	libdune/elf.h	573;"	d
+STT_HIOS	libdune/elf.h	580;"	d
+STT_HIPROC	libdune/elf.h	582;"	d
+STT_HP_OPAQUE	libdune/elf.h	1885;"	d
+STT_HP_STUB	libdune/elf.h	1886;"	d
+STT_LOOS	libdune/elf.h	579;"	d
+STT_LOPROC	libdune/elf.h	581;"	d
+STT_NOTYPE	libdune/elf.h	571;"	d
+STT_NUM	libdune/elf.h	578;"	d
+STT_OBJECT	libdune/elf.h	572;"	d
+STT_PARISC_MILLICODE	libdune/elf.h	1883;"	d
+STT_SECTION	libdune/elf.h	574;"	d
+STT_SPARC_REGISTER	libdune/elf.h	1347;"	d
+STT_TLS	libdune/elf.h	577;"	d
+STV_DEFAULT	libdune/elf.h	600;"	d
+STV_HIDDEN	libdune/elf.h	602;"	d
+STV_INTERNAL	libdune/elf.h	601;"	d
+STV_PROTECTED	libdune/elf.h	603;"	d
+ST_DEAD	apps/wedge/sthread.c	/^	ST_DEAD,$/;"	e	enum:__anon1	file:
+ST_RUNNING	apps/wedge/sthread.c	/^	ST_RUNNING	= 0,$/;"	e	enum:__anon1	file:
+ST_ZOMBIE	apps/wedge/sthread.c	/^	ST_ZOMBIE,$/;"	e	enum:__anon1	file:
+SUBDIRS	Makefile	/^SUBDIRS	= kern libdune bench test apps$/;"	m
+SUBDIRS	apps/Makefile	/^SUBDIRS	= sandbox wedge ufirewall$/;"	m
+SYMINFO_BT_LOWRESERVE	libdune/elf.h	533;"	d
+SYMINFO_BT_PARENT	libdune/elf.h	532;"	d
+SYMINFO_BT_SELF	libdune/elf.h	531;"	d
+SYMINFO_CURRENT	libdune/elf.h	543;"	d
+SYMINFO_FLG_COPY	libdune/elf.h	538;"	d
+SYMINFO_FLG_DIRECT	libdune/elf.h	536;"	d
+SYMINFO_FLG_LAZYLOAD	libdune/elf.h	539;"	d
+SYMINFO_FLG_PASSTHRU	libdune/elf.h	537;"	d
+SYMINFO_NONE	libdune/elf.h	542;"	d
+SYMINFO_NUM	libdune/elf.h	544;"	d
+SYSCALL_TBL	kern/Makefile	/^SYSCALL_TBL = 0x$(shell $(EXTRACT) sys_call_table)$/;"	m
+ShdrTypes	libdune/elf.c	/^static const char *ShdrTypes[SHT_NUM] = {$/;"	v	file:
+TAG_SIZE	apps/wedge/sthread.c	16;"	d	file:
+TF_ALIGN	libdune/dune.S	/^#define TF_ALIGN (176)$/;"	d
+TF_END	libdune/dune.S	/^#define TF_END	(168)$/;"	d
+TMP	kern/Makefile	/^TMP=$(PWD)\/tmp$/;"	m
+TMP	libdune/dune.S	/^#define TMP		(0)$/;"	d
+TRAP_STACK	libdune/dune.S	/^#define TRAP_STACK	(36)$/;"	d
+T_ALIGN	libdune/cpu-x86.h	78;"	d
+T_BOUND	libdune/cpu-x86.h	66;"	d
+T_BRKPT	libdune/cpu-x86.h	64;"	d
+T_DBLFLT	libdune/cpu-x86.h	69;"	d
+T_DEBUG	libdune/cpu-x86.h	62;"	d
+T_DEVICE	libdune/cpu-x86.h	68;"	d
+T_DIVIDE	libdune/cpu-x86.h	61;"	d
+T_FPERR	libdune/cpu-x86.h	77;"	d
+T_GPFLT	libdune/cpu-x86.h	74;"	d
+T_ILLOP	libdune/cpu-x86.h	67;"	d
+T_MCHK	libdune/cpu-x86.h	79;"	d
+T_NMI	libdune/cpu-x86.h	63;"	d
+T_OFLOW	libdune/cpu-x86.h	65;"	d
+T_PGFLT	libdune/cpu-x86.h	75;"	d
+T_SEGNP	libdune/cpu-x86.h	72;"	d
+T_SIMDERR	libdune/cpu-x86.h	80;"	d
+T_STACK	libdune/cpu-x86.h	73;"	d
+T_SYSCALL	libdune/cpu-x86.h	84;"	d
+T_TSS	libdune/cpu-x86.h	71;"	d
+Trapframe	libdune/mmu.h	/^struct Trapframe {$/;"	s
+Trapframe_aux	libdune/mmu.h	/^struct Trapframe_aux {$/;"	s
+Tss	libdune/mmu.h	/^struct Tss {$/;"	s
+UFS_BASE	libdune/dune.S	/^#define UFS_BASE	(16)$/;"	d
+UINT64	libdune/mmu.h	4;"	d
+USE_BIG_MEM	apps/sandbox/umm.c	20;"	d	file:
+USE_RDWRGSFS	libdune/dune.S	/^#define USE_RDWRGSFS 0$/;"	d
+VA_END	libdune/dune.h	243;"	d
+VA_START	libdune/dune.h	242;"	d
+VCPU_REGS_R10	kern/vmx.h	/^	VCPU_REGS_R10 = 10,$/;"	e	enum:vmx_reg
+VCPU_REGS_R11	kern/vmx.h	/^	VCPU_REGS_R11 = 11,$/;"	e	enum:vmx_reg
+VCPU_REGS_R12	kern/vmx.h	/^	VCPU_REGS_R12 = 12,$/;"	e	enum:vmx_reg
+VCPU_REGS_R13	kern/vmx.h	/^	VCPU_REGS_R13 = 13,$/;"	e	enum:vmx_reg
+VCPU_REGS_R14	kern/vmx.h	/^	VCPU_REGS_R14 = 14,$/;"	e	enum:vmx_reg
+VCPU_REGS_R15	kern/vmx.h	/^	VCPU_REGS_R15 = 15,$/;"	e	enum:vmx_reg
+VCPU_REGS_R8	kern/vmx.h	/^	VCPU_REGS_R8 = 8,$/;"	e	enum:vmx_reg
+VCPU_REGS_R9	kern/vmx.h	/^	VCPU_REGS_R9 = 9,$/;"	e	enum:vmx_reg
+VCPU_REGS_RAX	kern/vmx.h	/^	VCPU_REGS_RAX = 0,$/;"	e	enum:vmx_reg
+VCPU_REGS_RBP	kern/vmx.h	/^	VCPU_REGS_RBP = 5,$/;"	e	enum:vmx_reg
+VCPU_REGS_RBX	kern/vmx.h	/^	VCPU_REGS_RBX = 3,$/;"	e	enum:vmx_reg
+VCPU_REGS_RCX	kern/vmx.h	/^	VCPU_REGS_RCX = 1,$/;"	e	enum:vmx_reg
+VCPU_REGS_RDI	kern/vmx.h	/^	VCPU_REGS_RDI = 7,$/;"	e	enum:vmx_reg
+VCPU_REGS_RDX	kern/vmx.h	/^	VCPU_REGS_RDX = 2,$/;"	e	enum:vmx_reg
+VCPU_REGS_RIP	kern/vmx.h	/^	VCPU_REGS_RIP,$/;"	e	enum:vmx_reg
+VCPU_REGS_RSI	kern/vmx.h	/^	VCPU_REGS_RSI = 6,$/;"	e	enum:vmx_reg
+VCPU_REGS_RSP	kern/vmx.h	/^	VCPU_REGS_RSP = 4,$/;"	e	enum:vmx_reg
+VERFILE	kern/Makefile	/^VERFILE := $(KSRC_OUTPUT)\/include\/linux\/version.h$/;"	m
+VER_DEF_CURRENT	libdune/elf.h	939;"	d
+VER_DEF_NONE	libdune/elf.h	938;"	d
+VER_DEF_NUM	libdune/elf.h	940;"	d
+VER_FLG_BASE	libdune/elf.h	943;"	d
+VER_FLG_WEAK	libdune/elf.h	1023;"	d
+VER_FLG_WEAK	libdune/elf.h	944;"	d
+VER_NDX_ELIMINATE	libdune/elf.h	950;"	d
+VER_NDX_GLOBAL	libdune/elf.h	948;"	d
+VER_NDX_LOCAL	libdune/elf.h	947;"	d
+VER_NDX_LORESERVE	libdune/elf.h	949;"	d
+VER_NEED_CURRENT	libdune/elf.h	996;"	d
+VER_NEED_NONE	libdune/elf.h	995;"	d
+VER_NEED_NUM	libdune/elf.h	997;"	d
+VMX_EPT_AD_BIT	kern/compat.h	9;"	d
+VMX_EPT_AD_ENABLE_BIT	kern/compat.h	10;"	d
+VMX_EPT_EXTENT_INDIVIDUAL_BIT	kern/compat.h	14;"	d
+VMX_EPT_FAULT_INS	kern/ept.c	65;"	d	file:
+VMX_EPT_FAULT_READ	kern/ept.c	63;"	d	file:
+VMX_EPT_FAULT_WRITE	kern/ept.c	64;"	d	file:
+VSYSCALL_ADDR	libdune/entry.c	255;"	d	file:
+X86_CR4_PCIDE	kern/compat.h	18;"	d
+_ELF_H	libdune/elf.h	21;"	d
+_GNU_SOURCE	apps/sandbox/main.c	1;"	d	file:
+_GNU_SOURCE	apps/sandbox/umm.c	10;"	d	file:
+_GNU_SOURCE	bench/bench_linux.c	1;"	d	file:
+_GNU_SOURCE	libdune/entry.c	5;"	d	file:
+_GNU_SOURCE	libdune/page.c	5;"	d	file:
+__BOXER_H__	apps/sandbox/boxer.h	2;"	d
+__DUNESB_SANDBOX_H__	apps/sandbox/sandbox.h	6;"	d
+__DUNE_COMPAT_H_	kern/compat.h	2;"	d
+__EPTE_A	kern/ept.c	74;"	d	file:
+__EPTE_D	kern/ept.c	75;"	d	file:
+__EPTE_EXEC	kern/ept.c	71;"	d	file:
+__EPTE_FULL	kern/ept.c	87;"	d	file:
+__EPTE_IPAT	kern/ept.c	72;"	d	file:
+__EPTE_NONE	kern/ept.c	86;"	d	file:
+__EPTE_READ	kern/ept.c	69;"	d	file:
+__EPTE_SZ	kern/ept.c	73;"	d	file:
+__EPTE_TYPE	kern/ept.c	76;"	d	file:
+__EPTE_WRITE	kern/ept.c	70;"	d	file:
+__STHREAD_H__	apps/wedge/sthread.h	2;"	d
+__cacheline_aligned	kern/vmx.c	/^static sys_call_ptr_t dune_syscall_tbl[NUM_SYSCALLS] __cacheline_aligned;$/;"	v	file:
+__dune_enter	libdune/dune.S	/^__dune_enter:$/;"	l
+__dune_intr	libdune/dune.S	/^__dune_intr:$/;"	l
+__dune_intr_done	libdune/dune.S	/^__dune_intr_done:$/;"	l
+__dune_intr_handler	libdune/dune.S	/^__dune_intr_handler:$/;"	l
+__dune_intr_with_num	libdune/dune.S	/^__dune_intr_with_num:$/;"	l
+__dune_procmap_dump_helper	libdune/procmap.c	/^static void __dune_procmap_dump_helper(const struct dune_procmap_entry *e)$/;"	f	file:
+__dune_ret	libdune/dune.S	/^__dune_ret:$/;"	l
+__dune_syscall	libdune/dune.S	/^__dune_syscall:$/;"	l
+__dune_syscall_end	libdune/dune.S	/^__dune_syscall_end:$/;"	l
+__dune_vm_clone_helper	libdune/vm.c	/^static int __dune_vm_clone_helper(const void *arg, ptent_t *pte, void *va)$/;"	f	file:
+__dune_vm_free_helper	libdune/vm.c	/^static int __dune_vm_free_helper(const void *arg, ptent_t *pte, void *va)$/;"	f	file:
+__dune_vm_map_pages_helper	libdune/vm.c	/^static int __dune_vm_map_pages_helper(const void *arg, ptent_t *pte, void *va)$/;"	f	file:
+__dune_vm_map_phys_helper	libdune/vm.c	/^static int __dune_vm_map_phys_helper(const void *arg, ptent_t *pte, void *va)$/;"	f	file:
+__dune_vm_mprotect_helper	libdune/vm.c	/^static int __dune_vm_mprotect_helper(const void *arg, ptent_t *pte, void *va)$/;"	f	file:
+__dune_vm_page_walk	libdune/vm.c	/^static int __dune_vm_page_walk(ptent_t *dir, void *start_va, void *end_va,$/;"	f	file:
+__dune_vsyscall_page	libdune/vsyscall.S	/^__dune_vsyscall_page:$/;"	l
+__invept	kern/vmx.c	/^static inline void __invept(int ext, u64 eptp, gpa_t gpa)$/;"	f	file:
+__invpcid	libdune/dune.h	/^static inline void __invpcid(int mode, unsigned long addr)$/;"	f
+__invvpid	kern/vmx.c	/^static inline void __invvpid(int ext, u16 vpid, gva_t gva)$/;"	f	file:
+__setup_mappings_cb	libdune/entry.c	/^static void __setup_mappings_cb(const struct dune_procmap_entry *ent)$/;"	f	file:
+__setup_mappings_full	libdune/entry.c	/^static int __setup_mappings_full(struct dune_layout *layout)$/;"	f	file:
+__setup_mappings_precise	libdune/entry.c	/^static int __setup_mappings_precise(void)$/;"	f	file:
+__str	libdune/local.h	8;"	d
+__str_t	libdune/local.h	7;"	d
+__uint64_t	libdune/types.h	/^typedef uint64_t __uint64_t;$/;"	t
+__vmx_alloc_vmcs	kern/vmx.c	/^static struct vmcs *__vmx_alloc_vmcs(int cpu)$/;"	f	file:
+__vmx_disable_intercept_for_msr	kern/vmx.c	/^static void __vmx_disable_intercept_for_msr(unsigned long *msr_bitmap, u32 msr)$/;"	f	file:
+__vmx_enable	kern/vmx.c	/^static __init int __vmx_enable(struct vmcs *vmxon_buf)$/;"	f	file:
+__vmx_get_cpu_helper	kern/vmx.c	/^static void __vmx_get_cpu_helper(void *ptr)$/;"	f	file:
+__vmx_setup_cpu	kern/vmx.c	/^static void __vmx_setup_cpu(void)$/;"	f	file:
+__vmx_sync_helper	kern/vmx.c	/^static void __vmx_sync_helper(void *ptr)$/;"	f	file:
+__vmx_sync_individual_addr_helper	kern/vmx.c	/^static void __vmx_sync_individual_addr_helper(void *ptr)$/;"	f	file:
+__vmxoff	kern/vmx.c	/^static inline void __vmxoff(void)$/;"	f	file:
+__vmxon	kern/vmx.c	/^static inline void __vmxon(u64 addr)$/;"	f	file:
+_checkpointed_mem	apps/wedge/sthread.c	/^static unsigned char *_checkpointed_mem;$/;"	v	file:
+_checkpointed_size	apps/wedge/sthread.c	/^static int _checkpointed_size;$/;"	v	file:
+_crap	apps/wedge/bench.c	/^static unsigned char *_crap;$/;"	v	file:
+_crap2	apps/wedge/bench.c	/^static unsigned char *_crap2;$/;"	v	file:
+_crappy	apps/wedge/bench.c	/^static unsigned char *_crappy;$/;"	v	file:
+_global	apps/wedge/test.c	/^static int _global = 1;$/;"	v	file:
+_imp	apps/wedge/httpd.c	/^static int _imp;$/;"	v	file:
+_kstate	apps/wedge/sthread.c	/^} *_kstate;$/;"	v	typeref:struct:kstate	file:
+_pages	apps/wedge/bench.c	/^static int _pages;$/;"	v	file:
+_pg1	apps/wedge/bench.c	/^static ptent_t *_pg1, *_pg2;$/;"	v	file:
+_pg2	apps/wedge/bench.c	/^static ptent_t *_pg1, *_pg2;$/;"	v	file:
+_segments	apps/wedge/sthread.c	/^} _segments;$/;"	v	typeref:struct:segment	file:
+_sthread_id	apps/wedge/sthread.c	/^static int _sthread_id;$/;"	v	file:
+_syscall_monitor	apps/sandbox/trap.c	/^static boxer_syscall_cb _syscall_monitor;$/;"	v	file:
+_syscall_mtx	apps/sandbox/trap.c	/^static pthread_mutex_t _syscall_mtx;$/;"	v	file:
+_tag_id	apps/wedge/sthread.c	/^static int _tag_id;$/;"	v	file:
+_tags	apps/wedge/sthread.c	/^} _tags;$/;"	v	typeref:struct:tag
+_tests	test/test.c	/^} _tests[] = {$/;"	v	typeref:struct:test	file:
+_threads_survived	test/test_sandbox.c	/^static int _threads_survived = 0;$/;"	v	file:
+_tls	test/test_sandbox.c	/^static unsigned long _tls;$/;"	v	file:
+_use_vmcall_gettimeofday	apps/wedge/bench.c	/^static int _use_vmcall_gettimeofday;$/;"	v	file:
+a_type	libdune/elf.h	/^  uint32_t a_type;		\/* Entry type *\/$/;"	m	struct:__anon31
+a_type	libdune/elf.h	/^  uint64_t a_type;		\/* Entry type *\/$/;"	m	struct:__anon33
+a_un	libdune/elf.h	/^    } a_un;$/;"	m	struct:__anon31	typeref:union:__anon31::__anon32
+a_un	libdune/elf.h	/^    } a_un;$/;"	m	struct:__anon33	typeref:union:__anon33::__anon34
+a_val	libdune/elf.h	/^      uint32_t a_val;		\/* Integer value *\/$/;"	m	union:__anon31::__anon32
+a_val	libdune/elf.h	/^      uint64_t a_val;		\/* Integer value *\/$/;"	m	union:__anon33::__anon34
+abort	kern/vmx.h	/^	u32 abort;$/;"	m	struct:vmcs
+addr_is_mapped	libdune/trap.c	/^static bool addr_is_mapped(void *va)$/;"	f	file:
+adjust_vmx_controls	kern/vmx.c	/^static __init int adjust_vmx_controls(u32 ctl_min, u32 ctl_opt,$/;"	f	file:
+all-sources	kern/Makefile	/^define all-sources$/;"	m
+alloc_page	libdune/vm.c	/^static inline void * alloc_page(void)$/;"	f	file:
+allow_1_setting	kern/vmx.c	/^static __init bool allow_1_setting(u32 msr, u32 ctl)$/;"	f	file:
+assert	libdune/dune.h	32;"	d
+base	libdune/cpu-x86.h	/^	uint64_t	base;$/;"	m	struct:tptr
+base_map	kern/dune.h	/^	__u64 base_map;$/;"	m	struct:dune_layout
+base_proc	kern/dune.h	/^	__u64 base_proc;$/;"	m	struct:dune_layout
+base_stack	kern/dune.h	/^	__u64 base_stack;$/;"	m	struct:dune_layout
+begin	libdune/dune.h	/^	uintptr_t	begin;$/;"	m	struct:dune_procmap_entry
+bench_http	apps/wedge/bench.c	/^static void bench_http(void)$/;"	f	file:
+bench_sthreads	apps/wedge/bench.c	/^static void bench_sthreads(void)$/;"	f	file:
+bench_switch	apps/wedge/bench.c	/^static void bench_switch(int pages, int pages_end)$/;"	f	file:
+benchmark1	bench/bench_dune.c	/^static void benchmark1(void)$/;"	f	file:
+benchmark1	bench/bench_linux.c	/^static void benchmark1(void)$/;"	f	file:
+benchmark1_handler	bench/bench_dune.c	/^benchmark1_handler(uintptr_t addr, uint64_t fec, struct dune_tf *tf)$/;"	f	file:
+benchmark1_handler	bench/bench_linux.c	/^static void benchmark1_handler(int sn, siginfo_t *si, void *ctx)$/;"	f	file:
+benchmark2	bench/bench_dune.c	/^static void benchmark2(void)$/;"	f	file:
+benchmark2	bench/bench_linux.c	/^static void benchmark2(void)$/;"	f	file:
+benchmark2_handler	bench/bench_dune.c	/^benchmark2_handler(uintptr_t addr, uint64_t fec,  struct dune_tf *tf)$/;"	f	file:
+benchmark2_handler	bench/bench_linux.c	/^static void benchmark2_handler(int sn, siginfo_t *si, void *ctx)$/;"	f	file:
+benchmark_appel1	bench/bench_dune.c	/^static void benchmark_appel1(void)$/;"	f	file:
+benchmark_appel1	bench/bench_linux.c	/^static void benchmark_appel1(void)$/;"	f	file:
+benchmark_appel2	bench/bench_dune.c	/^static void benchmark_appel2(void)$/;"	f	file:
+benchmark_appel2	bench/bench_linux.c	/^static void benchmark_appel2(void)$/;"	f	file:
+benchmark_fault	bench/bench_dune.c	/^static void benchmark_fault(void)$/;"	f	file:
+benchmark_fault	bench/bench_linux.c	/^void benchmark_fault(void)$/;"	f
+benchmark_latency	apps/wedge/bench.c	/^static int benchmark_latency(cb_t cb)$/;"	f	file:
+benchmark_syscall	bench/bench_dune.c	/^static void benchmark_syscall(void)$/;"	f	file:
+benchmark_syscall	bench/bench_linux.c	/^static void benchmark_syscall(void)$/;"	f	file:
+bool_t	libdune/types.h	/^typedef int bool_t;$/;"	t
+boxer_main	apps/sandbox/main.c	/^int boxer_main(int argc, char *argv[])$/;"	f
+boxer_register_syscall_monitor	apps/sandbox/trap.c	/^void boxer_register_syscall_monitor(boxer_syscall_cb cb)$/;"	f
+boxer_syscall_cb	apps/sandbox/boxer.h	/^typedef int (*boxer_syscall_cb)(struct dune_tf *tf);$/;"	t
+brk_len	apps/sandbox/umm.c	/^static size_t brk_len = 0;$/;"	v	file:
+can_do_sys	apps/wedge/sthread.c	/^static int can_do_sys(struct sthread *st, int sysno)$/;"	f	file:
+cb	test/test.c	/^	int	(*cb)(void);$/;"	m	struct:test	file:
+cb_t	apps/wedge/bench.c	/^typedef void (*cb_t)(void);$/;"	t	file:
+check_bind	apps/ufirewall/firewall.c	/^static int check_bind(int sock, const struct sockaddr *addr, socklen_t len)$/;"	f	file:
+check_connect	apps/ufirewall/firewall.c	/^static int check_connect(int sock, const struct sockaddr *addr, socklen_t len)$/;"	f	file:
+check_dune	test/test.c	/^static int check_dune(void)$/;"	f	file:
+check_extent	apps/sandbox/trap.c	/^int check_extent(const void *ptr, size_t len)$/;"	f
+check_file	kern/extract_symbol.sh	/^check_file()$/;"	f
+check_good	dune_req.sh	/^check_good()$/;"	f
+check_iovec	apps/sandbox/trap.c	/^static int check_iovec(struct iovec *iov, int num)$/;"	f	file:
+check_string	apps/sandbox/trap.c	/^int check_string(const void *ptr)$/;"	f
+checkpoint_do	apps/wedge/sthread.c	/^static void checkpoint_do(void)$/;"	f	file:
+checkpoint_prepare	apps/wedge/sthread.c	/^static void checkpoint_prepare(void)$/;"	f	file:
+construct_eptp	kern/vmx.c	/^static u64 construct_eptp(unsigned long root_hpa)$/;"	f	file:
+copy_aux	apps/sandbox/main.c	/^static inline void copy_aux(Elf64_auxv_t *ref, Elf64_auxv_t *cur, uint64_t type)$/;"	f	file:
+count_args	apps/sandbox/main.c	/^static void count_args(char *argv[], int *argc, size_t *arglen)$/;"	f	file:
+cpu	kern/vmx.h	/^	int cpu;$/;"	m	struct:vmx_vcpu
+cpu_based_2nd_exec_ctrl	kern/vmx.c	/^	u32 cpu_based_2nd_exec_ctrl;$/;"	m	struct:vmcs_config	file:
+cpu_based_exec_ctrl	kern/vmx.c	/^	u32 cpu_based_exec_ctrl;$/;"	m	struct:vmcs_config	file:
+cpu_has_secondary_exec_ctrls	kern/vmx.c	/^static inline bool cpu_has_secondary_exec_ctrls(void)$/;"	f	file:
+cpu_has_vmx_ept	kern/vmx.c	/^static inline bool cpu_has_vmx_ept(void)$/;"	f	file:
+cpu_has_vmx_ept_1g_page	kern/ept.c	/^static inline bool cpu_has_vmx_ept_1g_page(void)$/;"	f	file:
+cpu_has_vmx_ept_2m_page	kern/ept.c	/^static inline bool cpu_has_vmx_ept_2m_page(void)$/;"	f	file:
+cpu_has_vmx_ept_4levels	kern/ept.c	/^static inline bool cpu_has_vmx_ept_4levels(void)$/;"	f	file:
+cpu_has_vmx_ept_ad_bits	kern/vmx.c	/^static inline bool cpu_has_vmx_ept_ad_bits(void)$/;"	f	file:
+cpu_has_vmx_ept_execute_only	kern/ept.c	/^static inline bool cpu_has_vmx_ept_execute_only(void)$/;"	f	file:
+cpu_has_vmx_eptp_uncacheable	kern/ept.c	/^static inline bool cpu_has_vmx_eptp_uncacheable(void)$/;"	f	file:
+cpu_has_vmx_eptp_writeback	kern/ept.c	/^static inline bool cpu_has_vmx_eptp_writeback(void)$/;"	f	file:
+cpu_has_vmx_invept_context	kern/vmx.c	/^static inline bool cpu_has_vmx_invept_context(void)$/;"	f	file:
+cpu_has_vmx_invept_global	kern/vmx.c	/^static inline bool cpu_has_vmx_invept_global(void)$/;"	f	file:
+cpu_has_vmx_invept_individual_addr	kern/vmx.c	/^static inline bool cpu_has_vmx_invept_individual_addr(void)$/;"	f	file:
+cpu_has_vmx_invpcid	kern/vmx.c	/^static inline bool cpu_has_vmx_invpcid(void)$/;"	f	file:
+cpu_has_vmx_invvpid_global	kern/vmx.c	/^static inline bool cpu_has_vmx_invvpid_global(void)$/;"	f	file:
+cpu_has_vmx_invvpid_single	kern/vmx.c	/^static inline bool cpu_has_vmx_invvpid_single(void)$/;"	f	file:
+cpu_has_vmx_vpid	kern/vmx.c	/^static inline bool cpu_has_vmx_vpid(void)$/;"	f	file:
+cr2	kern/vmx.h	/^	u64 cr2;$/;"	m	struct:vmx_vcpu
+cr3	kern/dune.h	/^	__u64 cr3;$/;"	m	struct:dune_config
+create_new_sthread	apps/wedge/sthread.c	/^struct sthread *create_new_sthread(sc_t *sc)$/;"	f
+create_percpu	libdune/entry.c	/^static struct dune_percpu *create_percpu(void)$/;"	f	file:
+cs	libdune/dune.h	/^	uint16_t cs;$/;"	m	struct:dune_tf
+ctx_switch	apps/wedge/bench.c	/^static void ctx_switch(void)$/;"	f	file:
+cwd	libdune/fpu.h	/^	uint16_t cwd;$/;"	m	struct:fxsave_area
+cwd	libdune/mmu-x86.h	/^    uint16_t cwd;$/;"	m	struct:Fpregs
+d_ptr	libdune/elf.h	/^      Elf32_Addr d_ptr;			\/* Address value *\/$/;"	m	union:__anon19::__anon20
+d_ptr	libdune/elf.h	/^      Elf64_Addr d_ptr;			\/* Address value *\/$/;"	m	union:__anon21::__anon22
+d_tag	libdune/elf.h	/^  Elf32_Sword	d_tag;			\/* Dynamic entry type *\/$/;"	m	struct:__anon19
+d_tag	libdune/elf.h	/^  Elf64_Sxword	d_tag;			\/* Dynamic entry type *\/$/;"	m	struct:__anon21
+d_un	libdune/elf.h	/^    } d_un;$/;"	m	struct:__anon19	typeref:union:__anon19::__anon20
+d_un	libdune/elf.h	/^    } d_un;$/;"	m	struct:__anon21	typeref:union:__anon21::__anon22
+d_val	libdune/elf.h	/^      Elf32_Word d_val;			\/* Integer value *\/$/;"	m	union:__anon19::__anon20
+d_val	libdune/elf.h	/^      Elf64_Xword d_val;		\/* Integer value *\/$/;"	m	union:__anon21::__anon22
+data	kern/vmx.h	/^	char data[0];$/;"	m	struct:vmcs
+divide_by_zero_handler	test/hello.c	/^static void divide_by_zero_handler(struct dune_tf *tf)$/;"	f	file:
+do_dune_enter	libdune/entry.c	/^static int do_dune_enter(struct dune_percpu *percpu)$/;"	f	file:
+do_elf_open	libdune/elf.c	/^static int do_elf_open(struct dune_elf *elf)$/;"	f	file:
+do_enter_thread	apps/sandbox/trap.c	/^void do_enter_thread(struct dune_tf *tf)$/;"	f
+do_fork_hack	kern/vmx.c	/^typedef long (*do_fork_hack) (unsigned long, unsigned long,$/;"	t	file:
+do_handle_dude	apps/wedge/httpd.c	/^static void do_handle_dude(int s)$/;"	f	file:
+do_http	apps/wedge/wedge_bench.sh	/^do_http()$/;"	f
+do_mapping	libdune/page.c	/^static void * do_mapping(void *base, unsigned long len)$/;"	f	file:
+do_pages	apps/wedge/bench.c	/^static void do_pages(int p)$/;"	f	file:
+do_test_thread_memory	test/test_sandbox.c	/^static void *do_test_thread_memory(void *arg)$/;"	f	file:
+do_vdso	libdune/entry.c	/^static void do_vdso(void *addr, char *name)$/;"	f	file:
+ds_idx	libdune/entry.c	/^	int		ds_idx;$/;"	m	struct:dynsym	file:
+ds_name	libdune/entry.c	/^	char		*ds_name;$/;"	m	struct:dynsym	file:
+ds_next	libdune/entry.c	/^	struct dynsym	*ds_next;$/;"	m	struct:dynsym	typeref:struct:dynsym::dynsym	file:
+ds_off	libdune/entry.c	/^	int		ds_off;$/;"	m	struct:dynsym	file:
+dump_ip	libdune/trap.c	/^static void dump_ip(struct dune_tf *tf)$/;"	f	file:
+dune-objs	kern/Makefile	/^dune-objs := \\$/;"	m
+dune_boot	libdune/entry.c	/^static int dune_boot(struct dune_percpu *percpu)$/;"	f	file:
+dune_chardev_ops	kern/core.c	/^static const struct file_operations dune_chardev_ops = {$/;"	v	typeref:struct:file_operations	file:
+dune_clone	apps/sandbox/trap.c	/^static long dune_clone(struct dune_tf *tf)$/;"	f	file:
+dune_config	kern/dune.h	/^struct dune_config {$/;"	s
+dune_dev	kern/core.c	/^static struct miscdevice dune_dev = {$/;"	v	typeref:struct:miscdevice	file:
+dune_dev_ioctl	kern/core.c	/^static long dune_dev_ioctl(struct file *filp,$/;"	f	file:
+dune_die	libdune/util.c	/^void dune_die(void)$/;"	f
+dune_do_fork	kern/vmx.c	/^static do_fork_hack dune_do_fork = (do_fork_hack) DO_FORK;$/;"	v	file:
+dune_dump_stack	libdune/trap.c	/^static void dune_dump_stack(struct dune_tf *tf)$/;"	f	file:
+dune_dump_trap_frame	libdune/trap.c	/^void dune_dump_trap_frame(struct dune_tf *tf)$/;"	f
+dune_elf	libdune/dune.h	/^struct dune_elf {$/;"	s
+dune_elf_close	libdune/elf.c	/^int dune_elf_close(struct dune_elf *elf)$/;"	f
+dune_elf_dump	libdune/elf.c	/^int dune_elf_dump(struct dune_elf *elf)$/;"	f
+dune_elf_iter_ph	libdune/elf.c	/^int dune_elf_iter_ph(struct dune_elf *elf, dune_elf_phcb cb)$/;"	f
+dune_elf_iter_sh	libdune/elf.c	/^int dune_elf_iter_sh(struct dune_elf *elf, dune_elf_shcb cb)$/;"	f
+dune_elf_load_ph	libdune/elf.c	/^int dune_elf_load_ph(struct dune_elf *elf, Elf64_Phdr *phdr, off_t off)$/;"	f
+dune_elf_open	libdune/elf.c	/^int dune_elf_open(struct dune_elf *elf, const char *path)$/;"	f
+dune_elf_open_mem	libdune/elf.c	/^int dune_elf_open_mem(struct dune_elf *elf, void *mem, int len)$/;"	f
+dune_elf_phcb	libdune/dune.h	/^typedef int (*dune_elf_phcb)(struct dune_elf *elf, Elf64_Phdr *phdr);$/;"	t
+dune_elf_shcb	libdune/dune.h	/^typedef int (*dune_elf_shcb)(struct dune_elf *elf, const char *sname,$/;"	t
+dune_enter	kern/core.c	/^static int dune_enter(struct dune_config *conf, int64_t *ret)$/;"	f	file:
+dune_enter	libdune/entry.c	/^int dune_enter(void)$/;"	f
+dune_exit	kern/core.c	/^module_exit(dune_exit);$/;"	v
+dune_exit	kern/core.c	/^static void __exit dune_exit(void)$/;"	f	file:
+dune_exit	kern/vmx.c	/^static int dune_exit(int error_code)$/;"	f	file:
+dune_exit_group	kern/vmx.c	/^static int dune_exit_group(int error_code)$/;"	f	file:
+dune_fd	libdune/entry.c	/^static int dune_fd;$/;"	v	file:
+dune_flush_tlb	libdune/dune.h	/^static inline void dune_flush_tlb(void)$/;"	f
+dune_flush_tlb_one	libdune/dune.h	/^static inline void dune_flush_tlb_one(unsigned long addr)$/;"	f
+dune_fpu_init	libdune/fpu.h	/^static inline void dune_fpu_init(struct fpu_area *fp)$/;"	f
+dune_fpu_load	libdune/fpu.h	/^static inline void dune_fpu_load(struct fpu_area *fp)$/;"	f
+dune_fpu_save	libdune/fpu.h	/^static inline void dune_fpu_save(struct fpu_area *fp)$/;"	f
+dune_fpu_save_safe	libdune/fpu.h	/^static inline void dune_fpu_save_safe(struct fpu_area *fp)$/;"	f
+dune_get_ticks	libdune/dune.h	/^static inline unsigned long dune_get_ticks(void)$/;"	f
+dune_get_user_fs	libdune/entry.c	/^unsigned long dune_get_user_fs(void)$/;"	f
+dune_hexdump	libdune/trap.c	/^static void dune_hexdump(void *x, int len)$/;"	f	file:
+dune_init	kern/core.c	/^module_init(dune_init);$/;"	v
+dune_init	kern/core.c	/^static int __init dune_init(void)$/;"	f	file:
+dune_init	libdune/entry.c	/^int dune_init(bool map_full)$/;"	f
+dune_init_and_enter	libdune/dune.h	/^static inline int dune_init_and_enter(void)$/;"	f
+dune_intr_cb	libdune/dune.h	/^typedef void (*dune_intr_cb) (struct dune_tf *tf);$/;"	t
+dune_jump_to_user	libdune/dune.S	/^dune_jump_to_user:$/;"	l
+dune_layout	kern/dune.h	/^struct dune_layout {$/;"	s
+dune_mmap	libdune/util.c	/^void * dune_mmap(void *addr, size_t length, int prot,$/;"	f
+dune_mmap_addr_to_pa	libdune/dune.h	/^static inline uintptr_t dune_mmap_addr_to_pa(void *ptr)$/;"	f
+dune_pa2page	libdune/dune.h	/^static inline struct page * dune_pa2page(physaddr_t pa)$/;"	f
+dune_page2pa	libdune/dune.h	/^static inline physaddr_t dune_page2pa(struct page *pg)$/;"	f
+dune_page_alloc	libdune/page.c	/^struct page * dune_page_alloc(void)$/;"	f
+dune_page_free	libdune/page.c	/^void dune_page_free(struct page *pg)$/;"	f
+dune_page_get	libdune/dune.h	/^static inline struct page * dune_page_get(struct page *pg)$/;"	f
+dune_page_init	libdune/page.c	/^int dune_page_init(void)$/;"	f
+dune_page_isfrompool	libdune/page.c	/^bool dune_page_isfrompool(physaddr_t pa)$/;"	f
+dune_page_put	libdune/dune.h	/^static inline void dune_page_put(struct page *pg)$/;"	f
+dune_page_stats	libdune/page.c	/^void dune_page_stats(void)$/;"	f
+dune_passthrough_syscall	libdune/util.c	/^void dune_passthrough_syscall(struct dune_tf *tf)$/;"	f
+dune_percpu	libdune/entry.c	/^struct dune_percpu {$/;"	s	file:
+dune_pgflt_cb	libdune/dune.h	/^typedef void (*dune_pgflt_cb) (uintptr_t addr, uint64_t fec,$/;"	t
+dune_pop_trap_frame	libdune/dune.S	/^dune_pop_trap_frame:$/;"	l
+dune_printf	libdune/util.c	/^int dune_printf(const char *fmt, ...)$/;"	f
+dune_procmap_cb	libdune/dune.h	/^typedef void (*dune_procmap_cb)(const struct dune_procmap_entry *);$/;"	t
+dune_procmap_dump	libdune/procmap.c	/^void dune_procmap_dump()$/;"	f
+dune_procmap_entry	libdune/dune.h	/^struct dune_procmap_entry {$/;"	s
+dune_procmap_iterate	libdune/procmap.c	/^void dune_procmap_iterate(dune_procmap_cb cb)$/;"	f
+dune_pthread_create	apps/sandbox/trap.c	/^static long dune_pthread_create(struct dune_tf *tf)$/;"	f	file:
+dune_puts	libdune/util.c	/^static int dune_puts(const char *buf)$/;"	f	file:
+dune_register_intr_handler	libdune/trap.c	/^int dune_register_intr_handler(int vec, dune_intr_cb cb)$/;"	f
+dune_register_pgflt_handler	libdune/trap.c	/^void dune_register_pgflt_handler(dune_pgflt_cb cb)$/;"	f
+dune_register_signal_handler	libdune/trap.c	/^int dune_register_signal_handler(int signum, dune_intr_cb cb)$/;"	f
+dune_register_syscall_handler	libdune/trap.c	/^void dune_register_syscall_handler(dune_syscall_cb cb)$/;"	f
+dune_ret_from_user	libdune/dune.S	/^dune_ret_from_user:$/;"	l
+dune_ret_from_user_finish	libdune/dune.S	/^dune_ret_from_user_finish:$/;"	l
+dune_set_user_fs	libdune/entry.c	/^void dune_set_user_fs(unsigned long fs_base)$/;"	f
+dune_signal	libdune/util.c	/^sighandler_t dune_signal(int sig, sighandler_t cb)$/;"	f
+dune_stack_addr_to_pa	libdune/dune.h	/^static inline uintptr_t dune_stack_addr_to_pa(void *ptr)$/;"	f
+dune_sys_clone	kern/vmx.c	/^static long dune_sys_clone(unsigned long clone_flags, unsigned long newsp,$/;"	f	file:
+dune_sys_fork	kern/vmx.c	/^static long dune_sys_fork(void)$/;"	f	file:
+dune_sys_vfork	kern/vmx.c	/^static long dune_sys_vfork(void)$/;"	f	file:
+dune_syscall_cb	libdune/dune.h	/^typedef void (*dune_syscall_cb) (struct dune_tf *tf);$/;"	t
+dune_syscall_handler	libdune/trap.c	/^void dune_syscall_handler(struct dune_tf *tf)$/;"	f
+dune_tf	libdune/dune.h	/^struct dune_tf {$/;"	s
+dune_trap_handler	libdune/trap.c	/^void dune_trap_handler(int num, struct dune_tf *tf)$/;"	f
+dune_va_to_pa	libdune/dune.h	/^static inline uintptr_t dune_va_to_pa(void *ptr)$/;"	f
+dune_vm_clone	libdune/vm.c	/^ptent_t *dune_vm_clone(ptent_t *root)$/;"	f
+dune_vm_default_pgflt_handler	libdune/vm.c	/^ void dune_vm_default_pgflt_handler(uintptr_t addr, uint64_t fec)$/;"	f
+dune_vm_free	libdune/vm.c	/^void dune_vm_free(ptent_t *root)$/;"	f
+dune_vm_lookup	libdune/vm.c	/^ int dune_vm_lookup(ptent_t *root, void *va, int create, ptent_t **pte_out)$/;"	f
+dune_vm_map_pages	libdune/vm.c	/^int dune_vm_map_pages(ptent_t *root, void *va, size_t len, int perm)$/;"	f
+dune_vm_map_phys	libdune/vm.c	/^int dune_vm_map_phys(ptent_t *root, void *va, size_t len, void *pa, int perm)$/;"	f
+dune_vm_mprotect	libdune/vm.c	/^int dune_vm_mprotect(ptent_t *root, void *va, size_t len, int perm)$/;"	f
+dune_vm_page_walk	libdune/vm.c	/^int dune_vm_page_walk(ptent_t *root, void *start_va, void *end_va,$/;"	f
+dune_vm_unmap	libdune/vm.c	/^void dune_vm_unmap(ptent_t *root, void *va, size_t len)$/;"	f
+dynsym	libdune/entry.c	/^struct dynsym {$/;"	s	file:
+e_ehsize	libdune/elf.h	/^  Elf32_Half	e_ehsize;		\/* ELF header size in bytes *\/$/;"	m	struct:__anon5
+e_ehsize	libdune/elf.h	/^  Elf64_Half	e_ehsize;		\/* ELF header size in bytes *\/$/;"	m	struct:__anon6
+e_entry	libdune/elf.h	/^  Elf32_Addr	e_entry;		\/* Entry point virtual address *\/$/;"	m	struct:__anon5
+e_entry	libdune/elf.h	/^  Elf64_Addr	e_entry;		\/* Entry point virtual address *\/$/;"	m	struct:__anon6
+e_flags	libdune/elf.h	/^  Elf32_Word	e_flags;		\/* Processor-specific flags *\/$/;"	m	struct:__anon5
+e_flags	libdune/elf.h	/^  Elf64_Word	e_flags;		\/* Processor-specific flags *\/$/;"	m	struct:__anon6
+e_ident	libdune/elf.h	/^  unsigned char	e_ident[EI_NIDENT];	\/* Magic number and other info *\/$/;"	m	struct:__anon5
+e_ident	libdune/elf.h	/^  unsigned char	e_ident[EI_NIDENT];	\/* Magic number and other info *\/$/;"	m	struct:__anon6
+e_machine	libdune/elf.h	/^  Elf32_Half	e_machine;		\/* Architecture *\/$/;"	m	struct:__anon5
+e_machine	libdune/elf.h	/^  Elf64_Half	e_machine;		\/* Architecture *\/$/;"	m	struct:__anon6
+e_phentsize	libdune/elf.h	/^  Elf32_Half	e_phentsize;		\/* Program header table entry size *\/$/;"	m	struct:__anon5
+e_phentsize	libdune/elf.h	/^  Elf64_Half	e_phentsize;		\/* Program header table entry size *\/$/;"	m	struct:__anon6
+e_phnum	libdune/elf.h	/^  Elf32_Half	e_phnum;		\/* Program header table entry count *\/$/;"	m	struct:__anon5
+e_phnum	libdune/elf.h	/^  Elf64_Half	e_phnum;		\/* Program header table entry count *\/$/;"	m	struct:__anon6
+e_phoff	libdune/elf.h	/^  Elf32_Off	e_phoff;		\/* Program header table file offset *\/$/;"	m	struct:__anon5
+e_phoff	libdune/elf.h	/^  Elf64_Off	e_phoff;		\/* Program header table file offset *\/$/;"	m	struct:__anon6
+e_shentsize	libdune/elf.h	/^  Elf32_Half	e_shentsize;		\/* Section header table entry size *\/$/;"	m	struct:__anon5
+e_shentsize	libdune/elf.h	/^  Elf64_Half	e_shentsize;		\/* Section header table entry size *\/$/;"	m	struct:__anon6
+e_shnum	libdune/elf.h	/^  Elf32_Half	e_shnum;		\/* Section header table entry count *\/$/;"	m	struct:__anon5
+e_shnum	libdune/elf.h	/^  Elf64_Half	e_shnum;		\/* Section header table entry count *\/$/;"	m	struct:__anon6
+e_shoff	libdune/elf.h	/^  Elf32_Off	e_shoff;		\/* Section header table file offset *\/$/;"	m	struct:__anon5
+e_shoff	libdune/elf.h	/^  Elf64_Off	e_shoff;		\/* Section header table file offset *\/$/;"	m	struct:__anon6
+e_shstrndx	libdune/elf.h	/^  Elf32_Half	e_shstrndx;		\/* Section header string table index *\/$/;"	m	struct:__anon5
+e_shstrndx	libdune/elf.h	/^  Elf64_Half	e_shstrndx;		\/* Section header string table index *\/$/;"	m	struct:__anon6
+e_type	libdune/elf.h	/^  Elf32_Half	e_type;			\/* Object file type *\/$/;"	m	struct:__anon5
+e_type	libdune/elf.h	/^  Elf64_Half	e_type;			\/* Object file type *\/$/;"	m	struct:__anon6
+e_version	libdune/elf.h	/^  Elf32_Word	e_version;		\/* Object file version *\/$/;"	m	struct:__anon5
+e_version	libdune/elf.h	/^  Elf64_Word	e_version;		\/* Object file version *\/$/;"	m	struct:__anon6
+elf_data	apps/sandbox/main.c	/^struct elf_data {$/;"	s	file:
+elf_dump_ph	libdune/elf.c	/^static int elf_dump_ph(struct dune_elf *elf, Elf64_Phdr *phdr)$/;"	f	file:
+elf_dump_sh	libdune/elf.c	/^static int elf_dump_sh(struct dune_elf *elf,$/;"	f	file:
+elf_open_phs	libdune/elf.c	/^static int elf_open_phs(struct dune_elf *elf)$/;"	f	file:
+elf_open_shs	libdune/elf.c	/^static int elf_open_shs(struct dune_elf *elf)$/;"	f	file:
+elf_read	libdune/elf.c	/^static int elf_read(struct dune_elf *elf, void *dst, int len, int off)$/;"	f	file:
+end	libdune/dune.h	/^	uintptr_t	end;$/;"	m	struct:dune_procmap_entry
+entry	apps/sandbox/main.c	/^	uintptr_t entry;$/;"	m	struct:elf_data	file:
+ept	kern/vmx.h	/^	u32 ept;$/;"	m	struct:vmx_capability
+ept_ad_enabled	kern/vmx.h	/^	bool ept_ad_enabled;$/;"	m	struct:vmx_vcpu
+ept_check_page_accessed	kern/ept.c	/^static int ept_check_page_accessed(struct vmx_vcpu *vcpu,$/;"	f	file:
+ept_check_page_mapped	kern/ept.c	/^static int ept_check_page_mapped(struct vmx_vcpu *vcpu,$/;"	f	file:
+ept_clear_epte	kern/ept.c	/^static int ept_clear_epte(epte_t *epte)$/;"	f	file:
+ept_clear_l1_epte	kern/ept.c	/^static int ept_clear_l1_epte(epte_t *epte)$/;"	f	file:
+ept_invalidate_page	kern/ept.c	/^static int ept_invalidate_page(struct vmx_vcpu *vcpu,$/;"	f	file:
+ept_lock	kern/vmx.h	/^	spinlock_t ept_lock;$/;"	m	struct:vmx_vcpu
+ept_lookup	kern/ept.c	/^ept_lookup(struct vmx_vcpu *vcpu, struct mm_struct *mm,$/;"	f	file:
+ept_lookup_gpa	kern/ept.c	/^ept_lookup_gpa(struct vmx_vcpu *vcpu, void *gpa, int level,$/;"	f	file:
+ept_mmu_notifier_change_pte	kern/ept.c	/^static void ept_mmu_notifier_change_pte(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_clear_flush_young	kern/ept.c	/^static int ept_mmu_notifier_clear_flush_young(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_invalidate_page	kern/ept.c	/^static void ept_mmu_notifier_invalidate_page(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_invalidate_range_end	kern/ept.c	/^static void ept_mmu_notifier_invalidate_range_end(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_invalidate_range_start	kern/ept.c	/^static void ept_mmu_notifier_invalidate_range_start(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_ops	kern/ept.c	/^static const struct mmu_notifier_ops ept_mmu_notifier_ops = {$/;"	v	typeref:struct:mmu_notifier_ops	file:
+ept_mmu_notifier_release	kern/ept.c	/^static void ept_mmu_notifier_release(struct mmu_notifier *mn,$/;"	f	file:
+ept_mmu_notifier_test_young	kern/ept.c	/^static int ept_mmu_notifier_test_young(struct mmu_notifier *mn,$/;"	f	file:
+ept_root	kern/vmx.h	/^	unsigned long ept_root;$/;"	m	struct:vmx_vcpu
+ept_set_epte	kern/ept.c	/^static int ept_set_epte(struct vmx_vcpu *vcpu, int make_write,$/;"	f	file:
+ept_sync_context	kern/vmx.c	/^static inline void ept_sync_context(u64 eptp)$/;"	f	file:
+ept_sync_global	kern/vmx.c	/^static inline void ept_sync_global(void)$/;"	f	file:
+ept_sync_individual_addr	kern/vmx.c	/^static inline void ept_sync_individual_addr(u64 eptp, gpa_t gpa)$/;"	f	file:
+epte_addr	kern/ept.c	/^static inline uintptr_t epte_addr(epte_t epte)$/;"	f	file:
+epte_big	kern/ept.c	/^static inline int epte_big(epte_t epte)$/;"	f	file:
+epte_flags	kern/ept.c	/^static inline epte_t epte_flags(epte_t epte)$/;"	f	file:
+epte_page_vaddr	kern/ept.c	/^static inline uintptr_t epte_page_vaddr(epte_t epte)$/;"	f	file:
+epte_present	kern/ept.c	/^static inline int epte_present(epte_t epte)$/;"	f	file:
+epte_t	kern/ept.c	/^typedef unsigned long epte_t;$/;"	t	file:
+eptp	kern/vmx.h	/^	unsigned long eptp;$/;"	m	struct:vmx_vcpu
+err	libdune/dune.h	/^	uint32_t err;$/;"	m	struct:dune_tf
+exec_execev	apps/sandbox/exec.c	/^exec_execev(const char *filename, char *const argv[], char *const envp[])$/;"	f
+exit_reason	kern/vmx.h	/^	u64 exit_reason;$/;"	m	struct:vmx_vcpu
+extract	kern/extract_symbol.sh	/^extract()$/;"	f
+fail	kern/vmx.h	/^	u8  fail;$/;"	m	struct:vmx_vcpu
+fd	libdune/dune.h	/^	int		fd;$/;"	m	struct:dune_elf
+fd_st	apps/wedge/test.c	/^static void *fd_st(void *arg)$/;"	f	file:
+find_aux_entry	apps/sandbox/main.c	/^static Elf64_auxv_t * find_aux_entry(Elf64_auxv_t *aux, uint64_t type)$/;"	f	file:
+firewall_check_bind	apps/ufirewall/firewall.c	/^bool firewall_check_bind(uint16_t port)$/;"	f
+firewall_check_connect	apps/ufirewall/firewall.c	/^bool firewall_check_connect(uint16_t port, uint32_t ip)$/;"	f
+firewall_init	apps/ufirewall/firewall.c	/^int firewall_init(void)$/;"	f
+firewall_parse	apps/ufirewall/firewall.c	/^static int firewall_parse(const char *fwrules)$/;"	f	file:
+fop	libdune/fpu.h	/^	uint16_t fop;$/;"	m	struct:fxsave_area
+fop	libdune/mmu-x86.h	/^    uint16_t fop;$/;"	m	struct:Fpregs
+fork_bench	apps/wedge/bench.c	/^static void fork_bench(void)$/;"	f	file:
+fpu_area	libdune/fpu.h	/^struct fpu_area {$/;"	s
+fpu_xrstor	libdune/fpu.h	/^static inline void fpu_xrstor(struct fpu_area *fp, uint64_t mask)$/;"	f
+fpu_xsave	libdune/fpu.h	/^static inline void fpu_xsave(struct fpu_area *fp, uint64_t mask)$/;"	f
+fpu_xsaveopt	libdune/fpu.h	/^static inline void fpu_xsaveopt(struct fpu_area *fp, uint64_t mask)$/;"	f
+free_ept_page	kern/ept.c	/^static void free_ept_page(epte_t epte)$/;"	f	file:
+free_percpu	libdune/entry.c	/^static void free_percpu(struct dune_percpu *percpu)$/;"	f	file:
+fw_entry_t	apps/ufirewall/firewall.c	/^typedef SLIST_ENTRY(fw_rule) fw_entry_t;$/;"	t	file:
+fw_rule	apps/ufirewall/firewall.c	/^struct fw_rule {$/;"	s	file:
+fxsave	libdune/fpu.h	/^	struct fxsave_area	fxsave;$/;"	m	struct:xsave_area	typeref:struct:xsave_area::fxsave_area
+fxsave_area	libdune/fpu.h	/^struct fxsave_area {$/;"	s
+gd_hi	libdune/mmu.h	/^  uint64_t gd_hi;$/;"	m	struct:Gatedesc
+gd_lo	libdune/mmu.h	/^  uint64_t gd_lo;$/;"	m	struct:Gatedesc
+gdt	libdune/entry.c	/^	uint64_t gdt[NR_GDT_ENTRIES];$/;"	m	struct:dune_percpu	file:
+gdt_template	libdune/entry.c	/^static uint64_t gdt_template[NR_GDT_ENTRIES] = {$/;"	v	file:
+get_err	apps/sandbox/sandbox.h	/^static inline long get_err(long ret)$/;"	f
+get_pte_perm	libdune/vm.c	/^static inline ptent_t get_pte_perm(int perm)$/;"	f	file:
+get_type	libdune/procmap.c	/^static int get_type(const char *path)$/;"	f	file:
+getlen	apps/sandbox/exec.c	/^getlen(char *const arr[])$/;"	f
+gpa	kern/vmx.c	/^	gpa_t gpa;$/;"	m	struct:sync_addr_args	file:
+gpa_to_hva	kern/ept.c	/^static unsigned long gpa_to_hva(struct vmx_vcpu *vcpu,$/;"	f	file:
+grow_size	libdune/page.c	/^static int grow_size(void)$/;"	f	file:
+gt_bytes	libdune/elf.h	/^      Elf32_Word gt_bytes;		\/* This many bytes would be used *\/$/;"	m	struct:__anon39::__anon41
+gt_current_g_value	libdune/elf.h	/^      Elf32_Word gt_current_g_value;	\/* -G value used for compilation *\/$/;"	m	struct:__anon39::__anon40
+gt_entry	libdune/elf.h	/^    } gt_entry;				\/* Subsequent entries in section *\/$/;"	m	union:__anon39	typeref:struct:__anon39::__anon41
+gt_g_value	libdune/elf.h	/^      Elf32_Word gt_g_value;		\/* If this value were used for -G *\/$/;"	m	struct:__anon39::__anon41
+gt_header	libdune/elf.h	/^    } gt_header;			\/* First entry in section *\/$/;"	m	union:__anon39	typeref:struct:__anon39::__anon40
+gt_unused	libdune/elf.h	/^      Elf32_Word gt_unused;		\/* Not used *\/$/;"	m	struct:__anon39::__anon40
+guest	kern/vmx.h	/^		struct vmx_msr_entry guest[NR_AUTOLOAD_MSRS];$/;"	m	struct:vmx_vcpu::msr_autoload	typeref:struct:vmx_vcpu::msr_autoload::vmx_msr_entry
+handle_dude	apps/wedge/httpd.c	/^static void handle_dude(int s)$/;"	f	file:
+has_fd_perm	apps/wedge/sthread.c	/^static int has_fd_perm(struct sthread *s, int fd, int perm)$/;"	f	file:
+has_load_efer	kern/vmx.h	/^	int has_load_efer:1;$/;"	m	struct:vmx_capability
+has_mem_perm	apps/wedge/sthread.c	/^static int has_mem_perm(struct sthread *s, void *ptr, unsigned long len)$/;"	f	file:
+hdr	libdune/dune.h	/^	Elf64_Ehdr	hdr;$/;"	m	struct:dune_elf
+header	libdune/fpu.h	/^	struct xsave_header	header;$/;"	m	struct:xsave_area	typeref:struct:xsave_area::xsave_header
+high	libdune/cpu-x86.h	/^        uint32_t        high;$/;"	m	struct:idtd
+host	kern/vmx.h	/^		struct vmx_msr_entry host[NR_AUTOLOAD_MSRS];$/;"	m	struct:vmx_vcpu::msr_autoload	typeref:struct:vmx_vcpu::msr_autoload::vmx_msr_entry
+host_rsp	kern/vmx.h	/^	u64 host_rsp;$/;"	m	struct:vmx_vcpu
+http_bench	apps/wedge/bench.c	/^static void http_bench(void)$/;"	f	file:
+hva_to_gpa	kern/ept.c	/^static unsigned long hva_to_gpa(struct vmx_vcpu *vcpu,$/;"	f	file:
+hwp_flags1	libdune/elf.h	/^  Elf32_Word hwp_flags1;	\/* Extra flags.  *\/$/;"	m	struct:__anon44
+hwp_flags2	libdune/elf.h	/^  Elf32_Word hwp_flags2;	\/* Extra flags.  *\/$/;"	m	struct:__anon44
+i	libdune/dune.S	/^	i = 0$/;"	d
+i	libdune/dune.S	/^	i = i + 1$/;"	d
+idt	libdune/entry.c	/^static struct idtd idt[IDT_ENTRIES];$/;"	v	typeref:struct:idtd	file:
+idtd	libdune/cpu-x86.h	/^struct idtd {$/;"	s
+in_usermode	libdune/entry.c	/^	uint64_t in_usermode;$/;"	m	struct:dune_percpu	file:
+info	libdune/elf.h	/^  Elf32_Word info;		\/* Kind-specific information.  *\/$/;"	m	struct:__anon43
+inline	libdune/types.h	9;"	d
+int16_t	libdune/types.h	/^typedef short int16_t;$/;"	t
+int32_t	libdune/types.h	/^typedef int int32_t;$/;"	t
+int64_t	libdune/types.h	/^typedef long int64_t;$/;"	t
+int64_t	libdune/types.h	/^typedef long long int64_t;$/;"	t
+int8_t	libdune/types.h	/^typedef __signed char int8_t;$/;"	t
+intptr_t	libdune/types.h	/^typedef __PTRDIFF_TYPE__ intptr_t;$/;"	t
+intr_cbs	libdune/trap.c	/^static dune_intr_cb intr_cbs[IDT_ENTRIES];$/;"	v	file:
+ip	apps/ufirewall/firewall.c	/^	uint32_t	ip;	\/\/ IPv4 address$/;"	m	struct:fw_rule	file:
+ist	libdune/cpu-x86.h	/^        uint8_t         ist;$/;"	m	struct:idtd
+kfs_base	libdune/entry.c	/^	uint64_t kfs_base;$/;"	m	struct:dune_percpu	file:
+kind	libdune/elf.h	/^  unsigned char kind;		\/* Determines interpretation of the$/;"	m	struct:__anon43
+kmalloc	apps/wedge/sthread.c	/^static void *kmalloc(int sz)$/;"	f	file:
+ks_current	apps/wedge/sthread.c	/^	struct sthread	*ks_current;$/;"	m	struct:kstate	typeref:struct:kstate::sthread	file:
+ks_sthreads	apps/wedge/sthread.c	/^	struct sthread	ks_sthreads;$/;"	m	struct:kstate	typeref:struct:kstate::sthread	file:
+kstate	apps/wedge/sthread.c	/^static struct kstate {$/;"	s	file:
+l_checksum	libdune/elf.h	/^  Elf32_Word l_checksum;	\/* Checksum *\/$/;"	m	struct:__anon45
+l_checksum	libdune/elf.h	/^  Elf64_Word l_checksum;	\/* Checksum *\/$/;"	m	struct:__anon46
+l_flags	libdune/elf.h	/^  Elf32_Word l_flags;		\/* Flags *\/$/;"	m	struct:__anon45
+l_flags	libdune/elf.h	/^  Elf64_Word l_flags;		\/* Flags *\/$/;"	m	struct:__anon46
+l_name	libdune/elf.h	/^  Elf32_Word l_name;		\/* Name (string table index) *\/$/;"	m	struct:__anon45
+l_name	libdune/elf.h	/^  Elf64_Word l_name;		\/* Name (string table index) *\/$/;"	m	struct:__anon46
+l_time_stamp	libdune/elf.h	/^  Elf32_Word l_time_stamp;	\/* Timestamp *\/$/;"	m	struct:__anon45
+l_time_stamp	libdune/elf.h	/^  Elf64_Word l_time_stamp;	\/* Timestamp *\/$/;"	m	struct:__anon46
+l_version	libdune/elf.h	/^  Elf32_Word l_version;		\/* Interface version *\/$/;"	m	struct:__anon45
+l_version	libdune/elf.h	/^  Elf64_Word l_version;		\/* Interface version *\/$/;"	m	struct:__anon46
+launch_sthread	apps/wedge/sthread.c	/^static int launch_sthread(struct sthread *s, stcb_t cb, void *arg)$/;"	f	file:
+launch_sthread	apps/wedge/test.c	/^static void *launch_sthread(stcb_t cb, void *arg)$/;"	f	file:
+launched	kern/vmx.h	/^	int launched;$/;"	m	struct:vmx_vcpu
+ld_path	apps/sandbox/exec.c	/^const char *ld_path = "\/lib64\/ld-linux-x86-64.so.2";$/;"	v
+len	libdune/dune.h	/^	int		len;$/;"	m	struct:dune_elf
+limit	libdune/cpu-x86.h	/^	uint16_t	limit;$/;"	m	struct:tptr
+link	apps/ufirewall/firewall.c	/^	fw_entry_t	link;$/;"	m	struct:fw_rule	file:
+link	libdune/dune.h	/^	page_entry_t link;$/;"	m	struct:page
+list-m	kern/Makefile	/^list-m :=$/;"	m
+load_cr3	libdune/dune.h	/^static inline void load_cr3(unsigned long cr3)$/;"	f
+load_elf	apps/sandbox/main.c	/^static int load_elf(const char *path, struct elf_data *data)$/;"	f	file:
+low	libdune/cpu-x86.h	/^        uint16_t        low;$/;"	m	struct:idtd
+lpercpu	libdune/entry.c	/^static __thread struct dune_percpu *lpercpu;$/;"	v	typeref:struct:dune_percpu	file:
+m_info	libdune/elf.h	/^  Elf32_Word m_info;		\/* Size and index.  *\/$/;"	m	struct:__anon37
+m_info	libdune/elf.h	/^  Elf64_Xword m_info;		\/* Size and index.  *\/$/;"	m	struct:__anon38
+m_poffset	libdune/elf.h	/^  Elf32_Word m_poffset;		\/* Symbol offset.  *\/$/;"	m	struct:__anon37
+m_poffset	libdune/elf.h	/^  Elf64_Xword m_poffset;	\/* Symbol offset.  *\/$/;"	m	struct:__anon38
+m_repeat	libdune/elf.h	/^  Elf32_Half m_repeat;		\/* Repeat count.  *\/$/;"	m	struct:__anon37
+m_repeat	libdune/elf.h	/^  Elf64_Half m_repeat;		\/* Repeat count.  *\/$/;"	m	struct:__anon38
+m_stride	libdune/elf.h	/^  Elf32_Half m_stride;		\/* Stride info.  *\/$/;"	m	struct:__anon37
+m_stride	libdune/elf.h	/^  Elf64_Half m_stride;		\/* Stride info.  *\/$/;"	m	struct:__anon38
+m_value	libdune/elf.h	/^  Elf32_Xword m_value;		\/* Symbol value.  *\/$/;"	m	struct:__anon37
+m_value	libdune/elf.h	/^  Elf64_Xword m_value;		\/* Symbol value.  *\/$/;"	m	struct:__anon38
+main	apps/sandbox/exec.c	/^int main(int argc, char *argv[])$/;"	f
+main	apps/sandbox/nullsandbox.c	/^int main(int argc, char *argv[])$/;"	f
+main	apps/ufirewall/firewall.c	/^int main(int argc, char *argv[])$/;"	f
+main	apps/ufirewall/firewall_test.c	/^int main(int argc, char *argv[])$/;"	f
+main	apps/wedge/bench.c	/^int main(int argc, char *argv[])$/;"	f
+main	apps/wedge/httpd.c	/^int main(int argc, char *argv[])$/;"	f
+main	apps/wedge/test.c	/^int main(int argc, char *argv[])$/;"	f
+main	bench/bench_dune.c	/^int main(int argc, char *argv[])$/;"	f
+main	bench/bench_dune_ring.c	/^int main(int argc, char *argv[])$/;"	f
+main	bench/bench_linux.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/hello.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/test.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/test_sandbox.c	/^int main(int argc, char *argv[])$/;"	f
+main	test/timetest.c	/^int main(int argc, char *argv[])$/;"	f
+make_pt_regs	kern/vmx.c	/^static void make_pt_regs(struct vmx_vcpu *vcpu, struct pt_regs *regs,$/;"	f	file:
+map_phys_data	libdune/vm.c	/^struct map_phys_data {$/;"	s	file:
+map_ptr	libdune/entry.c	/^static void map_ptr(void *p, int len)$/;"	f	file:
+map_stack	libdune/entry.c	/^static void map_stack(void)$/;"	f	file:
+map_stack_cb	libdune/entry.c	/^static void map_stack_cb(const struct dune_procmap_entry *e)$/;"	f	file:
+mask	apps/ufirewall/firewall.c	/^	uint32_t	mask;	\/\/ IPv4 netmask$/;"	m	struct:fw_rule	file:
+measure_tsc_overhead	bench/bench.h	/^static unsigned long measure_tsc_overhead(void)$/;"	f
+mem	bench/bench_dune.c	/^static char *mem;$/;"	v	file:
+mem	bench/bench_linux.c	/^static char *mem;$/;"	v	file:
+mem	libdune/dune.h	/^	unsigned char	*mem;$/;"	m	struct:dune_elf
+mem_ref_is_safe	apps/sandbox/sandbox.h	/^static inline bool mem_ref_is_safe(const void *ptr, size_t len)$/;"	f
+middle	libdune/cpu-x86.h	/^        uint16_t        middle;$/;"	m	struct:idtd
+mmap_base	libdune/entry.c	/^uintptr_t mmap_base;$/;"	v
+mmap_len	apps/sandbox/umm.c	/^static size_t mmap_len = 0;$/;"	v	file:
+mmu_notifier	kern/vmx.h	/^	struct mmu_notifier mmu_notifier;$/;"	m	struct:vmx_vcpu	typeref:struct:vmx_vcpu::mmu_notifier
+mmu_notifier_to_vmx	kern/ept.c	/^static inline struct vmx_vcpu *mmu_notifier_to_vmx(struct mmu_notifier *mn)$/;"	f	file:
+msr_autoload	kern/vmx.h	/^	struct msr_autoload {$/;"	s	struct:vmx_vcpu
+msr_autoload	kern/vmx.h	/^	} msr_autoload;$/;"	m	struct:vmx_vcpu	typeref:struct:vmx_vcpu::msr_autoload
+msr_bitmap	kern/vmx.c	/^static unsigned long *msr_bitmap;$/;"	v	file:
+mxcsr	libdune/fpu.h	/^	uint32_t mxcsr;$/;"	m	struct:fxsave_area
+mxcsr	libdune/mmu-x86.h	/^    uint32_t mxcsr;$/;"	m	struct:Fpregs
+mxcsr_mask	libdune/fpu.h	/^	uint32_t mxcsr_mask;$/;"	m	struct:fxsave_area
+mxcsr_mask	libdune/mmu-x86.h	/^    uint32_t mxcsr_mask;$/;"	m	struct:Fpregs
+n_descsz	libdune/elf.h	/^  Elf32_Word n_descsz;			\/* Length of the note's descriptor.  *\/$/;"	m	struct:__anon35
+n_descsz	libdune/elf.h	/^  Elf64_Word n_descsz;			\/* Length of the note's descriptor.  *\/$/;"	m	struct:__anon36
+n_namesz	libdune/elf.h	/^  Elf32_Word n_namesz;			\/* Length of the note's name.  *\/$/;"	m	struct:__anon35
+n_namesz	libdune/elf.h	/^  Elf64_Word n_namesz;			\/* Length of the note's name.  *\/$/;"	m	struct:__anon36
+n_type	libdune/elf.h	/^  Elf32_Word n_type;			\/* Type of the note.  *\/$/;"	m	struct:__anon35
+n_type	libdune/elf.h	/^  Elf64_Word n_type;			\/* Type of the note.  *\/$/;"	m	struct:__anon36
+name	test/test.c	/^	char	*name;$/;"	m	struct:test	file:
+native_read_msr	libdune/cpu-x86.h	/^static inline unsigned long long native_read_msr(unsigned int msr)$/;"	f
+native_write_msr	libdune/cpu-x86.h	/^static inline void native_write_msr(unsigned int msr,$/;"	f
+no_flush_switch_pages	apps/wedge/bench.c	/^static void no_flush_switch_pages(void)$/;"	f	file:
+no_switch	apps/wedge/bench.c	/^static void no_switch(void)$/;"	f	file:
+no_switch_pages	apps/wedge/bench.c	/^static void no_switch_pages(void)$/;"	f	file:
+nr	kern/vmx.h	/^		unsigned nr;$/;"	m	struct:vmx_vcpu::msr_autoload
+num_pages	libdune/page.c	/^int num_pages;$/;"	v
+offset	libdune/dune.h	/^	uint64_t	offset;$/;"	m	struct:dune_procmap_entry
+order	kern/vmx.c	/^	int order;$/;"	m	struct:vmcs_config	file:
+overhead	bench/bench_dune.c	/^unsigned long trap_tsc, overhead;$/;"	v
+overhead	bench/bench_linux.c	/^unsigned long tsc, trap_tsc, overhead;$/;"	v
+p	libdune/dune.h	/^	bool		p; \/\/ Private (or shared)$/;"	m	struct:dune_procmap_entry
+p_align	libdune/elf.h	/^  Elf32_Word	p_align;		\/* Segment alignment *\/$/;"	m	struct:__anon17
+p_align	libdune/elf.h	/^  Elf64_Xword	p_align;		\/* Segment alignment *\/$/;"	m	struct:__anon18
+p_filesz	libdune/elf.h	/^  Elf32_Word	p_filesz;		\/* Segment size in file *\/$/;"	m	struct:__anon17
+p_filesz	libdune/elf.h	/^  Elf64_Xword	p_filesz;		\/* Segment size in file *\/$/;"	m	struct:__anon18
+p_flags	libdune/elf.h	/^  Elf32_Word	p_flags;		\/* Segment flags *\/$/;"	m	struct:__anon17
+p_flags	libdune/elf.h	/^  Elf64_Word	p_flags;		\/* Segment flags *\/$/;"	m	struct:__anon18
+p_memsz	libdune/elf.h	/^  Elf32_Word	p_memsz;		\/* Segment size in memory *\/$/;"	m	struct:__anon17
+p_memsz	libdune/elf.h	/^  Elf64_Xword	p_memsz;		\/* Segment size in memory *\/$/;"	m	struct:__anon18
+p_offset	libdune/elf.h	/^  Elf32_Off	p_offset;		\/* Segment file offset *\/$/;"	m	struct:__anon17
+p_offset	libdune/elf.h	/^  Elf64_Off	p_offset;		\/* Segment file offset *\/$/;"	m	struct:__anon18
+p_paddr	libdune/elf.h	/^  Elf32_Addr	p_paddr;		\/* Segment physical address *\/$/;"	m	struct:__anon17
+p_paddr	libdune/elf.h	/^  Elf64_Addr	p_paddr;		\/* Segment physical address *\/$/;"	m	struct:__anon18
+p_type	libdune/elf.h	/^  Elf32_Word	p_type;			\/* Segment type *\/$/;"	m	struct:__anon17
+p_type	libdune/elf.h	/^  Elf64_Word	p_type;			\/* Segment type *\/$/;"	m	struct:__anon18
+p_vaddr	libdune/elf.h	/^  Elf32_Addr	p_vaddr;		\/* Segment virtual address *\/$/;"	m	struct:__anon17
+p_vaddr	libdune/elf.h	/^  Elf64_Addr	p_vaddr;		\/* Segment virtual address *\/$/;"	m	struct:__anon18
+pa_base	libdune/vm.c	/^	unsigned long pa_base;$/;"	m	struct:map_phys_data	file:
+pad1	libdune/dune.h	/^	uint32_t pad1;$/;"	m	struct:dune_tf
+pad2	libdune/dune.h	/^	uint16_t pad2[3];$/;"	m	struct:dune_tf
+pad3	libdune/dune.h	/^	uint16_t pad3[3];$/;"	m	struct:dune_tf
+padding	libdune/fpu.h	/^	uint32_t padding[24];$/;"	m	struct:fxsave_area
+padding	libdune/mmu-x86.h	/^    uint32_t padding[24];$/;"	m	struct:Fpregs
+page	libdune/dune.h	/^struct page {$/;"	s
+page_entry_t	libdune/dune.h	/^typedef SLIST_ENTRY(page) page_entry_t;$/;"	t
+page_mutex	libdune/page.c	/^static pthread_mutex_t page_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+page_walk_cb	libdune/dune.h	/^typedef int (*page_walk_cb)(const void *arg, ptent_t *ptep, void *va);$/;"	t
+pages	libdune/page.c	/^struct page *pages;$/;"	v	typeref:struct:page
+pages_free	libdune/page.c	/^static struct page_head pages_free;$/;"	v	typeref:struct:page_head	file:
+parallel_read	apps/wedge/test.c	/^static void *parallel_read(void *arg)$/;"	f	file:
+parallel_write	apps/wedge/test.c	/^static void *parallel_write(void *arg)$/;"	f	file:
+path	libdune/dune.h	/^	char		*path;$/;"	m	struct:dune_procmap_entry
+pd__garbage1	libdune/mmu.h	/^  uint16_t pd__garbage1;$/;"	m	struct:Pseudodesc
+pd__garbage2	libdune/mmu.h	/^  uint16_t pd__garbage2;$/;"	m	struct:Pseudodesc
+pd__garbage3	libdune/mmu.h	/^  uint16_t pd__garbage3;$/;"	m	struct:Pseudodesc
+pd_base	libdune/mmu.h	/^  uint64_t pd_base;		\/* Base address *\/$/;"	m	struct:Pseudodesc
+pd_lim	libdune/mmu.h	/^  uint16_t pd_lim;		\/* Limit *\/$/;"	m	struct:Pseudodesc
+perm	libdune/vm.c	/^	ptent_t perm;$/;"	m	struct:map_phys_data	file:
+pgflt_cb	libdune/trap.c	/^static dune_pgflt_cb pgflt_cb;$/;"	v	file:
+pgflt_handler	apps/sandbox/trap.c	/^pgflt_handler(uintptr_t addr, uint64_t fec, struct dune_tf *tf)$/;"	f	file:
+pgflt_handler	bench/bench_dune_ring.c	/^static void pgflt_handler(uintptr_t addr, uint64_t fec, struct dune_tf *tf)$/;"	f	file:
+pgroot	libdune/entry.c	/^ptent_t *pgroot;$/;"	v
+phdr	apps/sandbox/main.c	/^	Elf64_Phdr *phdr;$/;"	m	struct:elf_data	file:
+phdr	libdune/dune.h	/^	Elf64_Phdr	*phdr;$/;"	m	struct:dune_elf
+phnum	apps/sandbox/main.c	/^	int phnum;$/;"	m	struct:elf_data	file:
+physaddr_t	libdune/types.h	/^typedef unsigned __PTRDIFF_TYPE__ physaddr_t;$/;"	t
+pin_based_exec_ctrl	kern/vmx.c	/^	u32 pin_based_exec_ctrl;$/;"	m	struct:vmcs_config	file:
+port	apps/ufirewall/firewall.c	/^	uint16_t	port;	\/\/ Port number$/;"	m	struct:fw_rule	file:
+ppn_t	libdune/types.h	/^typedef uint64_t ppn_t;$/;"	t
+prime_memory	bench/bench_dune.c	/^static void prime_memory(void)$/;"	f	file:
+prime_memory	bench/bench_linux.c	/^static void prime_memory(void)$/;"	f	file:
+print_procmap	apps/sandbox/trap.c	/^static void print_procmap(void)$/;"	f	file:
+priv	libdune/dune.h	/^	void		*priv;$/;"	m	struct:dune_elf
+process_elf_ph	apps/sandbox/main.c	/^static int process_elf_ph(struct dune_elf *elf, Elf64_Phdr *phdr)$/;"	f	file:
+prot_to_perm	apps/sandbox/umm.c	/^static inline int prot_to_perm(int prot)$/;"	f	file:
+pte_big	libdune/vm.c	/^static inline int pte_big(ptent_t pte)$/;"	f	file:
+pte_present	libdune/vm.c	/^static inline int pte_present(ptent_t pte)$/;"	f	file:
+ptent_t	libdune/mmu.h	/^typedef uint64_t ptent_t;$/;"	t
+pthread	apps/wedge/httpd.c	/^static void *pthread(void *arg)$/;"	f	file:
+pthread_bench	apps/wedge/bench.c	/^static void pthread_bench(void)$/;"	f	file:
+pthread_entry	apps/sandbox/trap.c	/^static void *pthread_entry(void *arg)$/;"	f	file:
+put_page	libdune/vm.c	/^static inline void put_page(void * page)$/;"	f	file:
+pwn	apps/wedge/httpd.c	/^static void pwn(void)$/;"	f	file:
+pwn_pages	apps/wedge/bench.c	/^static void pwn_pages(int pages)$/;"	f	file:
+r	libdune/dune.h	/^	bool		r; \/\/ Readable$/;"	m	struct:dune_procmap_entry
+r10	libdune/dune.h	/^	uint64_t r10;$/;"	m	struct:dune_tf
+r11	libdune/dune.h	/^	uint64_t r11;$/;"	m	struct:dune_tf
+r12	libdune/dune.h	/^	uint64_t r12;$/;"	m	struct:dune_tf
+r13	libdune/dune.h	/^	uint64_t r13;$/;"	m	struct:dune_tf
+r14	libdune/dune.h	/^	uint64_t r14;$/;"	m	struct:dune_tf
+r15	libdune/dune.h	/^	uint64_t r15;$/;"	m	struct:dune_tf
+r8	libdune/dune.h	/^	uint64_t r8;$/;"	m	struct:dune_tf
+r9	libdune/dune.h	/^	uint64_t r9;$/;"	m	struct:dune_tf
+r_addend	libdune/elf.h	/^  Elf32_Sword	r_addend;		\/* Addend *\/$/;"	m	struct:__anon15
+r_addend	libdune/elf.h	/^  Elf64_Sxword	r_addend;		\/* Addend *\/$/;"	m	struct:__anon16
+r_info	libdune/elf.h	/^  Elf32_Word	r_info;			\/* Relocation type and symbol index *\/$/;"	m	struct:__anon13
+r_info	libdune/elf.h	/^  Elf32_Word	r_info;			\/* Relocation type and symbol index *\/$/;"	m	struct:__anon15
+r_info	libdune/elf.h	/^  Elf64_Xword	r_info;			\/* Relocation type and symbol index *\/$/;"	m	struct:__anon14
+r_info	libdune/elf.h	/^  Elf64_Xword	r_info;			\/* Relocation type and symbol index *\/$/;"	m	struct:__anon16
+r_offset	libdune/elf.h	/^  Elf32_Addr	r_offset;		\/* Address *\/$/;"	m	struct:__anon13
+r_offset	libdune/elf.h	/^  Elf32_Addr	r_offset;		\/* Address *\/$/;"	m	struct:__anon15
+r_offset	libdune/elf.h	/^  Elf64_Addr	r_offset;		\/* Address *\/$/;"	m	struct:__anon14
+r_offset	libdune/elf.h	/^  Elf64_Addr	r_offset;		\/* Address *\/$/;"	m	struct:__anon16
+rax	libdune/dune.h	/^	uint64_t rax;$/;"	m	struct:dune_tf
+rbp	libdune/dune.h	/^	uint64_t rbp;$/;"	m	struct:dune_tf
+rbx	libdune/dune.h	/^	uint64_t rbx;$/;"	m	struct:dune_tf
+rcx	libdune/dune.h	/^	uint64_t rcx;$/;"	m	struct:dune_tf
+rdi	libdune/dune.h	/^	uint64_t rdi;$/;"	m	struct:dune_tf
+rdmsrl	libdune/cpu-x86.h	30;"	d
+rdp	libdune/fpu.h	/^	uint64_t rdp;$/;"	m	struct:fxsave_area
+rdp	libdune/mmu-x86.h	/^    uint64_t rdp;$/;"	m	struct:Fpregs
+rdtscll	bench/bench.h	/^static inline unsigned long rdtscll(void)$/;"	f
+rdtscllp	bench/bench.h	/^static inline unsigned long rdtscllp(void)$/;"	f
+rdx	libdune/dune.h	/^	uint64_t rdx;$/;"	m	struct:dune_tf
+read_cr2	libdune/trap.c	/^static inline unsigned long read_cr2(void)$/;"	f	file:
+recover	test/hello.c	/^static void recover(void)$/;"	f	file:
+recycle	apps/wedge/sthread.c	/^static void recycle(struct sthread *s)$/;"	f	file:
+ref	libdune/dune.h	/^	uint64_t ref;$/;"	m	struct:page
+regs	kern/vmx.h	/^	u64 regs[NR_VCPU_REGS];$/;"	m	struct:vmx_vcpu
+reserved	libdune/fpu.h	/^	uint64_t reserved[5];$/;"	m	struct:xsave_header
+reserved_zero	libdune/fpu.h	/^	uint64_t reserved_zero[2];$/;"	m	struct:xsave_header
+ret	kern/dune.h	/^	__s64 ret;$/;"	m	struct:dune_config
+ret_code	kern/vmx.h	/^	int ret_code;$/;"	m	struct:vmx_vcpu
+revision_id	kern/vmx.c	/^	u32 revision_id;$/;"	m	struct:vmcs_config	file:
+revision_id	kern/vmx.h	/^	u32 revision_id;$/;"	m	struct:vmcs
+rflags	libdune/dune.h	/^	uint64_t rflags;$/;"	m	struct:dune_tf
+ri_cprmask	libdune/elf.h	/^  Elf32_Word	ri_cprmask[4];		\/* Coprocessor registers used *\/$/;"	m	struct:__anon42
+ri_gp_value	libdune/elf.h	/^  Elf32_Sword	ri_gp_value;		\/* $gp register value *\/$/;"	m	struct:__anon42
+ri_gprmask	libdune/elf.h	/^  Elf32_Word	ri_gprmask;		\/* General registers used *\/$/;"	m	struct:__anon42
+rip	kern/dune.h	/^	__u64 rip;$/;"	m	struct:dune_config
+rip	libdune/dune.h	/^	uint64_t rip;$/;"	m	struct:dune_tf
+rip	libdune/fpu.h	/^	uint64_t rip;$/;"	m	struct:fxsave_area
+rip	libdune/mmu-x86.h	/^    uint64_t rip;$/;"	m	struct:Fpregs
+rsi	libdune/dune.h	/^	uint64_t rsi;$/;"	m	struct:dune_tf
+rsp	kern/dune.h	/^	__u64 rsp;$/;"	m	struct:dune_config
+rsp	libdune/dune.h	/^	uint64_t rsp;$/;"	m	struct:dune_tf
+rules	apps/ufirewall/firewall.c	/^static struct rules_head rules;$/;"	v	typeref:struct:rules_head	file:
+run_app	apps/sandbox/main.c	/^static int run_app(uintptr_t sp, uintptr_t e_entry)$/;"	f	file:
+run_test	test/test.c	/^static void run_test(struct test *t)$/;"	f	file:
+s_end	apps/wedge/sthread.c	/^	unsigned long	s_end;$/;"	m	struct:segment	file:
+s_flags	apps/wedge/sthread.c	/^	unsigned int	s_flags;$/;"	m	struct:segment	file:
+s_len	apps/wedge/sthread.c	/^	unsigned long	s_len;$/;"	m	struct:segment	file:
+s_next	apps/wedge/sthread.c	/^	struct segment	*s_next;$/;"	m	struct:segment	typeref:struct:segment::segment	file:
+s_start	apps/wedge/sthread.c	/^	unsigned long	s_start;$/;"	m	struct:segment	file:
+s_txt	apps/wedge/sthread.c	/^	char		s_txt[1024];$/;"	m	struct:segment	file:
+sandbox_path	apps/sandbox/exec.c	/^const char *sandbox_path = ".\/sandbox";$/;"	v
+sc	apps/wedge/sthread.h	/^typedef struct sc {$/;"	s
+sc_fd	apps/wedge/sthread.h	/^	unsigned long	sc_fd[8];$/;"	m	struct:sc
+sc_fd_add	apps/wedge/sthread.c	/^void sc_fd_add(sc_t *sc, int fd, int prot)$/;"	f
+sc_init	apps/wedge/sthread.c	/^void sc_init(sc_t *sc)$/;"	f
+sc_mem	apps/wedge/sthread.h	/^        unsigned long   sc_mem[8];$/;"	m	struct:sc
+sc_mem_add	apps/wedge/sthread.c	/^void sc_mem_add(sc_t *sc, tag_t tid, int prot)$/;"	f
+sc_sys	apps/wedge/sthread.h	/^	unsigned char	sc_sys[16];$/;"	m	struct:sc
+sc_sys_add	apps/wedge/sthread.c	/^void sc_sys_add(sc_t *sc, int sysno)$/;"	f
+sc_t	apps/wedge/sthread.h	/^} sc_t;$/;"	t	typeref:struct:sc
+schedule	apps/wedge/sthread.c	/^static void schedule(struct dune_tf *tf)$/;"	f	file:
+section	libdune/elf.h	/^  Elf32_Section section;	\/* Section header index of section affected,$/;"	m	struct:__anon43
+segment	apps/wedge/sthread.c	/^static struct segment {$/;"	s	file:
+segment_base	kern/vmx.c	/^static unsigned long segment_base(u16 selector)$/;"	f	file:
+selector	libdune/cpu-x86.h	/^        uint16_t        selector;$/;"	m	struct:idtd
+set_assert	apps/wedge/bench.c	/^static void set_assert(unsigned char *crap, unsigned char old, unsigned char new)$/;"	f	file:
+set_idt_addr	libdune/entry.c	/^static inline void set_idt_addr(struct idtd *id, physaddr_t addr)$/;"	f	file:
+setup_arguments	apps/sandbox/main.c	/^setup_arguments(uintptr_t sp, const char *path,$/;"	f	file:
+setup_aux	apps/sandbox/main.c	/^setup_aux(Elf64_auxv_t *ref, Elf64_auxv_t *cur, struct elf_data data)$/;"	f	file:
+setup_gdt	libdune/entry.c	/^static void setup_gdt(struct dune_percpu *percpu)$/;"	f	file:
+setup_idt	libdune/entry.c	/^static void setup_idt(void)$/;"	f	file:
+setup_mappings	libdune/entry.c	/^static int setup_mappings(bool full)$/;"	f	file:
+setup_mem	apps/wedge/bench.c	/^static void setup_mem(void)$/;"	f	file:
+setup_mem_cb	apps/wedge/bench.c	/^static int setup_mem_cb(const void *arg, ptent_t *pte, void *va)$/;"	f	file:
+setup_msr	kern/vmx.c	/^static void setup_msr(struct vmx_vcpu *vcpu)$/;"	f	file:
+setup_safe_stack	libdune/entry.c	/^static int setup_safe_stack(struct dune_percpu *percpu)$/;"	f	file:
+setup_syscall	libdune/entry.c	/^static int setup_syscall(void)$/;"	f	file:
+setup_vdso	libdune/entry.c	/^static void setup_vdso(void *addr)$/;"	f	file:
+setup_vdso_cb	libdune/entry.c	/^static void setup_vdso_cb(const struct dune_procmap_entry *ent)$/;"	f	file:
+setup_vmcs_config	kern/vmx.c	/^static __init int setup_vmcs_config(struct vmcs_config *vmcs_conf)$/;"	f	file:
+setup_vsyscall	libdune/entry.c	/^static void setup_vsyscall(void)$/;"	f	file:
+sh_addr	libdune/elf.h	/^  Elf32_Addr	sh_addr;		\/* Section virtual addr at execution *\/$/;"	m	struct:__anon7
+sh_addr	libdune/elf.h	/^  Elf64_Addr	sh_addr;		\/* Section virtual addr at execution *\/$/;"	m	struct:__anon8
+sh_addralign	libdune/elf.h	/^  Elf32_Word	sh_addralign;		\/* Section alignment *\/$/;"	m	struct:__anon7
+sh_addralign	libdune/elf.h	/^  Elf64_Xword	sh_addralign;		\/* Section alignment *\/$/;"	m	struct:__anon8
+sh_entsize	libdune/elf.h	/^  Elf32_Word	sh_entsize;		\/* Entry size if section holds table *\/$/;"	m	struct:__anon7
+sh_entsize	libdune/elf.h	/^  Elf64_Xword	sh_entsize;		\/* Entry size if section holds table *\/$/;"	m	struct:__anon8
+sh_flags	libdune/elf.h	/^  Elf32_Word	sh_flags;		\/* Section flags *\/$/;"	m	struct:__anon7
+sh_flags	libdune/elf.h	/^  Elf64_Xword	sh_flags;		\/* Section flags *\/$/;"	m	struct:__anon8
+sh_info	libdune/elf.h	/^  Elf32_Word	sh_info;		\/* Additional section information *\/$/;"	m	struct:__anon7
+sh_info	libdune/elf.h	/^  Elf64_Word	sh_info;		\/* Additional section information *\/$/;"	m	struct:__anon8
+sh_link	libdune/elf.h	/^  Elf32_Word	sh_link;		\/* Link to another section *\/$/;"	m	struct:__anon7
+sh_link	libdune/elf.h	/^  Elf64_Word	sh_link;		\/* Link to another section *\/$/;"	m	struct:__anon8
+sh_name	libdune/elf.h	/^  Elf32_Word	sh_name;		\/* Section name (string tbl index) *\/$/;"	m	struct:__anon7
+sh_name	libdune/elf.h	/^  Elf64_Word	sh_name;		\/* Section name (string tbl index) *\/$/;"	m	struct:__anon8
+sh_offset	libdune/elf.h	/^  Elf32_Off	sh_offset;		\/* Section file offset *\/$/;"	m	struct:__anon7
+sh_offset	libdune/elf.h	/^  Elf64_Off	sh_offset;		\/* Section file offset *\/$/;"	m	struct:__anon8
+sh_size	libdune/elf.h	/^  Elf32_Word	sh_size;		\/* Section size in bytes *\/$/;"	m	struct:__anon7
+sh_size	libdune/elf.h	/^  Elf64_Xword	sh_size;		\/* Section size in bytes *\/$/;"	m	struct:__anon8
+sh_type	libdune/elf.h	/^  Elf32_Word	sh_type;		\/* Section type *\/$/;"	m	struct:__anon7
+sh_type	libdune/elf.h	/^  Elf64_Word	sh_type;		\/* Section type *\/$/;"	m	struct:__anon8
+shdr	libdune/dune.h	/^	Elf64_Shdr	*shdr;$/;"	m	struct:dune_elf
+shdrstr	libdune/dune.h	/^	char		*shdrstr;$/;"	m	struct:dune_elf
+shutdown	kern/vmx.h	/^	int shutdown;$/;"	m	struct:vmx_vcpu
+si_boundto	libdune/elf.h	/^  Elf32_Half si_boundto;		\/* Direct bindings, symbol bound to *\/$/;"	m	struct:__anon11
+si_boundto	libdune/elf.h	/^  Elf64_Half si_boundto;		\/* Direct bindings, symbol bound to *\/$/;"	m	struct:__anon12
+si_flags	libdune/elf.h	/^  Elf32_Half si_flags;			\/* Per symbol flags *\/$/;"	m	struct:__anon11
+si_flags	libdune/elf.h	/^  Elf64_Half si_flags;			\/* Per symbol flags *\/$/;"	m	struct:__anon12
+sighandler_t	libdune/dune.h	/^typedef void (*sighandler_t)(int);$/;"	t
+size	kern/vmx.c	/^	int size;$/;"	m	struct:vmcs_config	file:
+size	libdune/elf.h	/^  unsigned char size;		\/* Size of descriptor, including header.  *\/$/;"	m	struct:__anon43
+smalloc	apps/wedge/sthread.c	/^void *smalloc(tag_t tid, size_t sz)$/;"	f
+smalloc_st	apps/wedge/test.c	/^static void *smalloc_st(void *arg)$/;"	f	file:
+ss	libdune/dune.h	/^	uint16_t ss;$/;"	m	struct:dune_tf
+st_id	apps/wedge/sthread.c	/^	int		st_id;$/;"	m	struct:sthread	file:
+st_info	libdune/elf.h	/^  unsigned char	st_info;		\/* Symbol type and binding *\/$/;"	m	struct:__anon10
+st_info	libdune/elf.h	/^  unsigned char	st_info;		\/* Symbol type and binding *\/$/;"	m	struct:__anon9
+st_name	libdune/elf.h	/^  Elf32_Word	st_name;		\/* Symbol name (string tbl index) *\/$/;"	m	struct:__anon9
+st_name	libdune/elf.h	/^  Elf64_Word	st_name;		\/* Symbol name (string tbl index) *\/$/;"	m	struct:__anon10
+st_next	apps/wedge/sthread.c	/^	struct sthread	*st_next;$/;"	m	struct:sthread	typeref:struct:sthread::sthread	file:
+st_other	libdune/elf.h	/^  unsigned char	st_other;		\/* Symbol visibility *\/$/;"	m	struct:__anon9
+st_other	libdune/elf.h	/^  unsigned char st_other;		\/* Symbol visibility *\/$/;"	m	struct:__anon10
+st_pgroot	apps/wedge/sthread.c	/^	ptent_t		*st_pgroot;$/;"	m	struct:sthread	file:
+st_regs	libdune/fpu.h	/^	uint32_t st_regs[32];   \/\/ 8 128-bit FP registers$/;"	m	struct:fxsave_area
+st_ret	apps/wedge/sthread.c	/^	void		*st_ret;$/;"	m	struct:sthread	file:
+st_sc	apps/wedge/sthread.c	/^	sc_t		st_sc;$/;"	m	struct:sthread	file:
+st_shndx	libdune/elf.h	/^  Elf32_Section	st_shndx;		\/* Section index *\/$/;"	m	struct:__anon9
+st_shndx	libdune/elf.h	/^  Elf64_Section	st_shndx;		\/* Section index *\/$/;"	m	struct:__anon10
+st_size	libdune/elf.h	/^  Elf32_Word	st_size;		\/* Symbol size *\/$/;"	m	struct:__anon9
+st_size	libdune/elf.h	/^  Elf64_Xword	st_size;		\/* Symbol size *\/$/;"	m	struct:__anon10
+st_space	libdune/mmu-x86.h	/^    uint32_t st_space[32];   \/* 8*16 bytes for each FP-reg = 128 bytes *\/$/;"	m	struct:Fpregs
+st_stack	apps/wedge/sthread.c	/^	void		*st_stack;$/;"	m	struct:sthread	file:
+st_state	apps/wedge/sthread.c	/^	int		st_state;$/;"	m	struct:sthread	file:
+st_tf	apps/wedge/sthread.c	/^	struct dune_tf	st_tf;$/;"	m	struct:sthread	typeref:struct:sthread::dune_tf	file:
+st_value	libdune/elf.h	/^  Elf32_Addr	st_value;		\/* Symbol value *\/$/;"	m	struct:__anon9
+st_value	libdune/elf.h	/^  Elf64_Addr	st_value;		\/* Symbol value *\/$/;"	m	struct:__anon10
+st_walk	apps/wedge/sthread.c	/^	unsigned long	st_walk;$/;"	m	struct:sthread	file:
+st_writable	apps/wedge/sthread.c	/^	unsigned char	*st_writable;$/;"	m	struct:sthread	file:
+stack_base	libdune/entry.c	/^uintptr_t stack_base;$/;"	v
+stcb_t	apps/wedge/sthread.h	/^typedef void *(*stcb_t)(void*);$/;"	t
+sthread	apps/wedge/sthread.c	/^struct sthread {$/;"	s	file:
+sthread_bench	apps/wedge/bench.c	/^static void sthread_bench(void)$/;"	f	file:
+sthread_cb	apps/wedge/test.c	/^static void *sthread_cb(void *arg)$/;"	f	file:
+sthread_create	apps/wedge/sthread.c	/^int sthread_create(sthread_t *st, sc_t *sc, stcb_t cb, void *arg)$/;"	f
+sthread_global	apps/wedge/test.c	/^static void *sthread_global(void *arg)$/;"	f	file:
+sthread_init	apps/wedge/sthread.c	/^int sthread_init(void)$/;"	f
+sthread_join	apps/wedge/sthread.c	/^int sthread_join(sthread_t st, void **ret)$/;"	f
+sthread_stack	apps/wedge/test.c	/^static void *sthread_stack(void *arg)$/;"	f	file:
+sthread_t	apps/wedge/sthread.h	/^typedef int sthread_t;$/;"	t
+sthread_trampoline	apps/wedge/sthread.c	/^static void sthread_trampoline(stcb_t cb, void *arg)$/;"	f	file:
+swd	libdune/fpu.h	/^	uint16_t swd;$/;"	m	struct:fxsave_area
+swd	libdune/mmu-x86.h	/^    uint16_t swd;$/;"	m	struct:Fpregs
+switch_pages	apps/wedge/bench.c	/^static void switch_pages(void)$/;"	f	file:
+sync_addr_args	kern/vmx.c	/^struct sync_addr_args {$/;"	s	file:
+synch_tsc	bench/bench.h	/^static inline void synch_tsc(void)$/;"	f
+sys_call_ptr_t	kern/vmx.c	/^typedef void (*sys_call_ptr_t)(void);$/;"	t	file:
+sys_st	apps/wedge/test.c	/^static void *sys_st(void *arg)$/;"	f	file:
+syscall_allow	apps/sandbox/trap.c	/^static int syscall_allow(struct dune_tf *tf)$/;"	f	file:
+syscall_cb	libdune/trap.c	/^static dune_syscall_cb syscall_cb;$/;"	v	file:
+syscall_check_params	apps/sandbox/trap.c	/^static int syscall_check_params(struct dune_tf *tf)$/;"	f	file:
+syscall_do	apps/sandbox/trap.c	/^static void syscall_do(struct dune_tf *tf)$/;"	f	file:
+syscall_do_foreal	apps/sandbox/trap.c	/^static void syscall_do_foreal(struct dune_tf *tf)$/;"	f	file:
+syscall_handler	apps/sandbox/trap.c	/^static void syscall_handler(struct dune_tf *tf)$/;"	f	file:
+syscall_handler	apps/wedge/bench.c	/^static void syscall_handler(struct dune_tf *tf)$/;"	f	file:
+syscall_handler	apps/wedge/sthread.c	/^static void syscall_handler(struct dune_tf *tf)$/;"	f	file:
+syscall_handler1	bench/bench_dune_ring.c	/^static void syscall_handler1(struct dune_tf *tf)$/;"	f	file:
+syscall_handler2	bench/bench_dune_ring.c	/^static void syscall_handler2(struct dune_tf *tf)$/;"	f	file:
+syscall_monitor	apps/sandbox/nullsandbox.c	/^static int syscall_monitor(struct dune_tf *tf)$/;"	f	file:
+syscall_monitor	apps/ufirewall/firewall.c	/^static int syscall_monitor(struct dune_tf *tf)$/;"	f	file:
+syscall_tbl	kern/vmx.h	/^	void *syscall_tbl;$/;"	m	struct:vmx_vcpu
+t_buf	apps/wedge/sthread.c	/^        void            *t_buf;$/;"	m	struct:tag	file:
+t_id	apps/wedge/sthread.c	/^        int             t_id;$/;"	m	struct:tag	file:
+t_len	apps/wedge/sthread.c	/^        int             t_len;$/;"	m	struct:tag	file:
+t_next	apps/wedge/sthread.c	/^        struct tag      *t_next;$/;"	m	struct:tag	typeref:struct:tag::tag	file:
+t_p	apps/wedge/sthread.c	/^        unsigned char   *t_p;$/;"	m	struct:tag	file:
+ta_cnd	apps/sandbox/trap.c	/^	pthread_cond_t	ta_cnd;$/;"	m	struct:thread_arg	file:
+ta_mtx	apps/sandbox/trap.c	/^	pthread_mutex_t	ta_mtx;$/;"	m	struct:thread_arg	file:
+ta_tf	apps/sandbox/trap.c	/^	struct dune_tf	*ta_tf;$/;"	m	struct:thread_arg	typeref:struct:thread_arg::dune_tf	file:
+ta_tid	apps/sandbox/trap.c	/^	pid_t		ta_tid;$/;"	m	struct:thread_arg	file:
+tag	apps/wedge/sthread.c	/^struct tag {$/;"	s	file:
+tag_new	apps/wedge/sthread.c	/^tag_t tag_new(void)$/;"	f
+tag_t	apps/wedge/sthread.h	/^typedef int tag_t;$/;"	t
+test	test/test.c	/^static struct test {$/;"	s	file:
+test_bind	apps/ufirewall/firewall_test.c	/^int test_bind(uint16_t port)$/;"	f
+test_connect	apps/ufirewall/firewall_test.c	/^int test_connect(const char *ip, uint16_t port)$/;"	f
+test_fd	apps/wedge/test.c	/^static void test_fd(void)$/;"	f	file:
+test_fork	test/test.c	/^static int test_fork(void)$/;"	f	file:
+test_global	apps/wedge/test.c	/^static void test_global(void)$/;"	f	file:
+test_parallel	apps/wedge/test.c	/^static void test_parallel(void)$/;"	f	file:
+test_pgflt	bench/bench_dune_ring.c	/^static int test_pgflt(void)$/;"	f	file:
+test_pthread	test/test.c	/^static int test_pthread(void)$/;"	f	file:
+test_pthread_fork	test/test_sandbox.c	/^static void test_pthread_fork(void)$/;"	f	file:
+test_pthread_thread	test/test.c	/^static void *test_pthread_thread(void *arg)$/;"	f	file:
+test_signal	test/test.c	/^static int test_signal(void)$/;"	f	file:
+test_signal_glob	test/test.c	/^static int test_signal_glob = 0;$/;"	v	file:
+test_signal_handler	test/test.c	/^static void test_signal_handler(int num)$/;"	f	file:
+test_smalloc	apps/wedge/test.c	/^static void test_smalloc(void)$/;"	f	file:
+test_stack	apps/wedge/test.c	/^static void test_stack(void)$/;"	f	file:
+test_sthread	apps/wedge/test.c	/^static void test_sthread(void)$/;"	f	file:
+test_syscall	apps/wedge/test.c	/^static void test_syscall(void)$/;"	f	file:
+test_syscall	bench/bench_dune_ring.c	/^static int test_syscall(void)$/;"	f	file:
+test_thread_memory	test/test_sandbox.c	/^static void test_thread_memory(void)$/;"	f	file:
+tf__pad1	libdune/mmu.h	/^  uint32_t tf__pad1;$/;"	m	struct:Trapframe
+tf__pad3	libdune/mmu.h	/^  uint16_t tf__pad3[2];$/;"	m	struct:Trapframe
+tf__trapentry_rip	libdune/mmu.h	/^    uint64_t tf__trapentry_rip;$/;"	m	union:Trapframe::__anon47
+tf_cs	libdune/mmu.h	/^  uint16_t tf_cs;$/;"	m	struct:Trapframe
+tf_ds	libdune/mmu.h	/^  uint16_t tf_ds;	\/\/ not saved\/restored by hardware$/;"	m	struct:Trapframe
+tf_err	libdune/mmu.h	/^  uint32_t tf_err;$/;"	m	struct:Trapframe
+tf_es	libdune/mmu.h	/^  uint16_t tf_es;	\/\/ not saved\/restored by hardware$/;"	m	struct:Trapframe
+tf_fs	libdune/mmu.h	/^  uint16_t tf_fs;	\/\/ not saved\/restored by hardware$/;"	m	struct:Trapframe
+tf_gs	libdune/mmu.h	/^  uint16_t tf_gs;	\/\/ not saved\/restored by hardware$/;"	m	struct:Trapframe
+tf_r10	libdune/mmu.h	/^  uint64_t tf_r10;$/;"	m	struct:Trapframe
+tf_r11	libdune/mmu.h	/^  uint64_t tf_r11;$/;"	m	struct:Trapframe
+tf_r12	libdune/mmu.h	/^  uint64_t tf_r12;$/;"	m	struct:Trapframe
+tf_r13	libdune/mmu.h	/^  uint64_t tf_r13;$/;"	m	struct:Trapframe
+tf_r14	libdune/mmu.h	/^  uint64_t tf_r14;$/;"	m	struct:Trapframe
+tf_r15	libdune/mmu.h	/^  uint64_t tf_r15;$/;"	m	struct:Trapframe
+tf_r8	libdune/mmu.h	/^  uint64_t tf_r8;$/;"	m	struct:Trapframe
+tf_r9	libdune/mmu.h	/^  uint64_t tf_r9;$/;"	m	struct:Trapframe
+tf_rax	libdune/mmu.h	/^  uint64_t tf_rax;$/;"	m	struct:Trapframe
+tf_rbp	libdune/mmu.h	/^  uint64_t tf_rbp;$/;"	m	struct:Trapframe
+tf_rbx	libdune/mmu.h	/^  uint64_t tf_rbx;$/;"	m	struct:Trapframe
+tf_rcx	libdune/mmu.h	/^  uint64_t tf_rcx;$/;"	m	struct:Trapframe
+tf_rdi	libdune/mmu.h	/^  uint64_t tf_rdi;$/;"	m	struct:Trapframe
+tf_rdx	libdune/mmu.h	/^  uint64_t tf_rdx;$/;"	m	struct:Trapframe
+tf_rflags	libdune/mmu.h	/^  uint64_t tf_rflags;$/;"	m	struct:Trapframe
+tf_rip	libdune/mmu.h	/^  uint64_t tf_rip;$/;"	m	struct:Trapframe
+tf_rsi	libdune/mmu.h	/^    uint64_t tf_rsi;$/;"	m	union:Trapframe::__anon47
+tf_rsp	libdune/mmu.h	/^  uint64_t tf_rsp;$/;"	m	struct:Trapframe
+tf_ss	libdune/mmu.h	/^  uint16_t tf_ss;$/;"	m	struct:Trapframe
+thread	apps/wedge/bench.c	/^static void *thread(void* a)$/;"	f	file:
+thread_arg	apps/sandbox/trap.c	/^struct thread_arg {$/;"	s	file:
+thread_pthread_fork	test/test_sandbox.c	/^static void *thread_pthread_fork(void *arg)$/;"	f	file:
+time	bench/bench_dune.c	/^unsigned long time = 0;$/;"	v
+time	bench/bench_linux.c	/^unsigned long time = 0;$/;"	v
+tmp	libdune/entry.c	/^	uint64_t tmp;$/;"	m	struct:dune_percpu	file:
+tptr	libdune/cpu-x86.h	/^struct tptr {$/;"	s
+trap_init	apps/sandbox/trap.c	/^int trap_init(void)$/;"	f
+trap_tsc	bench/bench_dune.c	/^unsigned long trap_tsc, overhead;$/;"	v
+trap_tsc	bench/bench_linux.c	/^unsigned long tsc, trap_tsc, overhead;$/;"	v
+tsc	bench/bench_dune_ring.c	/^static unsigned long tsc;$/;"	v	file:
+tsc	bench/bench_linux.c	/^unsigned long tsc, trap_tsc, overhead;$/;"	v
+tss	libdune/entry.c	/^	struct Tss tss;$/;"	m	struct:dune_percpu	typeref:struct:dune_percpu::Tss	file:
+tss__ign1	libdune/mmu.h	/^  char tss__ign1[4];$/;"	m	struct:Tss
+tss__ign2	libdune/mmu.h	/^  char tss__ign2[10];$/;"	m	struct:Tss
+tss_iomb	libdune/mmu.h	/^  uint16_t tss_iomb;		\/* I\/O map base *\/$/;"	m	struct:Tss
+tss_iopb	libdune/mmu.h	/^  uint8_t tss_iopb[];$/;"	m	struct:Tss
+tss_ist	libdune/mmu.h	/^  uint64_t tss_ist[8];		\/* Note: tss_ist[0] is ignored *\/$/;"	m	struct:Tss
+tss_rsp	libdune/mmu.h	/^  uint64_t tss_rsp[3];		\/* Stack pointer for CPL 0, 1, 2 *\/$/;"	m	struct:Tss
+twd	libdune/fpu.h	/^	uint16_t twd;$/;"	m	struct:fxsave_area
+twd	libdune/mmu-x86.h	/^    uint16_t twd;$/;"	m	struct:Fpregs
+type	apps/ufirewall/firewall.c	/^	int 		type;	\/\/ Rule type$/;"	m	struct:fw_rule	file:
+type	libdune/cpu-x86.h	/^        uint8_t         type;$/;"	m	struct:idtd
+type	libdune/dune.h	/^	int			type;$/;"	m	struct:dune_procmap_entry
+u64	libdune/cpu-x86.h	/^typedef uint64_t u64;$/;"	t
+ufs_base	libdune/entry.c	/^	uint64_t ufs_base;$/;"	m	struct:dune_percpu	file:
+uint16_t	libdune/types.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	libdune/types.h	/^typedef unsigned int uint32_t;$/;"	t
+uint64_t	libdune/types.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint64_t	libdune/types.h	/^typedef unsigned long uint64_t;$/;"	t
+uint8_t	libdune/types.h	/^typedef unsigned char uint8_t;$/;"	t
+uintptr_t	libdune/types.h	/^typedef unsigned __PTRDIFF_TYPE__ uintptr_t;$/;"	t
+umm_alloc_stack	apps/sandbox/umm.c	/^int umm_alloc_stack(uintptr_t *stack_top)$/;"	f
+umm_brk	apps/sandbox/umm.c	/^unsigned long umm_brk(unsigned long brk)$/;"	f
+umm_get_map_pos	apps/sandbox/umm.c	/^static inline uintptr_t umm_get_map_pos(void)$/;"	f	file:
+umm_map_big	apps/sandbox/umm.c	/^unsigned long umm_map_big(size_t len, int prot)$/;"	f
+umm_mmap	apps/sandbox/umm.c	/^unsigned long umm_mmap(void *addr, size_t len, int prot,$/;"	f
+umm_mmap_anom	apps/sandbox/umm.c	/^static int umm_mmap_anom(void *addr, size_t len, int prot, bool big)$/;"	f	file:
+umm_mmap_file	apps/sandbox/umm.c	/^static int umm_mmap_file(void *addr, size_t len, int prot, int flags,$/;"	f	file:
+umm_mprotect	apps/sandbox/umm.c	/^int umm_mprotect(void *addr, size_t len, unsigned long prot)$/;"	f
+umm_mremap	apps/sandbox/umm.c	/^void *umm_mremap(void *old_address, size_t old_size, size_t new_size, int flags,$/;"	f
+umm_munmap	apps/sandbox/umm.c	/^int umm_munmap(void *addr, size_t len)$/;"	f
+umm_shmat	apps/sandbox/umm.c	/^void *umm_shmat(int shmid, void *addr, int shmflg)$/;"	f
+umm_space_left	apps/sandbox/umm.c	/^static inline bool umm_space_left(size_t len)$/;"	f	file:
+userlevel_pgflt	bench/bench_dune_ring.c	/^static void userlevel_pgflt(void)$/;"	f	file:
+userlevel_syscall	bench/bench_dune_ring.c	/^static void userlevel_syscall(void)$/;"	f	file:
+usm_gettimeofday	apps/wedge/bench.c	/^static int usm_gettimeofday(struct timeval *tp, void *tzp)$/;"	f	file:
+va_base	libdune/vm.c	/^	unsigned long va_base;$/;"	m	struct:map_phys_data	file:
+vcpu	kern/vmx.c	/^	struct vmx_vcpu *vcpu;$/;"	m	struct:sync_addr_args	typeref:struct:sync_addr_args::vmx_vcpu	file:
+vd_aux	libdune/elf.h	/^  Elf32_Word	vd_aux;			\/* Offset in bytes to verdaux array *\/$/;"	m	struct:__anon23
+vd_aux	libdune/elf.h	/^  Elf64_Word	vd_aux;			\/* Offset in bytes to verdaux array *\/$/;"	m	struct:__anon24
+vd_cnt	libdune/elf.h	/^  Elf32_Half	vd_cnt;			\/* Number of associated aux entries *\/$/;"	m	struct:__anon23
+vd_cnt	libdune/elf.h	/^  Elf64_Half	vd_cnt;			\/* Number of associated aux entries *\/$/;"	m	struct:__anon24
+vd_flags	libdune/elf.h	/^  Elf32_Half	vd_flags;		\/* Version information *\/$/;"	m	struct:__anon23
+vd_flags	libdune/elf.h	/^  Elf64_Half	vd_flags;		\/* Version information *\/$/;"	m	struct:__anon24
+vd_hash	libdune/elf.h	/^  Elf32_Word	vd_hash;		\/* Version name hash value *\/$/;"	m	struct:__anon23
+vd_hash	libdune/elf.h	/^  Elf64_Word	vd_hash;		\/* Version name hash value *\/$/;"	m	struct:__anon24
+vd_ndx	libdune/elf.h	/^  Elf32_Half	vd_ndx;			\/* Version Index *\/$/;"	m	struct:__anon23
+vd_ndx	libdune/elf.h	/^  Elf64_Half	vd_ndx;			\/* Version Index *\/$/;"	m	struct:__anon24
+vd_next	libdune/elf.h	/^  Elf32_Word	vd_next;		\/* Offset in bytes to next verdef$/;"	m	struct:__anon23
+vd_next	libdune/elf.h	/^  Elf64_Word	vd_next;		\/* Offset in bytes to next verdef$/;"	m	struct:__anon24
+vd_version	libdune/elf.h	/^  Elf32_Half	vd_version;		\/* Version revision *\/$/;"	m	struct:__anon23
+vd_version	libdune/elf.h	/^  Elf64_Half	vd_version;		\/* Version revision *\/$/;"	m	struct:__anon24
+vda_name	libdune/elf.h	/^  Elf32_Word	vda_name;		\/* Version or dependency names *\/$/;"	m	struct:__anon25
+vda_name	libdune/elf.h	/^  Elf64_Word	vda_name;		\/* Version or dependency names *\/$/;"	m	struct:__anon26
+vda_next	libdune/elf.h	/^  Elf32_Word	vda_next;		\/* Offset in bytes to next verdaux$/;"	m	struct:__anon25
+vda_next	libdune/elf.h	/^  Elf64_Word	vda_next;		\/* Offset in bytes to next verdaux$/;"	m	struct:__anon26
+vdso_sh_cb	libdune/entry.c	/^static int vdso_sh_cb(struct dune_elf *elf, const char *sname,$/;"	f	file:
+vmcs	kern/vmx.h	/^	struct vmcs *vmcs;$/;"	m	struct:vmx_vcpu	typeref:struct:vmx_vcpu::vmcs
+vmcs	kern/vmx.h	/^struct vmcs {$/;"	s
+vmcs_clear	kern/vmx.c	/^static void vmcs_clear(struct vmcs *vmcs)$/;"	f	file:
+vmcs_config	kern/vmx.c	/^static struct vmcs_config {$/;"	s	file:
+vmcs_config	kern/vmx.c	/^} vmcs_config;$/;"	v	typeref:struct:vmcs_config	file:
+vmcs_load	kern/vmx.c	/^static void vmcs_load(struct vmcs *vmcs)$/;"	f	file:
+vmcs_read16	kern/vmx.c	/^static __always_inline u16 vmcs_read16(unsigned long field)$/;"	f	file:
+vmcs_read32	kern/vmx.c	/^static __always_inline u32 vmcs_read32(unsigned long field)$/;"	f	file:
+vmcs_read64	kern/vmx.c	/^static __always_inline u64 vmcs_read64(unsigned long field)$/;"	f	file:
+vmcs_readl	kern/vmx.c	/^static __always_inline unsigned long vmcs_readl(unsigned long field)$/;"	f	file:
+vmcs_write16	kern/vmx.c	/^static void vmcs_write16(unsigned long field, u16 value)$/;"	f	file:
+vmcs_write32	kern/vmx.c	/^static void vmcs_write32(unsigned long field, u32 value)$/;"	f	file:
+vmcs_write64	kern/vmx.c	/^static void vmcs_write64(unsigned long field, u64 value)$/;"	f	file:
+vmcs_writel	kern/vmx.c	/^static void vmcs_writel(unsigned long field, unsigned long value)$/;"	f	file:
+vmentry_ctrl	kern/vmx.c	/^	u32 vmentry_ctrl;$/;"	m	struct:vmcs_config	file:
+vmexit_ctrl	kern/vmx.c	/^	u32 vmexit_ctrl;$/;"	m	struct:vmcs_config	file:
+vmwrite_error	kern/vmx.c	/^static noinline void vmwrite_error(unsigned long field, unsigned long value)$/;"	f	file:
+vmx_alloc_vmcs	kern/vmx.c	/^static struct vmcs *vmx_alloc_vmcs(void)$/;"	f	file:
+vmx_allocate_vpid	kern/vmx.c	/^static int vmx_allocate_vpid(struct vmx_vcpu *vmx)$/;"	f	file:
+vmx_capability	kern/vmx.c	/^struct vmx_capability vmx_capability;$/;"	v	typeref:struct:vmx_capability
+vmx_capability	kern/vmx.h	/^struct vmx_capability {$/;"	s
+vmx_create_ept	kern/ept.c	/^int vmx_create_ept(struct vmx_vcpu *vcpu)$/;"	f
+vmx_create_vcpu	kern/vmx.c	/^static struct vmx_vcpu * vmx_create_vcpu(struct dune_config *conf)$/;"	f	file:
+vmx_destroy_ept	kern/ept.c	/^void vmx_destroy_ept(struct vmx_vcpu *vcpu)$/;"	f
+vmx_destroy_vcpu	kern/vmx.c	/^static void vmx_destroy_vcpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_disable	kern/vmx.c	/^static void vmx_disable(void *unused)$/;"	f	file:
+vmx_do_ept_fault	kern/ept.c	/^int vmx_do_ept_fault(struct vmx_vcpu *vcpu, unsigned long gpa,$/;"	f
+vmx_dump_cpu	kern/vmx.c	/^static void vmx_dump_cpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_enable	kern/vmx.c	/^static __init void vmx_enable(void *unused)$/;"	f	file:
+vmx_enable_failed	kern/vmx.c	/^static atomic_t vmx_enable_failed;$/;"	v	file:
+vmx_ept_sync_individual_addr	kern/vmx.c	/^void vmx_ept_sync_individual_addr(struct vmx_vcpu *vcpu, gpa_t gpa)$/;"	f
+vmx_ept_sync_vcpu	kern/vmx.c	/^void vmx_ept_sync_vcpu(struct vmx_vcpu *vcpu)$/;"	f
+vmx_exit	kern/vmx.c	/^void vmx_exit(void)$/;"	f
+vmx_free_ept	kern/ept.c	/^static void vmx_free_ept(unsigned long ept_root)$/;"	f	file:
+vmx_free_vmcs	kern/vmx.c	/^static void vmx_free_vmcs(struct vmcs *vmcs)$/;"	f	file:
+vmx_free_vmxon_areas	kern/vmx.c	/^static void vmx_free_vmxon_areas(void)$/;"	f	file:
+vmx_free_vpid	kern/vmx.c	/^static void vmx_free_vpid(struct vmx_vcpu *vmx)$/;"	f	file:
+vmx_get_cpu	kern/vmx.c	/^static void vmx_get_cpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_handle_cpuid	kern/vmx.c	/^static void vmx_handle_cpuid(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_handle_ept_violation	kern/vmx.c	/^static int vmx_handle_ept_violation(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_handle_nmi_exception	kern/vmx.c	/^static int vmx_handle_nmi_exception(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_handle_syscall	kern/vmx.c	/^static void vmx_handle_syscall(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_init	kern/vmx.c	/^__init int vmx_init(void)$/;"	f
+vmx_init_ept	kern/ept.c	/^int vmx_init_ept(struct vmx_vcpu *vcpu)$/;"	f
+vmx_init_syscall	kern/vmx.c	/^static void vmx_init_syscall(void)$/;"	f	file:
+vmx_launch	kern/vmx.c	/^int vmx_launch(struct dune_config *conf, int64_t *ret_code)$/;"	f
+vmx_put_cpu	kern/vmx.c	/^static void vmx_put_cpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_read_ldt	kern/vmx.c	/^static inline u16 vmx_read_ldt(void)$/;"	f	file:
+vmx_read_tr_base	kern/vmx.c	/^static inline unsigned long vmx_read_tr_base(void)$/;"	f	file:
+vmx_reg	kern/vmx.h	/^enum vmx_reg {$/;"	g
+vmx_run_vcpu	kern/vmx.c	/^static int __noclone vmx_run_vcpu(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_setup_constant_host_state	kern/vmx.c	/^static void vmx_setup_constant_host_state(void)$/;"	f	file:
+vmx_setup_initial_guest_state	kern/vmx.c	/^static void vmx_setup_initial_guest_state(struct dune_config *conf)$/;"	f	file:
+vmx_setup_vmcs	kern/vmx.c	/^static void vmx_setup_vmcs(struct vmx_vcpu *vcpu)$/;"	f	file:
+vmx_step_instruction	kern/vmx.c	/^static void vmx_step_instruction(void)$/;"	f	file:
+vmx_vcpu	kern/vmx.h	/^struct vmx_vcpu {$/;"	s
+vn_aux	libdune/elf.h	/^  Elf32_Word	vn_aux;			\/* Offset in bytes to vernaux array *\/$/;"	m	struct:__anon27
+vn_aux	libdune/elf.h	/^  Elf64_Word	vn_aux;			\/* Offset in bytes to vernaux array *\/$/;"	m	struct:__anon28
+vn_cnt	libdune/elf.h	/^  Elf32_Half	vn_cnt;			\/* Number of associated aux entries *\/$/;"	m	struct:__anon27
+vn_cnt	libdune/elf.h	/^  Elf64_Half	vn_cnt;			\/* Number of associated aux entries *\/$/;"	m	struct:__anon28
+vn_file	libdune/elf.h	/^  Elf32_Word	vn_file;		\/* Offset of filename for this$/;"	m	struct:__anon27
+vn_file	libdune/elf.h	/^  Elf64_Word	vn_file;		\/* Offset of filename for this$/;"	m	struct:__anon28
+vn_next	libdune/elf.h	/^  Elf32_Word	vn_next;		\/* Offset in bytes to next verneed$/;"	m	struct:__anon27
+vn_next	libdune/elf.h	/^  Elf64_Word	vn_next;		\/* Offset in bytes to next verneed$/;"	m	struct:__anon28
+vn_version	libdune/elf.h	/^  Elf32_Half	vn_version;		\/* Version of structure *\/$/;"	m	struct:__anon27
+vn_version	libdune/elf.h	/^  Elf64_Half	vn_version;		\/* Version of structure *\/$/;"	m	struct:__anon28
+vna_flags	libdune/elf.h	/^  Elf32_Half	vna_flags;		\/* Dependency specific information *\/$/;"	m	struct:__anon29
+vna_flags	libdune/elf.h	/^  Elf64_Half	vna_flags;		\/* Dependency specific information *\/$/;"	m	struct:__anon30
+vna_hash	libdune/elf.h	/^  Elf32_Word	vna_hash;		\/* Hash value of dependency name *\/$/;"	m	struct:__anon29
+vna_hash	libdune/elf.h	/^  Elf64_Word	vna_hash;		\/* Hash value of dependency name *\/$/;"	m	struct:__anon30
+vna_name	libdune/elf.h	/^  Elf32_Word	vna_name;		\/* Dependency name string offset *\/$/;"	m	struct:__anon29
+vna_name	libdune/elf.h	/^  Elf64_Word	vna_name;		\/* Dependency name string offset *\/$/;"	m	struct:__anon30
+vna_next	libdune/elf.h	/^  Elf32_Word	vna_next;		\/* Offset in bytes to next vernaux$/;"	m	struct:__anon29
+vna_next	libdune/elf.h	/^  Elf64_Word	vna_next;		\/* Offset in bytes to next vernaux$/;"	m	struct:__anon30
+vna_other	libdune/elf.h	/^  Elf32_Half	vna_other;		\/* Unused *\/$/;"	m	struct:__anon29
+vna_other	libdune/elf.h	/^  Elf64_Half	vna_other;		\/* Unused *\/$/;"	m	struct:__anon30
+vpid	kern/vmx.h	/^	int vpid;$/;"	m	struct:vmx_vcpu
+vpid	kern/vmx.h	/^	u32 vpid;$/;"	m	struct:vmx_capability
+vpid_sync_context	kern/vmx.c	/^static inline void vpid_sync_context(u16 vpid)$/;"	f	file:
+vpid_sync_vcpu_global	kern/vmx.c	/^static inline void vpid_sync_vcpu_global(void)$/;"	f	file:
+vpid_sync_vcpu_single	kern/vmx.c	/^static inline void vpid_sync_vcpu_single(u16 vpid)$/;"	f	file:
+w	libdune/dune.h	/^	bool		w; \/\/ Writable$/;"	m	struct:dune_procmap_entry
+walk_check_perm	apps/wedge/sthread.c	/^static int walk_check_perm(const void *arg, ptent_t *ptep, void *va)$/;"	f	file:
+walk_protect	apps/wedge/sthread.c	/^static int walk_protect(const void *arg, ptent_t *ptep, void *va)$/;"	f	file:
+walk_recycle	apps/wedge/sthread.c	/^static int walk_recycle(const void *arg, ptent_t *ptep, void *va)$/;"	f	file:
+walk_recycle_stack	apps/wedge/sthread.c	/^static int walk_recycle_stack(const void *arg, ptent_t *ptep, void *va)$/;"	f	file:
+walk_remap	apps/wedge/sthread.c	/^static int walk_remap(const void *arg, ptent_t *ptep, void *va)$/;"	f	file:
+with_switch	apps/wedge/bench.c	/^static void with_switch(void)$/;"	f	file:
+with_switch_no_flush	apps/wedge/bench.c	/^static void with_switch_no_flush(void)$/;"	f	file:
+wrmsrl	libdune/cpu-x86.h	26;"	d
+x	libdune/dune.h	/^	bool		x; \/\/ Executable$/;"	m	struct:dune_procmap_entry
+xmalloc	apps/wedge/sthread.c	/^static void *xmalloc(size_t sz)$/;"	f	file:
+xmalloc	libdune/entry.c	/^static void *xmalloc(size_t sz)$/;"	f	file:
+xmalloc	test/test_sandbox.c	/^static void *xmalloc(size_t sz)$/;"	f	file:
+xmm_regs	libdune/fpu.h	/^	uint32_t xmm_regs[64];  \/\/ 16 128-bit XMM registers$/;"	m	struct:fxsave_area
+xmm_space	libdune/mmu-x86.h	/^    uint32_t xmm_space[64];  \/* 16*16 bytes for each XMM-reg = 128 bytes *\/$/;"	m	struct:Fpregs
+xsave	libdune/fpu.h	/^	struct xsave_area	xsave;$/;"	m	struct:fpu_area	typeref:struct:fpu_area::xsave_area
+xsave_area	libdune/fpu.h	/^struct xsave_area {$/;"	s
+xsave_header	libdune/fpu.h	/^struct xsave_header {$/;"	s
+xstate_bv	libdune/fpu.h	/^	uint64_t xstate_bv;$/;"	m	struct:xsave_header
+ymm_regs	libdune/fpu.h	/^	uint32_t		ymm_regs[64]; \/\/ extends XMM registers to 256-bit$/;"	m	struct:xsave_area
+zero	libdune/cpu-x86.h	/^        uint32_t        zero;$/;"	m	struct:idtd
